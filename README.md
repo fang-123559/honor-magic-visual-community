@@ -4,6 +4,8 @@ Magic 视界社区版把 Windows 11 桌面变成可以按自己习惯整理的�
 
 **下载 Windows 11 x64 测试版** · [v0.4.6 安装包与说明](https://github.com/littletaro97-arch/honor-magic-visual-community/releases/tag/v0.4.6) · [全部版本](https://github.com/littletaro97-arch/honor-magic-visual-community/releases)
 
+**初次安装 v0.4.6 的朋友请先看这里。** 有朋友点了「一键安装」，直到遇到 `0x800B0109` 才知道还要导入测试证书。我们没能提前把这一步讲清楚，耽误了大家的时间，对不起。**下一个版本会简化安装流程。** 当前版本需要在每台测试电脑上完成一次证书配置。[证书安装与报错处理指南](https://github.com/littletaro97-arch/honor-magic-visual-community/blob/main/docs/install-certificate-v0.4.6.md)
+
 ## 桌面上可以做什么
 
 | 区域 | 用法 |
@@ -17,7 +19,7 @@ Magic 视界社区版把 Windows 11 桌面变成可以按自己习惯整理的�
 
 ## 安装、更新与卸载
 
-1. 在对应版本的 **Assets** 中下载 `MagicCommunity-Setup-版本号-x64.zip`，解压后双击同名 EXE。v0.4.6 的 ZIP 里还附有社区群二维码。
+1. 在对应版本的 **Assets** 中下载 `MagicCommunity-Setup-版本号-x64.zip` 并解压。安装 v0.4.6 时，先按上面的指南核对证书，再双击解压出来的 EXE。ZIP 里还附有社区群二维码。
 2. 首次使用选「一键安装」。需要指定布局和卡片的数据目录，可选「自定义安装或更新」。安装完成后可选「创建桌面快捷方式」或「立即打开」。
 3. 以后可以从社区版的「设置 → 关于 → 检查更新」查看发布说明。安装新版本时选「一键更新」沿用原数据目录。卸载也可用同一安装向导，默认保留数据。
 
