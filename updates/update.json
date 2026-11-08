@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "repository": "littletaro97-arch/honor-magic-visual-community",
-  "generatedAtUtc": "2026-11-06T05:54:48.453806+00:00",
+  "generatedAtUtc": "2026-11-08T08:31:06.906918+00:00",
   "releases": [
     {
-      "tag_name": "v0.4.6",
+      "tag_name": "v0.4.9",
       "draft": false,
       "prerelease": true,
-      "published_at": "2026-11-06T04:53:26Z",
-      "body": "这是 Magic 视界社区版的首个公开测试包，适用于 Windows 11 x64。\n\n**关于首次安装，我们向大家道歉。** 一些朋友点击「一键安装」后遇到了 `0x800B0109`，还要回来查证书怎么装。我们应该在下载安装包之前就把这一步讲清楚，给大家添麻烦了。**下一个版本会简化安装流程。** 如果正在看红色报错页，可以从这份指南开始。[v0.4.6 证书安装与报错处理指南](https://github.com/littletaro97-arch/honor-magic-visual-community/blob/main/docs/install-certificate-v0.4.6.md)\n\n### 本版修正\n\n- 修复全新账户或空数据目录首次进入时，桌面短暂出现、顶栏和 Dock 缺失后程序退出的问题。首次启动会建立当前账户的初始布局配置，已有配置继续沿用。\n- 手动进入社区版时播放高清进场动画；Windows 登录时自动启动仍跳过动画。启动遇到错误时会显示具体原因。\n\n### 下载与安装\n\n1. 在本页 Assets 下载 `MagicCommunity-Setup-0.4.6-x64.zip` 并解压。首次在这台电脑上安装请按上面的指南导入本版证书，然后双击 EXE。已经信任本版证书的电脑可以直接打开 EXE。ZIP 同时附有 `社区群二维码.jpg`。\n2. 首装点「一键安装」，需要自选数据目录时点「自定义安装或更新」。完成后可创建桌面快捷方式。已有独立安装版可点「一键更新」，沿用原数据目录。\n3. ZIP 的 SHA-256 为 `92DD5E8CCE061662F6728ACCE98E32B8BADBC6B86105B015356E6282353172A7`。\n\n### 测试签名\n\n安装 EXE 和内置的两份 MSIX 均带有 DigiCert 可信时间戳。测试证书名为 `CN=MagicCommunity.Native.Local`，指纹为 `4F030B9E4CF34E129A8578DB66603E81EBE405A0`。证书在 2026 年 11 月 7 日 01:58（UTC+8）到期。已信任该证书的电脑可按签名时间验证这批安装包。\n\n已经在本机信任上述指纹的测试者，可以直接运行安装器，换 Windows 账户也可沿用这项信任。首次在其他电脑上测试，如 Windows 提示未信任发布者，可按以下步骤操作。\n\n1. 在本页 Assets 下载公钥证书 `MagicCommunity.Native.Local.cer`。其 SHA-256 为 `41175C8E40AD6AB1B20EA6997E1C2898166AD4F62FF0557E7001BEF62977E407`。\n2. 双击证书，在「详细信息」里核对指纹。如果该电脑的管理员同意信任这份测试证书，选择「安装证书 → 本地计算机 → 将所有的证书都放入下列存储 → 受信任人（Trusted People）」并完成授权。\n3. 再运行安装 EXE。安装向导不会自动更改证书库。[微软测试签名说明](https://learn.microsoft.com/en-us/windows/msix/package/sign-msix-package-guide)\n\n### 验证范围\n\n已校验首装包和更新包的签名与内容。在空数据目录的隔离验证中，两块屏幕分别生成了顶栏和 Dock 配置；高清进场动画也完成了首帧解码、显示和释放。独立 Windows 账户下从安装到实际进入桌面的完整流程仍待实机验收。[反馈问题](https://github.com/littletaro97-arch/honor-magic-visual-community/issues)\n"
+      "published_at": "2026-11-08T08:30:58Z",
+      "body": "# Magic 视界社区版 v0.4.9 公开预发布\n\n适用于 Windows 11 x64。请在 Assets 下载 `MagicCommunity-Setup-0.4.9-x64-unsigned.zip`，并用 `SHA256SUMS.txt` 校验。\n\n这是未签名的社区测试包。Windows 可能显示未知发布者提示；安装到受保护目录时仍由 Windows 正常触发 UAC。无需导入开发证书。\n\n功能和修复范围见压缩包中的 `更新说明.txt`，安装步骤与人工验收清单见 `先读我-安装与验收.txt`。构建与隔离回归记录不能替代真实桌面、多屏、游戏、第三方 Shell 扩展和升级验收。\n\n本包的安装器内嵌应用许可页来自较早的 v0.4.9 构建，尚未同步本次许可证文字。压缩包内另附当前源码版本的 `LICENSE`、`NOTICE.md`、`THIRD-PARTY-NOTICES.md` 和 `许可说明-当前源码版.html`；请以这些文件及发布源码为准。\n\n## 源码与许可证\n\n标签 `v0.4.9` 对应源码快照 `e7a70d1a59e13774011fcfad4bb581a58065a87b`。项目原创软件代码采用 GNU AGPL-3.0-only；桌面 Widget 当前仍使用 `@seelen-ui/lib` 2.8.4 和部分 Seelen 上游样式，第三方内容按各自声明适用许可证。HONOR 图标、字体和品牌素材随包提供，不由项目源代码许可证重新授权。"
     }
   ]
 }
