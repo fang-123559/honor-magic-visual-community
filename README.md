@@ -1,30 +1,37 @@
-# 荣耀magic视界社区复刻
+# Magic 视界社区版
 
-Magic 视界社区版把 Windows 11 桌面变成可以按自己习惯整理的工作区。你可以把同一件事的文件和应用收进桌面大文件夹，把常看的信息放在旁边的卡片上，再用顶栏和底部 Dock 切换窗口、查看通知或调节设备。项目借鉴荣耀 Magic 视界的桌面体验，由社区独立开发与维护。
+Windows 桌面社区项目，提供统一桌面网格、虚拟大文件夹、Windows 文件操作与通用拖放、顶栏弹窗，以及声明式卡片入口和管理。
 
-**下载 Windows 11 x64 测试版** · [v0.4.6 安装包与说明](https://github.com/littletaro97-arch/honor-magic-visual-community/releases/tag/v0.4.6) · [全部版本](https://github.com/littletaro97-arch/honor-magic-visual-community/releases)
+Windows 桌面宿主由独立 Win32/.NET 程序实现。桌面 Widget 的当前构建仍使用 `@seelen-ui/lib` 2.8.4，并复用部分上游样式；它们及仓库保留的其他上游内容继续适用各自许可证，详见 [`NOTICE.md`](NOTICE.md) 和 [`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md)。
 
-**初次安装 v0.4.6 的朋友请先看这里。** 有朋友点了「一键安装」，直到遇到 `0x800B0109` 才知道还要导入测试证书。我们没能提前把这一步讲清楚，耽误了大家的时间，对不起。**下一个版本会简化安装流程。** 当前版本需要在每台测试电脑上完成一次证书配置。[证书安装与报错处理指南](https://github.com/littletaro97-arch/honor-magic-visual-community/blob/main/docs/install-certificate-v0.4.6.md)
+项目优先级是**低占用、低延迟、低续航影响**。当前仍为预览阶段；自动检查与真实 Windows 桌面验收分开记录。
 
-## 桌面上可以做什么
+## 当前预览版
 
-| 区域 | 用法 |
+当前候选版本为 **v0.4.9**，面向 Windows 11 x64。 [下载页与发行说明](https://github.com/littletaro97-arch/honor-magic-visual-community/releases/tag/v0.4.9)。安装包为未签名的测试版；当前仍有需用户实际验收的项目，详见发行说明，不代表所有桌面、多屏或游戏场景均已验收通过。
+
+在发行页的 **Assets** 下载 `MagicCommunity-Setup-0.4.9-x64-unsigned.zip`，解压后运行安装向导。安装受保护目录时由 Windows 正常显示 UAC。请勿关闭系统安全提示；未签名安装包会显示 Windows 的发布者警告。
+
+## 目录
+
+| 目录 | 用途 |
 | --- | --- |
-| 桌面与大文件夹 | 在桌面空白处右键打开「桌面图标设置」调整行列数。文件、快捷方式和卡片可以分多页摆放。展开大文件夹即可打开其中的项目，也可以直接拖进、拖出。 |
-| 顶栏与 Dock | 从顶栏打开网络、蓝牙、控制中心和通知面板。右键顶栏可调整模块和顺序。底部 Dock 可以固定常用应用、切换已有窗口和控制正在播放的媒体。 |
-| 桌面卡片 | 在桌面右键选「新建卡片」，添加时钟、天气、图片剪贴板、音乐播放器等。待办卡和周视图共用一份清单，在一处修改就能在另一处查看。 |
-| 多屏与外观 | 按屏幕安排桌面内容。副屏断开时，可以从 Dock 访问原先放在那块屏幕上的内容。设置中可以并排预览并切换两套荣耀图标。 |
+| src/MagicCommunity | C# 桌面适配器、文件操作、布局、反馈与卡片管理 |
+| src/desktop-guard | 原生桌面恢复守护 |
+| widgets/desktop | 自定义桌面前端、菜单和卡片宿主 |
+| widgets/shared | 共享视觉与交互资源 |
+| experiments/native-host-patch | Seelen UI 上游源码与社区修改，含上游许可证 |
+| tools | 构建、安装、运行时维护与集成脚本 |
+| profiles | 组件配置与资源 |
+| examples | 声明式卡片示例 |
+| resources | 动画、卡片数据和界面资源 |
 
-桌面会一直开着，所以我们把内存占用、空闲时的 CPU/GPU 活动和点击响应作为开发时的取舍依据。现在的桌面和大文件夹使用 Windows 原生合成绘制；切换顶栏面板时，系统数据按需要读取。
+## 从源码构建
 
-## 安装、更新与卸载
+构建入口为 `tools/build-preview.ps1`，桌面 Widget 由 `widgets/desktop/build.mjs` 构建，主程序项目为 `src/MagicCommunity/MagicCommunity.csproj`。Widget 依赖及锁定版本记录在 `experiments/p0/seelen-widget/package-lock.json`。
 
-1. 在对应版本的 **Assets** 中下载 `MagicCommunity-Setup-版本号-x64.zip` 并解压。安装 v0.4.6 时，先按上面的指南核对证书，再双击解压出来的 EXE。ZIP 里还附有社区群二维码。
-2. 首次使用选「一键安装」。需要指定布局和卡片的数据目录，可选「自定义安装或更新」。安装完成后可选「创建桌面快捷方式」或「立即打开」。
-3. 以后可以从社区版的「设置 → 关于 → 检查更新」查看发布说明。安装新版本时选「一键更新」沿用原数据目录。卸载也可用同一安装向导，默认保留数据。
+构建需要 Windows x64、Node.js、.NET 10 SDK；独立原生后台构建还需要 Visual Studio C++ 工具链与 Rust 工具链。SDK、工具缓存、构建产物和用户运行数据不包含在源码仓库中。发行包的自动构建检查不等同于真实桌面或多屏验收。
 
-v0.4.6 使用带可信时间戳的本地测试证书。测试电脑需要信任本次签名才能安装，具体指纹和测试条件见[版本说明](https://github.com/littletaro97-arch/honor-magic-visual-community/releases/tag/v0.4.6)。
+## 许可证
 
-## 反馈
-
-遇到问题时，请写出社区版版本、Windows 版本、触发步骤，以及期望和实际发生的结果。多屏或缩放问题请附上出问题的屏幕和缩放比例。截图或日志中请先遮去个人信息。[提交反馈](https://github.com/littletaro97-arch/honor-magic-visual-community/issues)
+项目原创软件代码采用 **GNU Affero General Public License v3.0-only（AGPL-3.0-only）**，许可全文见根目录 [`LICENSE`](LICENSE)。此许可不覆盖带有独立许可或权利声明的第三方组件、HONOR 素材、商标和其他品牌资产；具体范围见 [`NOTICE.md`](NOTICE.md) 与 [`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md)。HONOR 素材依项目负责人确认取得的单独再分发授权提供，不因项目源代码许可而改变权利归属。

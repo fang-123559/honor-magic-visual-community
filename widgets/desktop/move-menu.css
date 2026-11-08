@@ -1,0 +1,1 @@
+.move-menu{position:absolute;z-index:10;top:15px;left:0;width:220px;max-height:240px;overflow:auto;display:flex;flex-direction:column;gap:5px;background:#1b2e49;border:1px solid #9dbde044;border-radius:10px;padding:7px;box-shadow:0 6px 15px #0005}.move-menu button{font-size:11px;text-align:left;padding:7px}

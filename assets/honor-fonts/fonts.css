@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "HONOR Sans CN";
+  src: url("HONORSansCN-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 100 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HONOR Sans CN";
+  src: url("HONORSansCN-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HONOR Sans CN";
+  src: url("HONORSansCN-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500 900;
+  font-display: swap;
+}

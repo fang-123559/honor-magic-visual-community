@@ -1,0 +1,10 @@
+import * as esbuild from "../../experiments/p0/seelen-widget/node_modules/esbuild-wasm/lib/main.js";
+import {mkdir,copyFile,readFile,writeFile} from "node:fs/promises";
+import {fileURLToPath} from "node:url";
+await mkdir(new URL("dist/",import.meta.url),{recursive:true});
+const version=(await readFile(new URL('../../src/MagicCommunity/AppController.cs',import.meta.url),'utf8')).match(/const string Version = "([^"]+)"/)[1];
+await esbuild.build({entryPoints:[fileURLToPath(new URL("grid-src.js",import.meta.url))],outfile:fileURLToPath(new URL("dist/index.js",import.meta.url)),bundle:true,format:"esm",minify:true,platform:"browser",define:{__MAGIC_DESKTOP_VERSION__:JSON.stringify(version)},nodePaths:[fileURLToPath(new URL("../../experiments/p0/seelen-widget/node_modules",import.meta.url))]});
+await copyFile(new URL("metadata.yml",import.meta.url),new URL("dist/metadata.yml",import.meta.url));
+await copyFile(new URL("card-catalog.json",import.meta.url),new URL("dist/card-catalog.json",import.meta.url));
+await copyFile(new URL("grid-index.html",import.meta.url),new URL("dist/index.html",import.meta.url));
+await writeFile(new URL("dist/index.css",import.meta.url),(await Promise.all(["../../experiments/native-host-patch/libs/core/styles/radius.css","grid-base.css","grid-layout.css","grid-live.css","accessory.css","unified.css","desktop-pages.css","system-cards.css","../shared/overlay-scrollbars.css"].map(name=>readFile(new URL(name,import.meta.url),"utf8")))).join("\n"));

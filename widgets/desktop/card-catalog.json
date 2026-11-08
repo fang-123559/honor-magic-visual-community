@@ -1,0 +1,135 @@
+{
+  "apiVersion": 1,
+  "types": [
+    {
+      "type": "system.clock",
+      "title": "时钟",
+      "sizes": [
+        { "columns": 2, "rows": 1 },
+        {
+          "columns": 4,
+          "rows": 2
+        }
+      ],
+      "dataSources": [
+        "system.minute"
+      ]
+    },
+    { "type": "system.handoff", "title": "文本交接台", "sizes": [{"columns":4,"rows":2},{"columns":2,"rows":2},{"columns":2,"rows":1}], "dataSources":["system.handoff"] },
+    { "type": "system.media", "title": "音乐播放器", "sizes": [{"columns":4,"rows":2},{"columns":2,"rows":2},{"columns":2,"rows":1}], "dataSources":["system.media"] },
+    { "type": "system.honor-service", "title": "荣耀服务中心", "sizes": [{"columns":4,"rows":2},{"columns":2,"rows":2}], "dataSources":["system.honor-services"] },
+    { "type": "system.week", "title": "周视图", "sizes": [{ "columns": 4, "rows": 3 }, { "columns": 4, "rows": 2 }], "dataSources": ["system.todo", "system.day"] },
+    {
+      "type": "system.calendar",
+      "title": "日历",
+      "sizes": [
+        {
+          "columns": 2,
+          "rows": 2
+        }
+      ],
+      "dataSources": [
+        "system.day"
+      ]
+    },
+    {
+      "type": "system.status",
+      "title": "系统状态",
+      "sizes": [
+        {
+          "columns": 2,
+          "rows": 2
+        }
+      ],
+      "dataSources": [
+        "system.cores",
+        "system.gpus"
+      ]
+    },
+    {
+      "type": "system.storage",
+      "title": "存储",
+      "sizes": [
+        {
+          "columns": 2,
+          "rows": 2
+        }
+      ],
+      "dataSources": [
+        "system.memory",
+        "system.disks"
+      ]
+    },
+    {
+      "type": "system.clipboard-image",
+      "title": "图片剪贴板",
+      "sizes": [
+        {
+          "columns": 2,
+          "rows": 2
+        },
+        {
+          "columns": 3,
+          "rows": 2
+        },
+        {
+          "columns": 4,
+          "rows": 2
+        }
+      ],
+      "dataSources": [
+        "system.clipboard-image"
+      ]
+    },
+    {
+      "type": "system.weather",
+      "title": "天气",
+      "sizes": [
+        {
+          "columns": 2,
+          "rows": 1
+        },
+        {
+          "columns": 2,
+          "rows": 2
+        },
+        {
+          "columns": 4,
+          "rows": 2
+        }
+      ],
+      "dataSources": [
+        "system.weather"
+      ]
+    },
+    {
+      "type": "system.encodeck",
+      "title": "耳机控制",
+      "dependency": {
+        "title": "需先安装 EncoDeck 桌面端",
+        "description": "此卡片由社区开源项目提供，安装并运行 EncoDeck 后才能读取耳机电量与降噪状态。",
+        "url": "https://github.com/littletaro97-arch/EncoDeck-MagicCommunity/releases/tag/v1.14.0-magic.1"
+      },
+      "sizes": [
+        {
+          "columns": 4,
+          "rows": 2
+        }
+      ],
+      "dataSources": [
+        "system.encodeck"
+      ]
+    },
+    {
+      "type": "system.todo",
+      "title": "待办事项",
+      "sizes": [
+        {
+          "columns": 4,
+          "rows": 2
+        }
+      ],
+      "dataSources": []
+    }
+  ]
+}

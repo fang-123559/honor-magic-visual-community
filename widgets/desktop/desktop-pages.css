@@ -1,0 +1,27 @@
+/* Existing desktop palette; finite opacity/transform feedback, without blur. */
+.desktop-page-edge,.desktop-pager,.desktop-page-cue,.desktop-unplaced{position:fixed;z-index:130;box-sizing:border-box;color:var(--magic-folder-text);background:var(--magic-folder-surface);border:1px solid var(--magic-folder-edge);font:13px "HONOR Sans CN","HONOR Sans Design",system-ui,sans-serif;user-select:none}
+.desktop-page-edge[hidden],.desktop-pager[hidden],.desktop-unplaced[hidden]{display:none}
+.desktop-page-edge{top:50%;transform:translateY(-50%) scale(.96);display:flex;align-items:center;gap:8px;padding:10px 13px;border-radius:999px;white-space:nowrap;box-shadow:0 4px 12px #0002;opacity:0;pointer-events:none;transition:opacity 160ms ease,transform 180ms cubic-bezier(.2,.8,.2,1)}
+.desktop-page-edge.left{left:6px;flex-direction:row-reverse}.desktop-page-edge.right{right:6px}
+.desktop-page-edge.on{opacity:1;pointer-events:auto;transform:translateY(-50%) scale(1)}.desktop-page-edge:hover{background:var(--magic-menu-surface)}
+.page-edge-glyph{display:grid;place-items:center;width:25px;height:25px;flex:0 0 25px;border-radius:50%;background:var(--magic-folder-inset);line-height:0}
+.page-edge-glyph svg{display:block;width:16px;height:16px}
+.desktop-pager{left:50%;bottom:18px;transform:translateX(-50%);display:flex;align-items:center;max-width:min(420px,calc(100vw - 32px));gap:2px;padding:4px 10px;border-radius:999px;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;box-shadow:0 4px 12px #0002}
+.desktop-pager{transition:opacity 240ms ease}.desktop-pager.dim{opacity:.28}.desktop-pager:hover,.desktop-pager:focus-within{opacity:1}
+.desktop-page-dot{position:relative;flex:0 0 26px;width:26px;height:28px;padding:0;border:0;border-radius:50%;background:transparent;cursor:pointer}
+.desktop-page-dot::after{content:"";position:absolute;left:9px;top:10px;width:8px;height:8px;border-radius:50%;background:var(--magic-folder-text);opacity:.34}
+.desktop-page-dot[aria-current]::after{opacity:1}.desktop-page-dot:hover{background:var(--magic-folder-inset)}
+.desktop-page-dot:focus-visible,.desktop-page-edge:focus-visible,.desktop-unplaced:focus-visible{outline:2px solid var(--magic-folder-text);outline-offset:2px}
+.desktop-page-cue{top:50%;transform:translateY(-50%) scale(.96);max-width:200px;display:flex;align-items:center;gap:8px;padding:6px 12px 6px 6px;border-radius:999px;pointer-events:none;font-size:12px;opacity:0;transition:opacity 140ms ease,transform 160ms ease}
+.desktop-page-cue.left{left:6px}.desktop-page-cue.right{right:6px}.desktop-page-cue.on{opacity:1;transform:translateY(-50%) scale(1)}.desktop-page-cue.blocked{color:var(--magic-folder-muted)}
+.page-dwell-ring{position:relative;display:grid;place-items:center;flex:0 0 52px;width:52px;height:52px}.page-dwell-svg{position:absolute;inset:0;width:52px;height:52px;transform:rotate(-90deg)}
+.page-dwell-track,.page-dwell-progress{fill:none;stroke:currentColor;stroke-width:3}.page-dwell-track{opacity:.18}.page-dwell-progress{stroke-linecap:round}
+.page-dwell-icon{display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--magic-folder-inset)}.page-dwell-icon svg{display:block;width:20px;height:20px}.page-dwell-label{white-space:nowrap}.desktop-page-cue.blocked .page-dwell-progress{opacity:0}
+.desktop-unplaced{right:16px;bottom:64px;border-radius:999px;padding:9px 15px;cursor:pointer;max-width:calc(100vw - 32px)}
+.desktop-page-menu{z-index:10004;max-height:calc(100vh - 12px);overflow:auto}
+.page-menu-hint{font:12px/1.5 "HONOR Sans CN","HONOR Sans Design",system-ui,sans-serif;color:var(--magic-folder-muted);margin:8px 12px;max-width:260px;white-space:normal}
+.unplaced-row{padding:8px 4px;border-top:1px solid var(--magic-folder-edge)}.unplaced-row strong{display:block;max-width:260px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:13px;padding:2px 12px 6px}
+.desktop-page-menu button:disabled{opacity:.45;cursor:default}
+body:not([data-takeover="true"]) :is(.desktop-page-edge,.desktop-pager,.desktop-page-cue,.desktop-unplaced){display:none}
+@media(forced-colors:active){.desktop-page-dot::after{background:ButtonText}.desktop-page-dot[aria-current]::after{background:Highlight}.desktop-pager.dim{opacity:1}}
+@media(prefers-reduced-motion:reduce){.desktop-page-edge,.desktop-page-cue,.desktop-pager{transition:none}.desktop-page-edge,.desktop-page-edge.on,.desktop-page-cue,.desktop-page-cue.on{transform:translateY(-50%)}.page-dwell-progress{opacity:0}}

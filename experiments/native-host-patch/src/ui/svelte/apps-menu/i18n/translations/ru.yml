@@ -1,0 +1,24 @@
+all: Все приложения
+app_settings: Настройки приложения
+applications: Приложения
+back: Назад
+disband: Расформировать папку
+edit_icon: Редактировать значок
+folder: Папка
+no_matching_items: Не найдено элементов, соответствующих вашему запросу
+open_file_location: Открыть местоположение файла
+pin: Закрепить
+pin_to_dock: Закрепить в Dock
+power_menu: Меню питания
+query:
+  all: Все
+  apps: Приложения
+  files: Файлы
+  settings: Настройки
+  web: Интернет
+run_as_admin: Запуск от имени администратора
+uninstall: Удалить
+unpin: Открепить
+web_search: Нажмите Enter, чтобы выполнить поиск в Интернете.
+welcome_message: Добро пожаловать в меню приложения Seelen UI.
+welcome_message2: На этой вкладке вы можете закрепить свои любимые приложения.

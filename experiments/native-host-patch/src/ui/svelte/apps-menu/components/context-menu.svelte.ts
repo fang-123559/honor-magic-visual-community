@@ -1,0 +1,152 @@
+import { invoke, SeelenCommand, Widget } from "@seelen-ui/lib";
+import type { ContextMenu, ContextMenuCallbackPayload, StartMenuItem, WidgetId } from "@seelen-ui/lib/types";
+import { type FavFolderItem, globalState } from "../state/mod.svelte";
+import { iconPackManager } from "libs/ui/svelte/components/Icon/common.svelte";
+
+export const CONTEXT_MENU_ID = crypto.randomUUID();
+export const CONTEXT_MENU_CALLBACK_EVENT = "apps_menu::context_menu_action";
+
+export const FOLDER_CONTEXT_MENU_ID = crypto.randomUUID();
+const FOLDER_CONTEXT_MENU_CALLBACK_EVENT = "apps_menu::folder_context_menu_action";
+
+Widget.self.webview.listen<ContextMenuCallbackPayload>(
+  CONTEXT_MENU_CALLBACK_EVENT,
+  ({ payload }) => {
+    const { key, meta } = payload;
+    const item = (meta as any).item as StartMenuItem;
+
+    if (key === "pin") {
+      globalState.togglePin(item);
+    } else if (key === "open_file_location") {
+      Widget.self.hide();
+      invoke(SeelenCommand.SelectFileOnExplorer, { path: item.path });
+    } else if (key === "pin_to_dock") {
+      // the dock listens to SeelenEvent.WegAddItem over the events channel, a tauri emit
+      // from here never reaches it, so the backend emits it.
+      invoke(SeelenCommand.WegPinItem, { path: item.path, umid: item.umid });
+    } else if (key === "run_as_admin") {
+      Widget.self.hide();
+      const program = item.umid ? `shell:AppsFolder\\${item.umid}` : item.path;
+      invoke(SeelenCommand.Run, { program, args: null, workingDir: null, elevated: true });
+    } else if (key === "uninstall") {
+      // Same as the native start menu for desktop apps: open the list of
+      // installed apps, where the user uninstalls it with Windows' own flow.
+      Widget.self.hide();
+      invoke(SeelenCommand.OpenFile, { path: "ms-settings:appsfeatures" });
+    } else if (key === "edit_icon") {
+      const entry = iconPackManager.value.getIconEntry({
+        path: item.path,
+        umid: item.umid ?? null,
+      });
+      invoke(SeelenCommand.TriggerWidget, {
+        payload: {
+          id: "@seelen/icon-editor" as WidgetId,
+          customArgs: { entry },
+        },
+      });
+    }
+  },
+);
+
+Widget.self.webview.listen<ContextMenuCallbackPayload>(
+  FOLDER_CONTEXT_MENU_CALLBACK_EVENT,
+  ({ payload }) => {
+    const { key, meta } = payload;
+    const folderId = (meta as any).folderId as string;
+
+    if (key === "disband") {
+      globalState.disbandFolder(folderId);
+    }
+  },
+);
+
+export function getFolderContextMenu(
+  folder: FavFolderItem,
+  t: (key: string) => string,
+): ContextMenu {
+  return {
+    identifier: FOLDER_CONTEXT_MENU_ID,
+    meta: { folderId: folder.itemId },
+    items: [
+      {
+        type: "Item",
+        key: "disband",
+        label: t("disband"),
+        icon: "GiExpand",
+        callbackEvent: FOLDER_CONTEXT_MENU_CALLBACK_EVENT,
+      },
+    ],
+  };
+}
+
+export function getItemContextMenu(item: StartMenuItem, t: (key: string) => string): ContextMenu {
+  const isPinned = globalState.isPinned(item);
+  const umid = item.umid;
+  const path = item.path.toLowerCase();
+
+  const isApp = !!umid || path.endsWith(".exe") || path.endsWith(".lnk");
+
+  const items: ContextMenu["items"] = [
+    {
+      type: "Item",
+      key: "pin",
+      label: isPinned ? t("unpin") : t("pin"),
+      icon: isPinned ? "TbPinnedOff" : "TbPin",
+      callbackEvent: CONTEXT_MENU_CALLBACK_EVENT,
+    },
+    { type: "Separator" },
+    {
+      type: "Item",
+      key: "pin_to_dock",
+      label: t("pin_to_dock"),
+      icon: "RiPushpinLine",
+      callbackEvent: CONTEXT_MENU_CALLBACK_EVENT,
+    },
+  ];
+
+  if (path) {
+    items.push({
+      type: "Item" as const,
+      key: "open_file_location",
+      label: t("open_file_location"),
+      icon: "MdOutlineMyLocation",
+      callbackEvent: CONTEXT_MENU_CALLBACK_EVENT,
+    });
+  }
+
+  if (isApp) {
+    items.push(
+      {
+        type: "Item",
+        key: "run_as_admin",
+        label: t("run_as_admin"),
+        icon: "MdOutlineAdminPanelSettings",
+        callbackEvent: CONTEXT_MENU_CALLBACK_EVENT,
+      },
+      { type: "Separator" },
+      // only apps can be uninstalled, not documents found by the search
+      {
+        type: "Item",
+        key: "uninstall",
+        label: t("uninstall"),
+        icon: "FaRegTrashAlt",
+        callbackEvent: CONTEXT_MENU_CALLBACK_EVENT,
+      },
+      { type: "Separator" },
+    );
+  }
+
+  items.push({
+    type: "Item",
+    key: "edit_icon",
+    label: t("edit_icon"),
+    icon: "RiEditBoxLine",
+    callbackEvent: CONTEXT_MENU_CALLBACK_EVENT,
+  });
+
+  return {
+    identifier: CONTEXT_MENU_ID,
+    meta: { item },
+    items,
+  };
+}

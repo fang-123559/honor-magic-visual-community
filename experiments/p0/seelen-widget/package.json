@@ -1,0 +1,9 @@
+{
+  "name": "magic-community-p0-widget",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": { "build": "node build.mjs" },
+  "dependencies": { "@seelen-ui/lib": "2.8.4" },
+  "devDependencies": { "esbuild-wasm": "0.25.12" }
+}

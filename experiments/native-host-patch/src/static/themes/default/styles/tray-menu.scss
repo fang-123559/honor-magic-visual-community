@@ -1,0 +1,50 @@
+.system-tray {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+
+  .system-tray-entry {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+
+    .system-tray-item {
+      flex: 1;
+      min-width: 0;
+      gap: var(--spacing-xs);
+      padding: var(--spacing-xs);
+
+      .system-tray-item-icon-box {
+        .system-tray-item-icon {
+          width: 1rem;
+          height: 1rem;
+          object-fit: contain;
+        }
+
+        .system-tray-item-icon-glyph {
+          display: block;
+          background-color: var(--slu-std-fg-color);
+          mask: var(--icon-url) center / contain no-repeat;
+        }
+      }
+
+      .system-tray-item-label {
+        min-width: 0;
+        flex: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+        text-align: left;
+        font-weight: 600;
+        font-size: 0.8rem;
+      }
+    }
+
+    .system-tray-item-pin {
+      padding: var(--spacing-xs);
+      color: var(--slu-std-fg-secondary-color);
+    }
+  }
+}

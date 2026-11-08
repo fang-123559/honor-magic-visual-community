@@ -1,0 +1,46 @@
+{
+  "widget": "system-tray",
+  "compatTypesForCompileOnly": false,
+  "sdkSource": "2.8.9",
+  "traceFocus": false,
+  "sources": [
+    {
+      "file": "libs/core/src/state/widget/mod.ts",
+      "patch": "Unmodified pinned upstream focus and focus-loss behavior",
+      "sha256": "b5415fb88a8acd7af8cb6f1b27fe0debc02b890c547a75f8d5a676ab6d828c4d"
+    },
+    {
+      "file": "src/ui/svelte/system-tray/index.ts",
+      "patch": "await widget.init({\n  closeOnHide: false,",
+      "sha256": "8ffc70bb3f415f5053255eb5a71d9525e02cc6830e0b347b77ef0c96dfb36109"
+    },
+    {
+      "file": "src/ui/svelte/system-tray/app.svelte",
+      "patch": "Widget.getCurrent().ready({ show: false });",
+      "sha256": "27547d09700077081a6f532f49793b1d9fb54dc3a08e63177103cd13710dd229"
+    }
+  ],
+  "overlayScrollbars": {
+    "version": "0.1.0-rc.19",
+    "sourceProfile": "0.1.0-rc.16",
+    "baseProfile": "0.1.0-rc.15",
+    "baseJsSha256": "de4e00727be4450bb499854dc36aaa59955cf567db1383dbe7fe510c56e4b8e0",
+    "baseJsUnchangedAfterPrefix": true,
+    "controllerBytes": 6404,
+    "noPolling": true,
+    "sources": [
+      {
+        "file": "widgets/shared/overlay-scrollbars.js",
+        "sha256": "24667ba4104c5539606291a833e5684fad41a65bed4b2b58c0afc5b4b2f57ea6"
+      },
+      {
+        "file": "widgets/shared/overlay-scrollbars.css",
+        "sha256": "95a996b92f1572e5ae420abdaa5561bcd909d2a2f19dc7febc659fd6eb3a7dd2"
+      },
+      {
+        "file": "widgets/shared/scrollbar-math.mjs",
+        "sha256": "10881e2b21dd74d67126298028bc3b3c114bde8eeece2373ef46ee5cd2516f87"
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
+  "productName": "Magic Community System",
+  "identifier": "org.magic-community.system",
+  "version": "../package.json",
+  "app": {
+    "security": {
+      "assetProtocol": {
+        "enable": true,
+        "scope": [
+          "$RESOURCE/**/*",
+          "$TEMP/**/*",
+          "$APPDATA/**/*",
+          "$LOCALDATA/**/*",
+          "**/*.jpg",
+          "**/*.jpeg",
+          "**/*.png",
+          "**/*.webp",
+          "**/*.gif",
+          "**/*.svg"
+        ]
+      }
+    },
+    "withGlobalTauri": false
+  },
+  "build": {
+    "devUrl": "http://localhost:3579",
+    "frontendDist": "../dist",
+    "features": []
+  },
+  "bundle": {
+    "active": false,
+    "resources": {
+      "static": "static"
+    },
+    "icon": [
+      "static/icons/icon.ico"
+    ]
+  },
+  "plugins": {
+    "updater": {
+      "pubkey": ""
+    },
+    "deep-link": {
+      "mobile": [],
+      "desktop": {
+        "schemes": [
+          "seelen-ui.uri"
+        ]
+      }
+    }
+  }
+}

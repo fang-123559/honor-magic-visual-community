@@ -1,0 +1,12 @@
+id: "@default/power"
+metadata:
+  displayName:
+    zh-CN: 电量与性能
+    en: Battery and power
+icon: PiBatteryMediumFill
+target: "@seelen/fancy-toolbar"
+plugin:
+  scopes: [Power]
+  template: !include template.js
+  tooltip: !include tooltip.js
+  onClickV2: 'trigger("@seelen/quick-settings", {view:"power"})'

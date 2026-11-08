@@ -1,0 +1,1038 @@
+{
+  "schemaVersion": 1,
+  "defaultScheme": "honor-white",
+  "schemes": [
+    "honor-white",
+    "honor-translucent"
+  ],
+  "applicationMatch": "Exact executable stem or exact pinned shortcut name; no substring/window title matching.",
+  "apps": [
+    {
+      "id": "360Safe",
+      "white": "library/DockIcon-白底/360Safe.png",
+      "translucent": "library/DockIcon-通透/360Safe.png",
+      "aliases": [
+        "360Safe"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "360chrome",
+      "white": "library/DockIcon-白底/360chrome.png",
+      "translucent": "library/DockIcon-通透/360chrome.png",
+      "aliases": [
+        "360chrome"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "360huabao",
+      "white": "library/DockIcon-白底/360huabao.png",
+      "translucent": "library/DockIcon-通透/360huabao.png",
+      "aliases": [
+        "360huabao"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "360zip",
+      "white": "library/DockIcon-白底/360zip.png",
+      "translucent": "library/DockIcon-通透/360zip.png",
+      "aliases": [
+        "360zip"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "AIAssistantMain",
+      "white": "library/DockIcon-白底/AIAssistantMain.png",
+      "translucent": "library/DockIcon-通透/AIAssistantMain.png",
+      "aliases": [
+        "AIAssistantMain"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "AISearchUI",
+      "white": "library/DockIcon-白底/AISearchUI.png",
+      "translucent": "library/DockIcon-通透/AISearchUI.png",
+      "aliases": [
+        "AISearchUI"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "AUTOCADM",
+      "white": "library/DockIcon-白底/AUTOCADM.png",
+      "translucent": "library/DockIcon-通透/AUTOCADM.png",
+      "aliases": [
+        "AUTOCADM"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "AUTOCADM-sh-min",
+      "white": "library/DockIcon-白底/AUTOCADM-sh-min.png",
+      "translucent": "library/DockIcon-通透/autocad-sh-min.png",
+      "aliases": [
+        "autocad-sh-min",
+        "AUTOCADM-sh-min"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "AweSun",
+      "white": "library/DockIcon-白底/AweSun.png",
+      "translucent": "library/DockIcon-通透/AweSun.png",
+      "aliases": [
+        "AweSun"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "BaiduNetdisk",
+      "white": "library/DockIcon-白底/BaiduNetdisk.png",
+      "translucent": "library/DockIcon-通透/BaiduNetdisk.png",
+      "aliases": [
+        "BaiduNetdisk",
+        "百度网盘"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "Battle.net Launcher",
+      "white": "library/DockIcon-白底/Battle.net Launcher.png",
+      "translucent": "library/DockIcon-通透/Battle.net Launcher.png",
+      "aliases": [
+        "Battle.net Launcher"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "Canva",
+      "white": "library/DockIcon-白底/Canva.png",
+      "translucent": "library/DockIcon-通透/Canva.png",
+      "aliases": [
+        "Canva"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "ChatGPT",
+      "white": "library/DockIcon-白底/ChatGPT.png",
+      "translucent": "library/DockIcon-白底/ChatGPT.png",
+      "aliases": [
+        "ChatGPT"
+      ],
+      "counterpartFallback": true
+    },
+    {
+      "id": "ComputerZTray",
+      "white": "library/DockIcon-白底/ComputerZTray.png",
+      "translucent": "library/DockIcon-通透/ComputerZTray.png",
+      "aliases": [
+        "ComputerZTray"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "DingtalkLauncher",
+      "white": "library/DockIcon-白底/DingtalkLauncher.png",
+      "translucent": "library/DockIcon-通透/DingtalkLauncher.png",
+      "aliases": [
+        "DingTalk",
+        "DingtalkLauncher",
+        "钉钉"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "EVCapture",
+      "white": "library/DockIcon-白底/EVCapture.png",
+      "translucent": "library/DockIcon-通透/EVCapture.png",
+      "aliases": [
+        "EVCapture"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "EXCEL",
+      "white": "library/DockIcon-白底/EXCEL.png",
+      "translucent": "library/DockIcon-通透/EXCEL.png",
+      "aliases": [
+        "EXCEL",
+        "Microsoft Excel"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "EpicGamesLauncher",
+      "white": "library/DockIcon-白底/EpicGamesLauncher.png",
+      "translucent": "library/DockIcon-通透/EpicGamesLauncher.png",
+      "aliases": [
+        "EpicGamesLauncher"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "Everything",
+      "white": "library/DockIcon-白底/Everything.png",
+      "translucent": "library/DockIcon-通透/Everything.png",
+      "aliases": [
+        "Everything"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "FFWallpaper",
+      "white": "library/DockIcon-白底/FFWallpaper.png",
+      "translucent": "library/DockIcon-通透/FFWallpaper.png",
+      "aliases": [
+        "FFWallpaper"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "FlashCenter",
+      "white": "library/DockIcon-白底/FlashCenter.png",
+      "translucent": "library/DockIcon-通透/FlashCenter.png",
+      "aliases": [
+        "FlashCenter"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "Foxmail",
+      "white": "library/DockIcon-白底/Foxmail.png",
+      "translucent": "library/DockIcon-通透/Foxmail.png",
+      "aliases": [
+        "Foxmail"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "HONORDeviceClone",
+      "white": "library/DockIcon-通透/HONORDeviceClone.png",
+      "translucent": "library/DockIcon-通透/HONORDeviceClone.png",
+      "aliases": [
+        "HONORDeviceClone"
+      ],
+      "counterpartFallback": true
+    },
+    {
+      "id": "HUNTERCAMP",
+      "white": "library/DockIcon-通透/HUNTERCAMP.png",
+      "translucent": "library/DockIcon-通透/HUNTERCAMP.png",
+      "aliases": [
+        "HUNTERCAMP"
+      ],
+      "counterpartFallback": true
+    },
+    {
+      "id": "Hihonornote",
+      "white": "library/DockIcon-白底/Hihonornote.png",
+      "translucent": "library/DockIcon-通透/Hihonornote.png",
+      "aliases": [
+        "Hihonornote",
+        "荣耀笔记"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "HipsMain",
+      "white": "library/DockIcon-白底/HipsMain.png",
+      "translucent": "library/DockIcon-通透/HipsMain.png",
+      "aliases": [
+        "HipsMain"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "HnAppStore",
+      "white": "library/DockIcon-白底/HnAppStore.png",
+      "translucent": "library/DockIcon-通透/HnAppStore.png",
+      "aliases": [
+        "HnAppStore",
+        "荣耀应用市场"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "JianyingPro",
+      "white": "library/DockIcon-白底/JianyingPro.png",
+      "translucent": "library/DockIcon-通透/JianyingPro.png",
+      "aliases": [
+        "JianyingPro"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "Kimi",
+      "white": "library/DockIcon-白底/Kimi.png",
+      "translucent": "library/DockIcon-通透/Kimi.png",
+      "aliases": [
+        "Kimi"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "KuGou",
+      "white": "library/DockIcon-白底/KuGou.png",
+      "translucent": "library/DockIcon-通透/KuGou.png",
+      "aliases": [
+        "KuGou"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "LeagueClientUxRender",
+      "white": "library/DockIcon-白底/LeagueClientUxRender.png",
+      "translucent": "library/DockIcon-通透/LeagueClientUxRender.png",
+      "aliases": [
+        "LeagueClientUxRender"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "MSPCManager",
+      "white": "library/DockIcon-白底/MSPCManager.png",
+      "translucent": "library/DockIcon-通透/MSPCManager.png",
+      "aliases": [
+        "MSPCManager"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "MuMuNxMain",
+      "white": "library/DockIcon-白底/MuMuNxMain.png",
+      "translucent": "library/DockIcon-通透/MuMuNxMain.png",
+      "aliases": [
+        "MuMuNxMain"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "ONENOTE",
+      "white": "library/DockIcon-白底/ONENOTE.png",
+      "translucent": "library/DockIcon-通透/ONENOTE.png",
+      "aliases": [
+        "Microsoft OneNote",
+        "ONENOTE"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "PCManager",
+      "white": "library/DockIcon-白底/PCManager.png",
+      "translucent": "library/DockIcon-通透/PCManager.png",
+      "aliases": [
+        "PCManager",
+        "荣耀电脑管家"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "POWERPNT",
+      "white": "library/DockIcon-白底/POWERPNT.png",
+      "translucent": "library/DockIcon-通透/POWERPNT.png",
+      "aliases": [
+        "Microsoft PowerPoint",
+        "POWERPNT"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "PotPlayerMini64",
+      "white": "library/DockIcon-白底/PotPlayerMini64.png",
+      "translucent": "library/DockIcon-通透/PotPlayerMini64.png",
+      "aliases": [
+        "PotPlayerMini64"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "PotPlayerMini64-2",
+      "white": "library/DockIcon-白底/PotPlayerMini64-2.png",
+      "translucent": "library/DockIcon-白底/PotPlayerMini64-2.png",
+      "aliases": [
+        "PotPlayerMini64-2"
+      ],
+      "counterpartFallback": true
+    },
+    {
+      "id": "QQ",
+      "white": "library/DockIcon-白底/QQ.png",
+      "translucent": "library/DockIcon-通透/QQ.png",
+      "aliases": [
+        "QQ"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "QQBrowser",
+      "white": "library/DockIcon-白底/QQBrowser.png",
+      "translucent": "library/DockIcon-通透/QQBrowser.png",
+      "aliases": [
+        "QQBrowser"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "QQGame",
+      "white": "library/DockIcon-白底/QQGame.png",
+      "translucent": "library/DockIcon-通透/QQGame.png",
+      "aliases": [
+        "QQGame"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "QQLive",
+      "white": "library/DockIcon-白底/QQLive.png",
+      "translucent": "library/DockIcon-通透/QQLive.png",
+      "aliases": [
+        "QQLive"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "QQMusic",
+      "white": "library/DockIcon-白底/QQMusic.png",
+      "translucent": "library/DockIcon-通透/QQMusic.png",
+      "aliases": [
+        "QQMusic"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "QQPCTray",
+      "white": "library/DockIcon-白底/QQPCTray.png",
+      "translucent": "library/DockIcon-通透/QQPCTray.png",
+      "aliases": [
+        "QQPCTray"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "QQScLauncher",
+      "white": "library/DockIcon-白底/QQScLauncher.png",
+      "translucent": "library/DockIcon-通透/QQScLauncher.png",
+      "aliases": [
+        "QQScLauncher"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "QyClient",
+      "white": "library/DockIcon-白底/QyClient.png",
+      "translucent": "library/DockIcon-通透/QyClient.png",
+      "aliases": [
+        "QyClient"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "Snipaste",
+      "white": "library/DockIcon-白底/Snipaste.png",
+      "translucent": "library/DockIcon-通透/Snipaste.png",
+      "aliases": [
+        "Snipaste"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "SodaMusic",
+      "white": "library/DockIcon-白底/SodaMusic.png",
+      "translucent": "library/DockIcon-通透/SodaMusic.png",
+      "aliases": [
+        "SodaMusic"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "SogouExplorer",
+      "white": "library/DockIcon-白底/SogouExplorer.png",
+      "translucent": "library/DockIcon-通透/SogouExplorer.png",
+      "aliases": [
+        "SogouExplorer"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "Steam",
+      "white": "library/DockIcon-白底/Steam.png",
+      "translucent": "library/DockIcon-通透/Steam.png",
+      "aliases": [
+        "Steam",
+        "steam"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "TencentDocs",
+      "white": "library/DockIcon-白底/TencentDocs.png",
+      "translucent": "library/DockIcon-通透/TencentDocs.png",
+      "aliases": [
+        "TencentDocs"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "ThunderStart",
+      "white": "library/DockIcon-白底/ThunderStart.png",
+      "translucent": "library/DockIcon-通透/ThunderStart.png",
+      "aliases": [
+        "ThunderStart"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "ToDesk",
+      "white": "library/DockIcon-白底/ToDesk.png",
+      "translucent": "library/DockIcon-通透/ToDesk.png",
+      "aliases": [
+        "ToDesk"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "WINWORD",
+      "white": "library/DockIcon-白底/WINWORD.png",
+      "translucent": "library/DockIcon-通透/WINWORD.png",
+      "aliases": [
+        "Microsoft Word",
+        "WINWORD"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "WXWork",
+      "white": "library/DockIcon-白底/WXWork.png",
+      "translucent": "library/DockIcon-通透/WXWork.png",
+      "aliases": [
+        "WXWork"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "WeMeetApp",
+      "white": "library/DockIcon-白底/WeMeetApp.png",
+      "translucent": "library/DockIcon-通透/WeMeetApp.png",
+      "aliases": [
+        "WeMeetApp",
+        "腾讯会议"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "Weixin",
+      "white": "library/DockIcon-白底/Weixin.png",
+      "translucent": "library/DockIcon-通透/Weixin.png",
+      "aliases": [
+        "WeChat",
+        "Weixin",
+        "微信"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "WinRAR",
+      "white": "library/DockIcon-白底/WinRAR.png",
+      "translucent": "library/DockIcon-通透/WinRAR.png",
+      "aliases": [
+        "WinRAR"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "XZDesktop",
+      "white": "library/DockIcon-白底/XZDesktop.png",
+      "translucent": "library/DockIcon-通透/XZDesktop.png",
+      "aliases": [
+        "XZDesktop"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "XiuXiu",
+      "white": "library/DockIcon-白底/XiuXiu.png",
+      "translucent": "library/DockIcon-通透/XiuXiu.png",
+      "aliases": [
+        "XiuXiu"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "Xmind",
+      "white": "library/DockIcon-白底/Xmind.png",
+      "translucent": "library/DockIcon-通透/Xmind.png",
+      "aliases": [
+        "Xmind"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "YOUKU",
+      "white": "library/DockIcon-白底/YOUKU.png",
+      "translucent": "library/DockIcon-通透/YOUKU.png",
+      "aliases": [
+        "YOUKU"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "aclos-launcher",
+      "white": "library/DockIcon-白底/aclos-launcher.png",
+      "translucent": "library/DockIcon-通透/aclos-launcher.png",
+      "aliases": [
+        "aclos-launcher"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "adobe.acrobatreader",
+      "white": "library/DockIcon-白底/adobe.acrobatreader.png",
+      "translucent": "library/DockIcon-通透/adobe.acrobatreader.png",
+      "aliases": [
+        "adobe.acrobatreader"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "chrome",
+      "white": "library/DockIcon-白底/chrome.png",
+      "translucent": "library/DockIcon-通透/chrome.png",
+      "aliases": [
+        "chrome",
+        "Google Chrome",
+        "谷歌浏览器"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "cloudmusic",
+      "white": "library/DockIcon-白底/cloudmusic.png",
+      "translucent": "library/DockIcon-通透/cloudmusic.png",
+      "aliases": [
+        "cloudmusic",
+        "网易云音乐"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "com.glodon.drawingexplorer",
+      "white": "library/DockIcon-白底/com.glodon.drawingexplorer.png",
+      "translucent": "library/DockIcon-通透/com.glodon.drawingexplorer.png",
+      "aliases": [
+        "com.glodon.drawingexplorer"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "com.iflytek.inputmethod",
+      "white": "library/DockIcon-通透/com.iflytek.inputmethod.png",
+      "translucent": "library/DockIcon-通透/com.iflytek.inputmethod.png",
+      "aliases": [
+        "com.iflytek.inputmethod"
+      ],
+      "counterpartFallback": true
+    },
+    {
+      "id": "cs2",
+      "white": "library/DockIcon-白底/cs2.png",
+      "translucent": "library/DockIcon-通透/cs2.png",
+      "aliases": [
+        "cs2"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "cxstudy",
+      "white": "library/DockIcon-白底/cxstudy.png",
+      "translucent": "library/DockIcon-通透/cxstudy.png",
+      "aliases": [
+        "cxstudy"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "delta_force_launcher",
+      "white": "library/DockIcon-白底/delta_force_launcher.png",
+      "translucent": "library/DockIcon-通透/delta_force_launcher.png",
+      "aliases": [
+        "delta_force_launcher"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "douyin",
+      "white": "library/DockIcon-白底/douyin.png",
+      "translucent": "library/DockIcon-通透/douyin.png",
+      "aliases": [
+        "douyin"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "fastpdf",
+      "white": "library/DockIcon-白底/fastpdf.png",
+      "translucent": "library/DockIcon-通透/fastpdf.png",
+      "aliases": [
+        "fastpdf"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "firefox",
+      "white": "library/DockIcon-白底/firefox.png",
+      "translucent": "library/DockIcon-通透/firefox.png",
+      "aliases": [
+        "firefox"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "hexinlauncher",
+      "white": "library/DockIcon-白底/hexinlauncher.png",
+      "translucent": "library/DockIcon-通透/hexinlauncher.png",
+      "aliases": [
+        "hexinlauncher"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "imeconfig",
+      "white": "library/DockIcon-白底/imeconfig.png",
+      "translucent": "library/DockIcon-通透/imeconfig.png",
+      "aliases": [
+        "imeconfig"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "imeconfig-2",
+      "white": "library/DockIcon-白底/imeconfig-2.png",
+      "translucent": "library/DockIcon-白底/imeconfig-2.png",
+      "aliases": [
+        "imeconfig-2"
+      ],
+      "counterpartFallback": true
+    },
+    {
+      "id": "kismain",
+      "white": "library/DockIcon-白底/kismain.png",
+      "translucent": "library/DockIcon-通透/kismain.png",
+      "aliases": [
+        "kismain"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "ksolaunch",
+      "white": "library/DockIcon-白底/ksolaunch.png",
+      "translucent": "library/DockIcon-通透/ksolaunch.png",
+      "aliases": [
+        "ksolaunch"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "kwallpaper",
+      "white": "library/DockIcon-白底/kwallpaper.png",
+      "translucent": "library/DockIcon-通透/kwallpaper.png",
+      "aliases": [
+        "kwallpaper"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "leigod_launcher",
+      "white": "library/DockIcon-白底/leigod_launcher.png",
+      "translucent": "library/DockIcon-通透/leigod_launcher.png",
+      "aliases": [
+        "leigod_launcher"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "mailmaster",
+      "white": "library/DockIcon-白底/mailmaster.png",
+      "translucent": "library/DockIcon-通透/mailmaster.png",
+      "aliases": [
+        "mailmaster"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "msedge",
+      "white": "library/DockIcon-白底/msedge.png",
+      "translucent": "library/DockIcon-通透/msedge.png",
+      "aliases": [
+        "Microsoft Edge",
+        "msedge"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "olk",
+      "white": "library/DockIcon-白底/olk.png",
+      "translucent": "library/DockIcon-通透/olk.png",
+      "aliases": [
+        "olk"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "ps",
+      "white": "library/DockIcon-白底/ps.png",
+      "translucent": "library/DockIcon-白底/ps.png",
+      "aliases": [
+        "Photoshop",
+        "ps"
+      ],
+      "counterpartFallback": true
+    },
+    {
+      "id": "pycharm64",
+      "white": "library/DockIcon-白底/pycharm64.png",
+      "translucent": "library/DockIcon-通透/pycharm64.png",
+      "aliases": [
+        "pycharm",
+        "pycharm64"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "quark",
+      "white": "library/DockIcon-白底/quark.png",
+      "translucent": "library/DockIcon-通透/quark.png",
+      "aliases": [
+        "quark"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "s7z",
+      "white": "library/DockIcon-白底/s7z.png",
+      "translucent": "library/DockIcon-通透/s7z.png",
+      "aliases": [
+        "s7z",
+        "7zFM",
+        "7zG",
+        "7-Zip"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "swenlauncher",
+      "white": "library/DockIcon-白底/swenlauncher.png",
+      "translucent": "library/DockIcon-通透/swenlauncher.png",
+      "aliases": [
+        "swenlauncher"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "uu_launcher",
+      "white": "library/DockIcon-白底/uu_launcher.png",
+      "translucent": "library/DockIcon-通透/uu_launcher.png",
+      "aliases": [
+        "uu_launcher"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "visual-studio",
+      "white": "library/DockIcon-白底/visual-studio.png",
+      "translucent": "library/DockIcon-白底/visual-studio.png",
+      "aliases": [
+        "devenv",
+        "Visual Studio",
+        "visual-studio"
+      ],
+      "counterpartFallback": true
+    },
+    {
+      "id": "vscode",
+      "white": "library/DockIcon-白底/vscode.png",
+      "translucent": "library/DockIcon-通透/Code.png",
+      "aliases": [
+        "Code",
+        "Visual Studio Code",
+        "vscode"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "wallpaper_engine",
+      "white": "library/DockIcon-通透/wallpaper_engine.png",
+      "translucent": "library/DockIcon-通透/wallpaper_engine.png",
+      "aliases": [
+        "wallpaper_engine"
+      ],
+      "counterpartFallback": true
+    },
+    {
+      "id": "wegame",
+      "white": "library/DockIcon-白底/wegame.png",
+      "translucent": "library/DockIcon-通透/wegame.png",
+      "aliases": [
+        "wegame"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "wetype_update",
+      "white": "library/DockIcon-白底/wetype_update.png",
+      "translucent": "library/DockIcon-通透/wetype_update.png",
+      "aliases": [
+        "wetype_update"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "wpspdf",
+      "white": "library/DockIcon-白底/wpspdf.png",
+      "translucent": "library/DockIcon-通透/wpspdf.png",
+      "aliases": [
+        "wpspdf"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "xmp",
+      "white": "library/DockIcon-白底/xmp.png",
+      "translucent": "library/DockIcon-通透/xmp.png",
+      "aliases": [
+        "xmp"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "yuanbao",
+      "white": "library/DockIcon-白底/yuanbao.png",
+      "translucent": "library/DockIcon-通透/yuanbao.png",
+      "aliases": [
+        "yuanbao"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "zotero",
+      "white": "library/DockIcon-白底/zotero.png",
+      "translucent": "library/DockIcon-通透/zotero.png",
+      "aliases": [
+        "zotero"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "哔哩哔哩",
+      "white": "library/DockIcon-白底/哔哩哔哩.png",
+      "translucent": "library/DockIcon-通透/哔哩哔哩.png",
+      "aliases": [
+        "bilibili",
+        "哔哩哔哩"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "小绿鲸英文文献阅读器",
+      "white": "library/DockIcon-白底/小绿鲸英文文献阅读器.png",
+      "translucent": "library/DockIcon-通透/小绿鲸英文文献阅读器.png",
+      "aliases": [
+        "小绿鲸英文文献阅读器"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "微软设置",
+      "white": "library/DockIcon-白底/微软设置.png",
+      "translucent": "library/DockIcon-白底/微软设置.png",
+      "aliases": [
+        "SystemSettings",
+        "Windows Settings",
+        "微软设置",
+        "设置"
+      ],
+      "counterpartFallback": true
+    },
+    {
+      "id": "搜狗输入法",
+      "white": "library/DockIcon-白底/搜狗输入法.png",
+      "translucent": "library/DockIcon-白底/搜狗输入法.png",
+      "aliases": [
+        "搜狗输入法"
+      ],
+      "counterpartFallback": true
+    },
+    {
+      "id": "有道翻译官",
+      "white": "library/DockIcon-白底/有道翻译官.png",
+      "translucent": "library/DockIcon-通透/有道翻译官.png",
+      "aliases": [
+        "有道翻译官"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "深信服",
+      "white": "library/DockIcon-白底/深信服.png",
+      "translucent": "library/DockIcon-通透/深信服.png",
+      "aliases": [
+        "深信服"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "腾讯应用宝",
+      "white": "library/DockIcon-白底/腾讯应用宝.png",
+      "translucent": "library/DockIcon-通透/腾讯应用宝.png",
+      "aliases": [
+        "腾讯应用宝"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "芒果TV",
+      "white": "library/DockIcon-白底/芒果TV.png",
+      "translucent": "library/DockIcon-通透/芒果TV.png",
+      "aliases": [
+        "芒果TV"
+      ],
+      "counterpartFallback": false
+    },
+    {
+      "id": "荣耀笔记",
+      "white": "library/DockIcon-白底/荣耀笔记.png",
+      "translucent": "library/DockIcon-白底/荣耀笔记.png",
+      "aliases": [
+        "荣耀笔记"
+      ],
+      "counterpartFallback": true
+    },
+    {
+      "id": "资源管理器",
+      "white": "library/DockIcon-白底/资源管理器.png",
+      "translucent": "library/DockIcon-白底/资源管理器.png",
+      "aliases": [
+        "explorer",
+        "File Explorer",
+        "文件资源管理器",
+        "资源管理器"
+      ],
+      "counterpartFallback": true
+    },
+    {
+      "id": "飞书",
+      "white": "library/DockIcon-白底/飞书.png",
+      "translucent": "library/DockIcon-白底/飞书.png",
+      "aliases": [
+        "Feishu",
+        "Lark",
+        "飞书"
+      ],
+      "counterpartFallback": true
+    }
+  ]
+}

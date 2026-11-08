@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "protocol": "Magic.NativePopups/1",
+  "entries": [
+    {
+      "legacy": "@seelen/calendar-popup",
+      "canonical": "@magic/calendar-popup",
+      "scope": "public"
+    },
+    {
+      "legacy": "@seelen/keyboard-selector",
+      "canonical": "@magic/keyboard-selector",
+      "scope": "public"
+    },
+    {
+      "legacy": "@seelen/user-menu",
+      "canonical": "@magic/user-menu",
+      "scope": "public"
+    },
+    {
+      "legacy": "@seelen/quick-settings",
+      "canonical": "@magic/quick-settings",
+      "scope": "public"
+    },
+    {
+      "legacy": "@seelen/media-popup",
+      "canonical": "@magic/media-popup",
+      "scope": "public"
+    },
+    {
+      "legacy": "@seelen/network-popup",
+      "canonical": "@magic/network-popup",
+      "scope": "public"
+    },
+    {
+      "legacy": "@seelen/bluetooth-popup",
+      "canonical": "@magic/bluetooth-popup",
+      "scope": "public"
+    },
+    {
+      "legacy": "@seelen/notifications",
+      "canonical": "@magic/notifications",
+      "scope": "public"
+    },
+    {
+      "legacy": "@seelen/system-tray",
+      "canonical": "@magic/system-tray",
+      "scope": "public"
+    },
+    {
+      "legacy": "@seelen/apps-menu",
+      "canonical": "@magic/apps-menu",
+      "scope": "public"
+    },
+    {
+      "legacy": "@seelen/task-switcher",
+      "canonical": "@magic/task-switcher",
+      "scope": "public"
+    },
+    {
+      "legacy": "@seelen/power-menu",
+      "canonical": "@magic/power-menu",
+      "scope": "public"
+    },
+    {
+      "legacy": "@seelen/flyouts",
+      "canonical": "@magic/flyouts",
+      "scope": "internal"
+    }
+  ]
+}

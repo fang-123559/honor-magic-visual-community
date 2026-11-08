@@ -1,0 +1,56 @@
+{
+  "version": "0.1.2",
+  "enabled": true,
+  "owner": "E:\\课外项目\\荣耀magic视界社区版",
+  "package": "Seelen.SeelenUI_2.8.9.0_x64__p6yyn03m1894e",
+  "createdAt": "2026-10-15T14:46:22.311106+08:00",
+  "sourceCommit": "507378aa01190617c18ee2c70ecc66b316169437",
+  "directory": "E:\\课外项目\\荣耀magic视界社区版\\profiles\\seelen-toolbar\\0.1.2",
+  "files": [
+    {
+      "path": "fancy-toolbar\\build-receipt.json",
+      "sha256": "206a0b4552f1d95e82b2e3a3bced34aac4740a37ff727bd788be43a6fe9cc180"
+    },
+    {
+      "path": "fancy-toolbar\\index.css",
+      "sha256": "0c8400f97d3dc94a9b96258425103dff869f210604c9359df73c4522d9a0c64d"
+    },
+    {
+      "path": "fancy-toolbar\\index.html",
+      "sha256": "c82193f71c5da4f2eefb4e52606e1a6b9ba0125d9f8a1b0608480a5c5a4e9468"
+    },
+    {
+      "path": "fancy-toolbar\\index.js",
+      "sha256": "74bd34f9afbbe1f65feaae18fb083e4bd161585ee02fb6d4d27100737426a750"
+    },
+    {
+      "path": "fancy-toolbar\\LICENSE-Seelen.txt",
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+    },
+    {
+      "path": "fancy-toolbar\\metadata.yml",
+      "sha256": "e8a7ebdfe0c0dd58adf21944a3b644d0adc8d32229b9149d5e458a9923a06c0e"
+    },
+    {
+      "path": "toolbar-transition\\build-receipt.json",
+      "sha256": "1dea38e46fd45a711644594b5dd11a1bfb152ba76e400361e8c69b65efc8e233"
+    },
+    {
+      "path": "toolbar-transition\\index.html",
+      "sha256": "93636fa047400919d3a6fa2c57a114596546d97c9681645ed857fb014fb8fb18"
+    },
+    {
+      "path": "toolbar-transition\\index.js",
+      "sha256": "c2794c054c160b071cc7ffe17533d9f3bdeb7dd8bda3596c2bfe2b92c797576e"
+    },
+    {
+      "path": "toolbar-transition\\LICENSE-Seelen.txt",
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+    },
+    {
+      "path": "toolbar-transition\\metadata.yml",
+      "sha256": "4770f00e7a2e32d97b550f2f62eaf45d9951b34063e3c8507730e2bb9c3387bc"
+    }
+  ],
+  "manualAcceptance": "pending"
+}

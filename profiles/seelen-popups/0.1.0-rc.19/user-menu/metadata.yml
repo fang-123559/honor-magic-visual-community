@@ -1,0 +1,14 @@
+id: "@seelen/user-menu"
+icon: PiFolderUser
+metadata:
+  displayName:
+    en: "User Menu"
+    zh-CN: "用户菜单"
+instances: Single
+loader: ThirdParty
+preset: Popup
+hidden: true
+lazy: false
+html: !include index.html
+js: !include index.js
+css: !include index.css

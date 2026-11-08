@@ -1,0 +1,14 @@
+id: "@seelen/network-popup"
+icon: FaWifi
+metadata:
+  displayName:
+    en: "Network"
+    zh-CN: "网络"
+instances: Single
+loader: ThirdParty
+preset: Popup
+hidden: true
+lazy: false
+html: !include index.html
+js: !include index.js
+css: !include index.css

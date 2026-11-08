@@ -1,0 +1,35 @@
+/* Static desktop surface: no blur, filters or continuous animations. */
+:root { background: transparent; }
+html,body { width: 100%; height: 100%; overflow: hidden; min-width: 280px; background: transparent; color: #eef4ff; color-scheme: dark; }
+.live-shell { display: flex; flex-direction: column; width: 100%; height: 100vh; padding: 18px 22px 64px; background: transparent; }
+.live-shell header { flex: 0 0 auto; margin: 0 0 12px; padding: 10px 14px; gap: 10px; background: #142540d9; border: 1px solid #ffffff25; border-radius: 15px; }
+.live-shell header h1 { margin: 2px 0 3px; font-size: 22px; }
+.live-shell header p { margin: 0; font-size: 11px; color: #b2c5df; }
+.live-shell .wordmark { font-size: 9px; letter-spacing: 1.8px; color: #a7c9ff; }
+.live-shell .prototype-tag { font-size: 11px; padding: 6px 10px; color: #b9d8ff; background: #88baff1a; }
+.controls { flex: 0 0 auto; gap: 7px; padding: 9px; background: #142540d9; border: 1px solid #ffffff25; }
+.controls button,.controls select { min-height: 30px; padding: 6px 8px; font-size: 11px; color: #eef4ff; background: #304766; }
+.controls select { max-width: 190px; }
+.subline { flex: 0 0 auto; margin: 8px 0; padding: 6px 10px; font-size: 11px; color: #c2d4e9; background: #142540cc; border-radius: 8px; }
+.grid-viewport { flex: 1 1 auto; min-height: 100px; max-height: none; overflow: auto; background: transparent; }
+.desktop-grid { background: none; }
+.desktop-grid .icon,.folder-app .icon { display: flex; align-items: center; justify-content: center; filter: none; }
+.icon img,.mini-icon img { width: 100%; height: 100%; object-fit: contain; pointer-events: none; }
+.large-folder { background: #142540d9; border: 1px solid #ffffff30; box-shadow: none; }
+.folder-name { color: #eef4ff; }
+.root-shortcut .app-name { text-shadow: 0 1px 3px #000; }
+.shortcut.selected { background: #a3d2ff35; outline-color: #94c8ff; }
+.folder-menu { background: #172a45; }
+.folder-menu button { color: #eef4ff; }
+.folder-menu button:hover,.folder-menu button[aria-checked=true] { background: #304766; }
+.folder-menu .dissolve-folder { color: #ffb9b9; }
+.large-folder.folder-selected { outline: 2px solid #4979b8; }
+.drag-ghost { filter: none; }
+.status.error,#status.error { color: #ffcdad; }
+.live-shell footer { flex: 0 0 auto; padding: 7px 10px; margin: 7px 0 0; font-size: 10px; line-height: 1.4; color: #b2c5df; background: #142540cc; border-radius: 8px; }
+.folder-dialog { max-height: calc(100vh - 32px); background: #142540f5; color: #eef4ff; }
+.dialog-heading span,.empty-hint { color: #b2c5df; }
+.close-button,.folder-controls button { color: #eef4ff; background: #304766; }
+.folder-dialog::backdrop { background: #172b4555; }
+@media(max-width:650px) { .live-shell { padding: 12px 12px 58px; } .controls { gap: 5px; } .controls button,.controls select { font-size: 10px; padding: 5px 7px; } .live-shell header h1 { font-size: 19px; } }
+@media(prefers-reduced-motion:reduce) { .folder-dialog { transition: none; animation: none; } }

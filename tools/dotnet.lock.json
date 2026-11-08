@@ -1,0 +1,9 @@
+{
+  "sdk": "10.0.402",
+  "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/10.0.402/dotnet-sdk-10.0.402-win-x64.zip",
+  "sha512": "ae4fd528cb7e9f6af6aaf7de36715a69f761f183744f1bb3025d19f5a92447090ec561410e46266c1d10a63781ed6f3de771760bc76c876d87daabc367b898cd",
+  "bytes": 300755826,
+  "metadata_url": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/10.0/releases.json",
+  "installation": "E:\\\u8bfe\u5916\u9879\u76ee\\\u8363\u8000magic\u89c6\u754c\u793e\u533a\u7248\\tools\\dotnet",
+  "scope": "project only"
+}

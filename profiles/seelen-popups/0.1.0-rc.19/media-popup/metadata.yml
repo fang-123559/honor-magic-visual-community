@@ -1,0 +1,14 @@
+id: "@seelen/media-popup"
+icon: IoVolumeHighOutline
+metadata:
+  displayName:
+    en: "Media Popup"
+    zh-CN: "媒体弹窗"
+instances: Single
+loader: ThirdParty
+preset: Popup
+hidden: true
+lazy: false
+html: !include index.html
+js: !include index.js
+css: !include index.css

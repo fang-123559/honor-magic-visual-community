@@ -1,0 +1,123 @@
+.calendar-popup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+
+  .calendar {
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+  }
+
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-m);
+    padding: 0 var(--spacing-2xs);
+
+    .calendar-date {
+      font-weight: 600;
+      padding: var(--spacing-2xs) var(--spacing-xs);
+      border-radius: var(--radius-s);
+      cursor: pointer;
+
+      &:hover {
+        background-color: var(--slu-std-ui-hover-overlay);
+      }
+    }
+
+    .calendar-actions {
+      display: flex;
+      gap: var(--spacing-2xs);
+    }
+  }
+
+  .calendar-month-view {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-2xs);
+  }
+
+  .calendar-weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: var(--spacing-2xs);
+    margin-bottom: var(--spacing-2xs);
+
+    .calendar-weekday {
+      font-weight: 600;
+      padding: var(--spacing-xs) 0;
+      color: var(--slu-std-fg-secondary-color);
+      text-align: center;
+    }
+  }
+
+  .calendar-days {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-2xs);
+  }
+
+  .calendar-week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: var(--spacing-2xs);
+  }
+
+  .calendar-cell {
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-s);
+    cursor: pointer;
+
+    &:hover {
+      background-color: var(--slu-std-ui-hover-overlay);
+    }
+
+    &.calendar-cell-off-month {
+      color: var(--slu-std-fg-muted-color);
+    }
+
+    &.calendar-cell-today {
+      font-weight: 700;
+      color: var(--slu-std-ui-color);
+    }
+
+    &.calendar-cell-selected {
+      background-color: var(--slu-std-ui-color);
+      color: var(--slu-std-ui-fg-color);
+      font-weight: 600;
+
+      &:hover {
+        background-color: var(--slu-std-ui-hover-color);
+      }
+    }
+  }
+
+  .calendar-year-view {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-xs);
+    padding: var(--spacing-2xs);
+
+    .calendar-month-cell {
+      padding: var(--spacing-m) var(--spacing-s);
+      border-radius: var(--radius-s);
+      font-weight: 500;
+      cursor: pointer;
+      text-align: center;
+
+      &:hover {
+        background-color: var(--slu-std-ui-hover-overlay);
+      }
+
+      &.calendar-month-cell-current {
+        font-weight: 700;
+        color: var(--slu-std-ui-color);
+      }
+    }
+  }
+}

@@ -1,0 +1,2387 @@
+{
+  "schemaVersion": 1,
+  "catalog": "Magic.Community.HonorIcons/1",
+  "owner": "HONOR",
+  "importedAt": "2026-10-26",
+  "provenance": "User supplied official icon extraction; original HONOR MagicTaskbarApp Resources",
+  "sourceRoot": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)",
+  "files": [
+    {
+      "path": "library/DockIcon-白底/360chrome.png",
+      "original": "DockIcon-白底/360chrome.png",
+      "sha256": "ec0254d2658ee6341be5a7fe083e3ed54d8754899affe04e44e7891bea9f0d24",
+      "bytes": 109035
+    },
+    {
+      "path": "library/DockIcon-白底/360huabao.png",
+      "original": "DockIcon-白底/360huabao.png",
+      "sha256": "17b8079ca526e40eefb6ac95dbf0b45405a9ea22a61966b466bdadd60966c284",
+      "bytes": 153646
+    },
+    {
+      "path": "library/DockIcon-白底/360Safe.png",
+      "original": "DockIcon-白底/360Safe.png",
+      "sha256": "1c8337222173765605e58c86679a53dac66f3416bd7e61a9ab180d93e2ca7ade",
+      "bytes": 121893
+    },
+    {
+      "path": "library/DockIcon-白底/360zip.png",
+      "original": "DockIcon-白底/360zip.png",
+      "sha256": "af0ab1c2bf78fec7625cd9ffe4ada6f7bc4d461e599bcc572310ca459a4e1d5d",
+      "bytes": 67467
+    },
+    {
+      "path": "library/DockIcon-白底/aclos-launcher.png",
+      "original": "DockIcon-白底/aclos-launcher.png",
+      "sha256": "8c6474289259bf0331231773b3cec017e2f1fbc2c226438599496a27995c7410",
+      "bytes": 37547
+    },
+    {
+      "path": "library/DockIcon-白底/adobe.acrobatreader.png",
+      "original": "DockIcon-白底/adobe.acrobatreader.png",
+      "sha256": "e4e15618b9cc0145695697c2f9f21f1e61bec86fa10f6212c85fbeecb36af9ac",
+      "bytes": 24574
+    },
+    {
+      "path": "library/DockIcon-白底/AIAssistantMain.png",
+      "original": "DockIcon-白底/AIAssistantMain.png",
+      "sha256": "dcfff9119f3d498c727712e54aaefbce1dc91d4443127e5907976380de5ecbf9",
+      "bytes": 315975
+    },
+    {
+      "path": "library/DockIcon-白底/AISearchUI.png",
+      "original": "DockIcon-白底/AISearchUI.png",
+      "sha256": "b09382d9c41c37765171cbc9507ce41b0a27dd24a159cef6efd6598e726647bc",
+      "bytes": 154569
+    },
+    {
+      "path": "library/DockIcon-白底/AUTOCADM-sh-min.png",
+      "original": "DockIcon-白底/AUTOCADM-sh-min.png",
+      "sha256": "65cc9e1f0f07a64d487a9889cb2567bf9136e4f1997acc0a62927b36b940710b",
+      "bytes": 107751
+    },
+    {
+      "path": "library/DockIcon-白底/AUTOCADM.png",
+      "original": "DockIcon-白底/AUTOCADM.png",
+      "sha256": "428986efb00d38d925202685945f6d897b2e6e79f0875ccb80ac40bea7d865b3",
+      "bytes": 225703
+    },
+    {
+      "path": "library/DockIcon-白底/AweSun.png",
+      "original": "DockIcon-白底/AweSun.png",
+      "sha256": "44d3d8a5190f6293003d84086c1c720a018fd1e027167e06b1185f9bf5b733ad",
+      "bytes": 283008
+    },
+    {
+      "path": "library/DockIcon-白底/BaiduNetdisk.png",
+      "original": "DockIcon-白底/BaiduNetdisk.png",
+      "sha256": "b4cee3dbe3b578be30132ce55387f88dfeb0146ffee67e2058dc8e712994544a",
+      "bytes": 97698
+    },
+    {
+      "path": "library/DockIcon-白底/Battle.net Launcher.png",
+      "original": "DockIcon-白底/Battle.net Launcher.png",
+      "sha256": "c0b73c1b932eb081a53a3d4c7391e6b68bba56b45f42b2753e0b08d9411e4226",
+      "bytes": 28196
+    },
+    {
+      "path": "library/DockIcon-白底/Canva.png",
+      "original": "DockIcon-白底/Canva.png",
+      "sha256": "1baa3c4b7abbae89d06eacde50ebbfc8cae3e737a76d17cb3239c8bd39f64e1d",
+      "bytes": 226933
+    },
+    {
+      "path": "library/DockIcon-白底/ChatGPT.png",
+      "original": "DockIcon-白底/ChatGPT.png",
+      "sha256": "cd4323bea4c9759de2579576140406f2d2ad49b7c09adcd8f4e30450a6b890c4",
+      "bytes": 87854
+    },
+    {
+      "path": "library/DockIcon-白底/chrome.png",
+      "original": "DockIcon-白底/chrome.png",
+      "sha256": "e3872541bec075dff302bbd7f4e5e3c1e2a21e89231d59a5ff0716c53bc298c3",
+      "bytes": 45257
+    },
+    {
+      "path": "library/DockIcon-白底/cloudmusic.png",
+      "original": "DockIcon-白底/cloudmusic.png",
+      "sha256": "ee9855d4b77464cfaafb52f0fc8b31ad82c77389d49c7a965606430ee89d1471",
+      "bytes": 29579
+    },
+    {
+      "path": "library/DockIcon-白底/com.glodon.drawingexplorer.png",
+      "original": "DockIcon-白底/com.glodon.drawingexplorer.png",
+      "sha256": "8b3bcdafc4acff3bd9c1e959e150de01b5709ee151d30eedb9f501f869ca5740",
+      "bytes": 363727
+    },
+    {
+      "path": "library/DockIcon-白底/ComputerZTray.png",
+      "original": "DockIcon-白底/ComputerZTray.png",
+      "sha256": "dda8fcc686376c17e8384681ddac0bd8c972bc86e050eb8d1c1fc8968fb870ad",
+      "bytes": 65705
+    },
+    {
+      "path": "library/DockIcon-白底/cs2.png",
+      "original": "DockIcon-白底/cs2.png",
+      "sha256": "c37470520289716fe3a9c340f309546517dca69f82ce685033c28153972b7469",
+      "bytes": 26883
+    },
+    {
+      "path": "library/DockIcon-白底/cxstudy.png",
+      "original": "DockIcon-白底/cxstudy.png",
+      "sha256": "df6614b4ddf6b74c0086abdd09fba71f3038d06f90fced4d4932ef54b6cf8d1d",
+      "bytes": 50352
+    },
+    {
+      "path": "library/DockIcon-白底/delta_force_launcher.png",
+      "original": "DockIcon-白底/delta_force_launcher.png",
+      "sha256": "8dae294f2a38f56721d09a856d91600a37b36f7922e0cf3c1ec34908316750f6",
+      "bytes": 184851
+    },
+    {
+      "path": "library/DockIcon-白底/DingtalkLauncher.png",
+      "original": "DockIcon-白底/DingtalkLauncher.png",
+      "sha256": "8e1c237bed42dd552be68cfa0615b1b9af87e94c9a6c3e5d8221e644d5b4507c",
+      "bytes": 54028
+    },
+    {
+      "path": "library/DockIcon-白底/douyin.png",
+      "original": "DockIcon-白底/douyin.png",
+      "sha256": "a8011a70e7d296d1a4d6d05b7a53bde3a7b510a32ac64779299831670faad39a",
+      "bytes": 26082
+    },
+    {
+      "path": "library/DockIcon-白底/EpicGamesLauncher.png",
+      "original": "DockIcon-白底/EpicGamesLauncher.png",
+      "sha256": "41be6489bdc3cfd54d3997089284d73d57c186d74e0c6e5ed9e7d20756931569",
+      "bytes": 44275
+    },
+    {
+      "path": "library/DockIcon-白底/EVCapture.png",
+      "original": "DockIcon-白底/EVCapture.png",
+      "sha256": "fc77b97f2232cac457451ec6057d3fd2a79dc0a84ae8867e0a8b3ac069038d0f",
+      "bytes": 80989
+    },
+    {
+      "path": "library/DockIcon-白底/Everything.png",
+      "original": "DockIcon-白底/Everything.png",
+      "sha256": "4028b85454a9278454792dd8993563c9739e0fabd14f0eb98d99b9a5b2b7a06e",
+      "bytes": 44506
+    },
+    {
+      "path": "library/DockIcon-白底/EXCEL.png",
+      "original": "DockIcon-白底/EXCEL.png",
+      "sha256": "a5e09dce0fa992734daef4a379dd0d77745890c99655fb4ca95508c39f1f50f2",
+      "bytes": 72149
+    },
+    {
+      "path": "library/DockIcon-白底/fastpdf.png",
+      "original": "DockIcon-白底/fastpdf.png",
+      "sha256": "1b6af008bca2b1e7992269ce3ad43a608b914d0749bf1b37a3c9669b0c3a1aeb",
+      "bytes": 150202
+    },
+    {
+      "path": "library/DockIcon-白底/FFWallpaper.png",
+      "original": "DockIcon-白底/FFWallpaper.png",
+      "sha256": "4c6c2e8335568ebd4b41c3e31af45398fc4ebb3fe00d9d3b7ba04873d8cacfc6",
+      "bytes": 103983
+    },
+    {
+      "path": "library/DockIcon-白底/firefox.png",
+      "original": "DockIcon-白底/firefox.png",
+      "sha256": "4e9a6f9d42d7eeac5e6e8cce0cacc80d06503215ff46d4f37a60ffae8f772579",
+      "bytes": 109157
+    },
+    {
+      "path": "library/DockIcon-白底/FlashCenter.png",
+      "original": "DockIcon-白底/FlashCenter.png",
+      "sha256": "10adec7df64ea2e84b543e21dd2fdb53731b074e060ef383cf7e548b6aa1deec",
+      "bytes": 60467
+    },
+    {
+      "path": "library/DockIcon-白底/Foxmail.png",
+      "original": "DockIcon-白底/Foxmail.png",
+      "sha256": "c3485298a5ace796b80277e059d2420532421e7714d2e5987a358bfa61ec42bf",
+      "bytes": 107547
+    },
+    {
+      "path": "library/DockIcon-白底/hexinlauncher.png",
+      "original": "DockIcon-白底/hexinlauncher.png",
+      "sha256": "cf2b570b1a83db92b730079b92f7e965b30b13f81e7e7e4662ea884f01a18c0e",
+      "bytes": 208315
+    },
+    {
+      "path": "library/DockIcon-白底/Hihonornote.png",
+      "original": "DockIcon-白底/Hihonornote.png",
+      "sha256": "68fa7f28c4f95faa318263262ccbe87bd3c2045affbedefbef08054218e60024",
+      "bytes": 104277
+    },
+    {
+      "path": "library/DockIcon-白底/HipsMain.png",
+      "original": "DockIcon-白底/HipsMain.png",
+      "sha256": "6cfedfb5dc706f01d56141c1ac4217df258152558cad68c29406699f90ca5e6c",
+      "bytes": 53258
+    },
+    {
+      "path": "library/DockIcon-白底/HnAppStore.png",
+      "original": "DockIcon-白底/HnAppStore.png",
+      "sha256": "536396c39c6556d1247eca04b9f68f841b13f5ee293a4a6d23c1c06fac88c51a",
+      "bytes": 126914
+    },
+    {
+      "path": "library/DockIcon-白底/imeconfig-2.png",
+      "original": "DockIcon-白底/imeconfig-2.png",
+      "sha256": "641f01d1e4254693508a2e8cb30cf478b0991de3fd2affb3179d438bf628ff31",
+      "bytes": 74299
+    },
+    {
+      "path": "library/DockIcon-白底/imeconfig.png",
+      "original": "DockIcon-白底/imeconfig.png",
+      "sha256": "d951745c77ffc2d7dbc8718a01a906094c9ae0a9de59c6d3ad8d13247b263371",
+      "bytes": 41211
+    },
+    {
+      "path": "library/DockIcon-白底/JianyingPro.png",
+      "original": "DockIcon-白底/JianyingPro.png",
+      "sha256": "c04a8ad2f29502311b23fe8b910d00077f9fba96f36d7895a2c301fde72214f9",
+      "bytes": 22020
+    },
+    {
+      "path": "library/DockIcon-白底/Kimi.png",
+      "original": "DockIcon-白底/Kimi.png",
+      "sha256": "0b91076f731a2bb95fbcc70e17a9d50704c75d42ec2f8e6c000e96a643ac4e8d",
+      "bytes": 386300
+    },
+    {
+      "path": "library/DockIcon-白底/kismain.png",
+      "original": "DockIcon-白底/kismain.png",
+      "sha256": "3de961685f25f3306db36b7452269e5c3772c580a80ae0501cee58f71dad303d",
+      "bytes": 126959
+    },
+    {
+      "path": "library/DockIcon-白底/ksolaunch.png",
+      "original": "DockIcon-白底/ksolaunch.png",
+      "sha256": "1506becf5c9d497b6087644baa5736052d1263aac62df46dc9807652bad66dd5",
+      "bytes": 55488
+    },
+    {
+      "path": "library/DockIcon-白底/KuGou.png",
+      "original": "DockIcon-白底/KuGou.png",
+      "sha256": "42da8d7ceb4c6d516d56ba806a3f1fa07a11dae0421e6a74c2509441f77734aa",
+      "bytes": 29425
+    },
+    {
+      "path": "library/DockIcon-白底/kwallpaper.png",
+      "original": "DockIcon-白底/kwallpaper.png",
+      "sha256": "fb0079c18ccb8615169947beb98bd8f5003742bbc5a87f61d881adde856a275c",
+      "bytes": 82863
+    },
+    {
+      "path": "library/DockIcon-白底/LeagueClientUxRender.png",
+      "original": "DockIcon-白底/LeagueClientUxRender.png",
+      "sha256": "7116d53deb978d21e708ffe83b848b4a325a1b9424872dcf411f755a0b444579",
+      "bytes": 190371
+    },
+    {
+      "path": "library/DockIcon-白底/leigod_launcher.png",
+      "original": "DockIcon-白底/leigod_launcher.png",
+      "sha256": "0407dacf5c801972e1f7bc6f1c46af0fa5482ac1257fe2d50ce0954b86fc55a8",
+      "bytes": 54985
+    },
+    {
+      "path": "library/DockIcon-白底/mailmaster.png",
+      "original": "DockIcon-白底/mailmaster.png",
+      "sha256": "668955cc3793cd55507f919b0c9d9388da4912fa307cce77729acfb2f50d19d8",
+      "bytes": 39972
+    },
+    {
+      "path": "library/DockIcon-白底/msedge.png",
+      "original": "DockIcon-白底/msedge.png",
+      "sha256": "974988ed622fefa91f68b443918fa870a5cd5b1a764062806eb1c6bd57994447",
+      "bytes": 189153
+    },
+    {
+      "path": "library/DockIcon-白底/MSPCManager.png",
+      "original": "DockIcon-白底/MSPCManager.png",
+      "sha256": "f5f18289e971f25143af4ae8a56f4f92e8adfa9eff7e65d1e3404374b39eb333",
+      "bytes": 82028
+    },
+    {
+      "path": "library/DockIcon-白底/MuMuNxMain.png",
+      "original": "DockIcon-白底/MuMuNxMain.png",
+      "sha256": "b967561294f4115467088aa77a8d95361bd28b6c57eb60228043996a0e7eb6b0",
+      "bytes": 147224
+    },
+    {
+      "path": "library/DockIcon-白底/olk.png",
+      "original": "DockIcon-白底/olk.png",
+      "sha256": "9b54b587a270cd5c22f7cac1cda17e21f3970b1012d6f71d1f9c354664d2ae13",
+      "bytes": 197449
+    },
+    {
+      "path": "library/DockIcon-白底/ONENOTE.png",
+      "original": "DockIcon-白底/ONENOTE.png",
+      "sha256": "6d3b6d7cd7737e3dbda0964cd95d2561c028344f9d607d08c0fe88b910b922b9",
+      "bytes": 167258
+    },
+    {
+      "path": "library/DockIcon-白底/PCManager.png",
+      "original": "DockIcon-白底/PCManager.png",
+      "sha256": "bdf6d2d7e46eeac822f6d3ee424dc349d8b0ac97a96b21219fc30bcf81eaa071",
+      "bytes": 97031
+    },
+    {
+      "path": "library/DockIcon-白底/PotPlayerMini64-2.png",
+      "original": "DockIcon-白底/PotPlayerMini64-2.png",
+      "sha256": "88f840a387e01931d5197fa2a3386a80a72d10123219a9e4500dfd94795ce381",
+      "bytes": 25514
+    },
+    {
+      "path": "library/DockIcon-白底/PotPlayerMini64.png",
+      "original": "DockIcon-白底/PotPlayerMini64.png",
+      "sha256": "95145ed99db1e6bacc91101ea02217bd21c969f640395b4171aed90a58cbc280",
+      "bytes": 26091
+    },
+    {
+      "path": "library/DockIcon-白底/POWERPNT.png",
+      "original": "DockIcon-白底/POWERPNT.png",
+      "sha256": "adb492b3800252827013bd3d4895d2e16d2185f69bd8129cc5578a35e6f57b56",
+      "bytes": 199322
+    },
+    {
+      "path": "library/DockIcon-白底/ps.png",
+      "original": "DockIcon-白底/ps.png",
+      "sha256": "9fc441d17c2d097578d8a5faecaacca4883ae2c9675fd7d5d39f041453170222",
+      "bytes": 21398
+    },
+    {
+      "path": "library/DockIcon-白底/pycharm64.png",
+      "original": "DockIcon-白底/pycharm64.png",
+      "sha256": "bbbe344e9b56b49757d92a760870adbad541555d737b4e65a8b81984093e9c20",
+      "bytes": 40446
+    },
+    {
+      "path": "library/DockIcon-白底/QQ.png",
+      "original": "DockIcon-白底/QQ.png",
+      "sha256": "6f2ee0dedf9ef5e0b8aea0e65c816d6173ee647cb6a221e4111905b9a46171ce",
+      "bytes": 43428
+    },
+    {
+      "path": "library/DockIcon-白底/QQBrowser.png",
+      "original": "DockIcon-白底/QQBrowser.png",
+      "sha256": "56cfd53785630c724f44f8e4bdb1f292466283bd0a16449947548f27c5dfc314",
+      "bytes": 116560
+    },
+    {
+      "path": "library/DockIcon-白底/QQGame.png",
+      "original": "DockIcon-白底/QQGame.png",
+      "sha256": "b8347ecec0569c08ea5caba31625a345474b714a93482ed29740dfebaae4a7ef",
+      "bytes": 220614
+    },
+    {
+      "path": "library/DockIcon-白底/QQLive.png",
+      "original": "DockIcon-白底/QQLive.png",
+      "sha256": "65234c07c936825d0b940f59a8a543b7025dfe30f72262b2028ce3612c6cf958",
+      "bytes": 102450
+    },
+    {
+      "path": "library/DockIcon-白底/QQMusic.png",
+      "original": "DockIcon-白底/QQMusic.png",
+      "sha256": "5ead9361a03f64e90f56243f2ba8cb614ab974b39573d80837830f05c09e0289",
+      "bytes": 47210
+    },
+    {
+      "path": "library/DockIcon-白底/QQPCTray.png",
+      "original": "DockIcon-白底/QQPCTray.png",
+      "sha256": "83b38e0451c477f65cc26178592861952911ccd42ea23868e04d93d3be11e809",
+      "bytes": 204348
+    },
+    {
+      "path": "library/DockIcon-白底/QQScLauncher.png",
+      "original": "DockIcon-白底/QQScLauncher.png",
+      "sha256": "e51a26a254529cdf514c88232c0c29d892efe12cac3bca0cfcd9aaea2a24b764",
+      "bytes": 41401
+    },
+    {
+      "path": "library/DockIcon-白底/quark.png",
+      "original": "DockIcon-白底/quark.png",
+      "sha256": "132c2187a1c4e89025181cff95807d44b81feffe5ad7f8d8f0cd3f9ecce855e0",
+      "bytes": 39895
+    },
+    {
+      "path": "library/DockIcon-白底/QyClient.png",
+      "original": "DockIcon-白底/QyClient.png",
+      "sha256": "4f7a38cdbaabb97f0de45d599c40f2646a3f9751c48f3e4c3925182e568e0371",
+      "bytes": 339650
+    },
+    {
+      "path": "library/DockIcon-白底/RecycleBin_ Empty.png",
+      "original": "DockIcon-白底/RecycleBin_ Empty.png",
+      "sha256": "571932d6b89e9a402dbb2939ff49af38b0e1fe4d4d5466aacdff5c88ba2f96c8",
+      "bytes": 302317
+    },
+    {
+      "path": "library/DockIcon-白底/s7z.png",
+      "original": "DockIcon-白底/s7z.png",
+      "sha256": "2fc9324f06bb9d9598f7c768629b25d16d88573de4c4287c86c4b331334e48f5",
+      "bytes": 45263
+    },
+    {
+      "path": "library/DockIcon-白底/Snipaste.png",
+      "original": "DockIcon-白底/Snipaste.png",
+      "sha256": "77679c12fe6c61ac9be8f8a6b8cb183f8ba41bfaa2d5319eac210bd04d451e63",
+      "bytes": 35198
+    },
+    {
+      "path": "library/DockIcon-白底/SodaMusic.png",
+      "original": "DockIcon-白底/SodaMusic.png",
+      "sha256": "240f160b8cfe3fe9bf3c5b1da7567afc348ff30739057c21d4dd4fb37fe2c448",
+      "bytes": 89178
+    },
+    {
+      "path": "library/DockIcon-白底/SogouExplorer.png",
+      "original": "DockIcon-白底/SogouExplorer.png",
+      "sha256": "147018c1fe361658266e267e7a47e8a8bd76df3d77f8f2753331e71502808330",
+      "bytes": 44542
+    },
+    {
+      "path": "library/DockIcon-白底/Steam.png",
+      "original": "DockIcon-白底/Steam.png",
+      "sha256": "b5cd5e6980a5df7dc13fe54031791cfe1dd5f18d2b391357d33e1abef9d78889",
+      "bytes": 68274
+    },
+    {
+      "path": "library/DockIcon-白底/swenlauncher.png",
+      "original": "DockIcon-白底/swenlauncher.png",
+      "sha256": "6d0de79097dfc8a109a0a2c5b8a5d763ae35f7d008a6bc136fd043eebd7c5e43",
+      "bytes": 36264
+    },
+    {
+      "path": "library/DockIcon-白底/TencentDocs.png",
+      "original": "DockIcon-白底/TencentDocs.png",
+      "sha256": "7998a60e03e5eb3e2dda09b97830cb0f89e613a69e743d18812b8e372920d527",
+      "bytes": 100513
+    },
+    {
+      "path": "library/DockIcon-白底/ThunderStart.png",
+      "original": "DockIcon-白底/ThunderStart.png",
+      "sha256": "efd1ca6908d1c938958b64b6d579019edb1a3edb31043a73a01745cc3414cb2f",
+      "bytes": 64421
+    },
+    {
+      "path": "library/DockIcon-白底/ToDesk.png",
+      "original": "DockIcon-白底/ToDesk.png",
+      "sha256": "29f63d7c6c786af06fa4b65924ff4054225859879cc041e2f0567d4f77dd7da5",
+      "bytes": 32147
+    },
+    {
+      "path": "library/DockIcon-白底/uu_launcher.png",
+      "original": "DockIcon-白底/uu_launcher.png",
+      "sha256": "55e7a26c8c31b762253e82e25c35f5e9aa93f47b6c1f2a72c0430c834ce17bc6",
+      "bytes": 39675
+    },
+    {
+      "path": "library/DockIcon-白底/visual-studio.png",
+      "original": "DockIcon-白底/visual-studio.png",
+      "sha256": "f5720f01cc03c51eb755d53f8949394dd9497d70f451cddce6469c5c93ed25c6",
+      "bytes": 44478
+    },
+    {
+      "path": "library/DockIcon-白底/vscode.png",
+      "original": "DockIcon-白底/vscode.png",
+      "sha256": "b2a92a6ae376e581d19de9bbdc54ded41b2c18742c9ffa3f3e2b5729bb4d50de",
+      "bytes": 78420
+    },
+    {
+      "path": "library/DockIcon-白底/wegame.png",
+      "original": "DockIcon-白底/wegame.png",
+      "sha256": "4b0e4d48e5d22e7b0704d3ba5f2981c9e553b5d74b702ec45cfbfe9bddcaaf28",
+      "bytes": 81997
+    },
+    {
+      "path": "library/DockIcon-白底/Weixin.png",
+      "original": "DockIcon-白底/Weixin.png",
+      "sha256": "5a71ae96a90176e010d7689d1f63577032728770056798708b801e992c70e058",
+      "bytes": 44202
+    },
+    {
+      "path": "library/DockIcon-白底/WeMeetApp.png",
+      "original": "DockIcon-白底/WeMeetApp.png",
+      "sha256": "9690f7fd992df96809e078c5f6439086af210088765e78e17407da4c1d16f783",
+      "bytes": 63418
+    },
+    {
+      "path": "library/DockIcon-白底/wetype_update.png",
+      "original": "DockIcon-白底/wetype_update.png",
+      "sha256": "2a8d409f24e8dfbbb311b09a5dda99fad3fc22015cd68eadf53e5a25e5eaf1bf",
+      "bytes": 47116
+    },
+    {
+      "path": "library/DockIcon-白底/WinRAR.png",
+      "original": "DockIcon-白底/WinRAR.png",
+      "sha256": "f58d73ebfaf2d17d0a225a489c773b3aad3a6c526a6dcbbd69dbd80d571b69df",
+      "bytes": 297152
+    },
+    {
+      "path": "library/DockIcon-白底/WINWORD.png",
+      "original": "DockIcon-白底/WINWORD.png",
+      "sha256": "288b93bef4236f10970e463742bb46db9b3309834e2961f04846a21c7fe4144a",
+      "bytes": 149117
+    },
+    {
+      "path": "library/DockIcon-白底/wpspdf.png",
+      "original": "DockIcon-白底/wpspdf.png",
+      "sha256": "935227fa3fd84e05603ca04621f9bab57cbfb8fa83d873548d7c7405347378bc",
+      "bytes": 218739
+    },
+    {
+      "path": "library/DockIcon-白底/WXWork.png",
+      "original": "DockIcon-白底/WXWork.png",
+      "sha256": "662cd8b16542eed2007a79e72771a78c5d0deb17915b73dcd401975047a01b2e",
+      "bytes": 29031
+    },
+    {
+      "path": "library/DockIcon-白底/XiuXiu.png",
+      "original": "DockIcon-白底/XiuXiu.png",
+      "sha256": "90ac96c5be8f17974b540a241c6f9491bf88769255265a18f5d61c4e2fb0ec0c",
+      "bytes": 28759
+    },
+    {
+      "path": "library/DockIcon-白底/Xmind.png",
+      "original": "DockIcon-白底/Xmind.png",
+      "sha256": "c893caa286af3b83e05743f964196d43b4ffa44830ae3c5f7f30ed4428253663",
+      "bytes": 259273
+    },
+    {
+      "path": "library/DockIcon-白底/xmp.png",
+      "original": "DockIcon-白底/xmp.png",
+      "sha256": "a968f9049fbcda96fb5998d8c5d70081098fbb299e857dd38129a4bb8e7da91d",
+      "bytes": 94841
+    },
+    {
+      "path": "library/DockIcon-白底/XZDesktop.png",
+      "original": "DockIcon-白底/XZDesktop.png",
+      "sha256": "8d3dbc3a9d8623bac1985dc16629f173d3eaa906c9e970286a49192222575984",
+      "bytes": 33607
+    },
+    {
+      "path": "library/DockIcon-白底/YOUKU.png",
+      "original": "DockIcon-白底/YOUKU.png",
+      "sha256": "f11769f8e65365da068af9847adf07e07775281d40b2c375540818ce27b8aca1",
+      "bytes": 40019
+    },
+    {
+      "path": "library/DockIcon-白底/yuanbao.png",
+      "original": "DockIcon-白底/yuanbao.png",
+      "sha256": "8c97c8a34a7fe547ef642b234d9b5b7b66ab22c3914d3c0ecd295c92f4bf0c92",
+      "bytes": 42886
+    },
+    {
+      "path": "library/DockIcon-白底/zotero.png",
+      "original": "DockIcon-白底/zotero.png",
+      "sha256": "14eef5878b272f9bc11a3a34dd255ace11da936fd269353cf65ffb1da0c35be6",
+      "bytes": 84084
+    },
+    {
+      "path": "library/DockIcon-白底/哔哩哔哩.png",
+      "original": "DockIcon-白底/哔哩哔哩.png",
+      "sha256": "9ab5eb61650fdd4eab914b8dbbeb783cbfbb15c50bf4e3a5a38d2673dd79bf5d",
+      "bytes": 34953
+    },
+    {
+      "path": "library/DockIcon-白底/小绿鲸英文文献阅读器.png",
+      "original": "DockIcon-白底/小绿鲸英文文献阅读器.png",
+      "sha256": "c4239fd70c74da46a4583c7f1c6cf7fb0e01ce64ab52d2859a0ad8c051fbff91",
+      "bytes": 93819
+    },
+    {
+      "path": "library/DockIcon-白底/微软设置.png",
+      "original": "DockIcon-白底/微软设置.png",
+      "sha256": "51fbda6f668dd98f3912e295e2a7f3d8c1480daacdf962fba5add48d601aa153",
+      "bytes": 59361
+    },
+    {
+      "path": "library/DockIcon-白底/搜狗输入法.png",
+      "original": "DockIcon-白底/搜狗输入法.png",
+      "sha256": "2daf0d087bc6bb5195f4c1d0e28a2c07e7d1ba31647266aba75db2747258c298",
+      "bytes": 107362
+    },
+    {
+      "path": "library/DockIcon-白底/有道翻译官.png",
+      "original": "DockIcon-白底/有道翻译官.png",
+      "sha256": "7a80fb78eb22440c5ad179d7e14d5518480358299b8449e4e33495a3e82c37b8",
+      "bytes": 154712
+    },
+    {
+      "path": "library/DockIcon-白底/深信服.png",
+      "original": "DockIcon-白底/深信服.png",
+      "sha256": "7c6a5fa8603aaef03eca0e6d15e50b73cd307824fcad9d162f22a2d2d381bb34",
+      "bytes": 81996
+    },
+    {
+      "path": "library/DockIcon-白底/腾讯应用宝.png",
+      "original": "DockIcon-白底/腾讯应用宝.png",
+      "sha256": "b73804162fd0ca257b6aac88b1e388424f796ff6c8ef1fb517b43363a2ce6b3a",
+      "bytes": 42554
+    },
+    {
+      "path": "library/DockIcon-白底/芒果TV.png",
+      "original": "DockIcon-白底/芒果TV.png",
+      "sha256": "8b16507e2c38a77beea9bad20442683cb16d5cfc3b7228aea7d0645b3a19106a",
+      "bytes": 45201
+    },
+    {
+      "path": "library/DockIcon-白底/荣耀笔记.png",
+      "original": "DockIcon-白底/荣耀笔记.png",
+      "sha256": "f592747edbf30deacd84850ce9621a4a1f1246377458288e8b79c254415cc616",
+      "bytes": 246037
+    },
+    {
+      "path": "library/DockIcon-白底/资源管理器.png",
+      "original": "DockIcon-白底/资源管理器.png",
+      "sha256": "0d7f19c44b63d2576fa4f400ac091bd6e43441c67b87abab2edd965cd9fd3746",
+      "bytes": 41540
+    },
+    {
+      "path": "library/DockIcon-白底/飞书.png",
+      "original": "DockIcon-白底/飞书.png",
+      "sha256": "8bb9275c33bd067d1d0733a4b356105b9749319aaf75d34ecc41dae265a9fb28",
+      "bytes": 53853
+    },
+    {
+      "path": "library/DockIcon-通透/360chrome.png",
+      "original": "DockIcon-通透/360chrome.png",
+      "sha256": "ca8e1d15ac78a7db1ee165368d7f164e38f02d8fe66ffe6364d60addcc1ca2d5",
+      "bytes": 74432
+    },
+    {
+      "path": "library/DockIcon-通透/360huabao.png",
+      "original": "DockIcon-通透/360huabao.png",
+      "sha256": "d89ca25e1854cd5307d4a5a3c69072b9c172cebc0288b5550c041f4d24fa23fd",
+      "bytes": 35818
+    },
+    {
+      "path": "library/DockIcon-通透/360Safe.png",
+      "original": "DockIcon-通透/360Safe.png",
+      "sha256": "51b604e591c2da8f34b2e8fc71dfff998df0778697d68a9d0e93eca51b953791",
+      "bytes": 153377
+    },
+    {
+      "path": "library/DockIcon-通透/360zip.png",
+      "original": "DockIcon-通透/360zip.png",
+      "sha256": "abc41f278e21ce890048a194e344abae1d736374ad60e5e36a11483751bfb1a8",
+      "bytes": 61160
+    },
+    {
+      "path": "library/DockIcon-通透/aclos-launcher.png",
+      "original": "DockIcon-通透/aclos-launcher.png",
+      "sha256": "103745999cc7d19c1cf594f34303bc7baaad5866c387e24e4920b6def410d477",
+      "bytes": 24635
+    },
+    {
+      "path": "library/DockIcon-通透/adobe.acrobatreader.png",
+      "original": "DockIcon-通透/adobe.acrobatreader.png",
+      "sha256": "478cba2d202fe51776db511d41ba958cd1a9ddda3ff6de10547498453a500bd4",
+      "bytes": 29516
+    },
+    {
+      "path": "library/DockIcon-通透/AIAssistantMain.png",
+      "original": "DockIcon-通透/AIAssistantMain.png",
+      "sha256": "372e4488c0990e691e9f42514f6c14ff1d46abdd5804aa960233c01ce51cf580",
+      "bytes": 89369
+    },
+    {
+      "path": "library/DockIcon-通透/AISearchUI.png",
+      "original": "DockIcon-通透/AISearchUI.png",
+      "sha256": "59d242b066c48246210396df203287cb807466a5078f2e5b050ef0580443779d",
+      "bytes": 55333
+    },
+    {
+      "path": "library/DockIcon-通透/APP.svg",
+      "original": "DockIcon-通透/APP.svg",
+      "sha256": "57ceb44b3f9fa26285c53564d49e5e60aa82b5dd3dd7a036497ef6707a63c3e5",
+      "bytes": 1261
+    },
+    {
+      "path": "library/DockIcon-通透/autocad-sh-min.png",
+      "original": "DockIcon-通透/autocad-sh-min.png",
+      "sha256": "b0f1e5613219fcc7428ba37cb6d25c318064546668cc6864bfbea2c85788fbb7",
+      "bytes": 56371
+    },
+    {
+      "path": "library/DockIcon-通透/AUTOCADM.png",
+      "original": "DockIcon-通透/AUTOCADM.png",
+      "sha256": "e214efe1da7231b7bd5963cb5395f1af3c81415771355576967cb19d9a85f602",
+      "bytes": 73225
+    },
+    {
+      "path": "library/DockIcon-通透/AweSun.png",
+      "original": "DockIcon-通透/AweSun.png",
+      "sha256": "d1fbdee7b0395270f72d29c8544f64413bfa96057e4112064c83355d5384229f",
+      "bytes": 30341
+    },
+    {
+      "path": "library/DockIcon-通透/BaiduNetdisk.png",
+      "original": "DockIcon-通透/BaiduNetdisk.png",
+      "sha256": "08df6b67a874a15df4811c54e120be2227d884a805cdda3fae5a210ef4408851",
+      "bytes": 41013
+    },
+    {
+      "path": "library/DockIcon-通透/Battle.net Launcher.png",
+      "original": "DockIcon-通透/Battle.net Launcher.png",
+      "sha256": "722327cd2fa13381f704fe1eec52413e5de8ffb43f6a4febee584becfff5541a",
+      "bytes": 34142
+    },
+    {
+      "path": "library/DockIcon-通透/Canva.png",
+      "original": "DockIcon-通透/Canva.png",
+      "sha256": "307cf74bd78edf16417431cfa330ea495e203acc75c717178e9517e1bd15649e",
+      "bytes": 30995
+    },
+    {
+      "path": "library/DockIcon-通透/chrome.png",
+      "original": "DockIcon-通透/chrome.png",
+      "sha256": "b8bfc102a9486fcb7e8d25852dfe1025b2cf537d6d57efe58f28db2795bc1080",
+      "bytes": 65491
+    },
+    {
+      "path": "library/DockIcon-通透/closetray.png",
+      "original": "DockIcon-通透/closetray.png",
+      "sha256": "ec848499bf742c7119288af539ad42900569e5467f48869980e1a5a883f2aeb9",
+      "bytes": 30686
+    },
+    {
+      "path": "library/DockIcon-通透/cloudmusic.png",
+      "original": "DockIcon-通透/cloudmusic.png",
+      "sha256": "9c4af7258fa32e2145ae0f5803c02c8f9df35e4ed686d8d1c4570b37314fa321",
+      "bytes": 62496
+    },
+    {
+      "path": "library/DockIcon-通透/Code.png",
+      "original": "DockIcon-通透/Code.png",
+      "sha256": "651655c336c7db096865951d15a69228b7ce24cd8800fced3ad0af3e078f3202",
+      "bytes": 39737
+    },
+    {
+      "path": "library/DockIcon-通透/com.glodon.drawingexplorer.png",
+      "original": "DockIcon-通透/com.glodon.drawingexplorer.png",
+      "sha256": "11d44f672a736f613a631b6f6b18cb9655ba8cd8655ca7a3c654406e7f56b62a",
+      "bytes": 129764
+    },
+    {
+      "path": "library/DockIcon-通透/com.iflytek.inputmethod.png",
+      "original": "DockIcon-通透/com.iflytek.inputmethod.png",
+      "sha256": "11c99f746162f5bd8c91200b5c535441ef5e417bdd7560abe7891e0682539762",
+      "bytes": 37987
+    },
+    {
+      "path": "library/DockIcon-通透/ComputerZTray.png",
+      "original": "DockIcon-通透/ComputerZTray.png",
+      "sha256": "45a144695fb506cd5c4a10e26086dfd51abec3eada83733fe7a3de427d5fe8be",
+      "bytes": 51341
+    },
+    {
+      "path": "library/DockIcon-通透/cs2.png",
+      "original": "DockIcon-通透/cs2.png",
+      "sha256": "13290251225fc029ef4fc793dd626ea2d9acaac0d417cad4f191d84cfa8f09f5",
+      "bytes": 31803
+    },
+    {
+      "path": "library/DockIcon-通透/cxstudy.png",
+      "original": "DockIcon-通透/cxstudy.png",
+      "sha256": "f9ff915b163c99fbf4c74a42b53147077dbd4cb5f24778d3ccb8218c68c2fc4a",
+      "bytes": 72644
+    },
+    {
+      "path": "library/DockIcon-通透/delta_force_launcher.png",
+      "original": "DockIcon-通透/delta_force_launcher.png",
+      "sha256": "5e6c58c6cd34655c3a32d04a95bb98e8e79c0244adfe8279955eee8fc72d9ee1",
+      "bytes": 25833
+    },
+    {
+      "path": "library/DockIcon-通透/DingtalkLauncher.png",
+      "original": "DockIcon-通透/DingtalkLauncher.png",
+      "sha256": "8f51e04224f00f2df81be47e82ab86435473f8fe5432be300999ac3ccd259c44",
+      "bytes": 56330
+    },
+    {
+      "path": "library/DockIcon-通透/douyin.png",
+      "original": "DockIcon-通透/douyin.png",
+      "sha256": "e8f8a6c57f4014e117c590e40a5536f9498fa197b6f17b32a21c6a1bee646727",
+      "bytes": 59559
+    },
+    {
+      "path": "library/DockIcon-通透/EpicGamesLauncher.png",
+      "original": "DockIcon-通透/EpicGamesLauncher.png",
+      "sha256": "b3cee26f98e9dea0c1dda5abf58934de180b6d21a8d2cff7db6a2ae9aa0cc698",
+      "bytes": 31170
+    },
+    {
+      "path": "library/DockIcon-通透/EVCapture.png",
+      "original": "DockIcon-通透/EVCapture.png",
+      "sha256": "62581b3b7120d396682e3def6eb89ad5315b762dddd9dcd5791a15e9c164e54b",
+      "bytes": 59834
+    },
+    {
+      "path": "library/DockIcon-通透/Everything.png",
+      "original": "DockIcon-通透/Everything.png",
+      "sha256": "7c02d99db8fba54f20fed023b665c036c8d8adeb588a5ede85045d58943b26a4",
+      "bytes": 31916
+    },
+    {
+      "path": "library/DockIcon-通透/EXCEL.png",
+      "original": "DockIcon-通透/EXCEL.png",
+      "sha256": "2a26ea7acca1c19796828edd4d0bbcfea9ccb9c6a799519c5de0752c8610c70c",
+      "bytes": 58815
+    },
+    {
+      "path": "library/DockIcon-通透/fastpdf.png",
+      "original": "DockIcon-通透/fastpdf.png",
+      "sha256": "2a5f105bfef2bf182c028534530fb5d8d1e6cb414d97b2425e351fcadb296286",
+      "bytes": 31173
+    },
+    {
+      "path": "library/DockIcon-通透/FFWallpaper.png",
+      "original": "DockIcon-通透/FFWallpaper.png",
+      "sha256": "80ac125589b151d74d8a6c7b197853195ce0f84986b88e210cc573dbdbe46b4d",
+      "bytes": 45378
+    },
+    {
+      "path": "library/DockIcon-通透/firefox.png",
+      "original": "DockIcon-通透/firefox.png",
+      "sha256": "7ba3cc1fd8eef7f587d3b628a25c82d1ab91724aff8c1b19fa37b9a5c723152e",
+      "bytes": 78793
+    },
+    {
+      "path": "library/DockIcon-通透/FlashCenter.png",
+      "original": "DockIcon-通透/FlashCenter.png",
+      "sha256": "eef93b1f7b25f863e2b83772e7e8032a91115065221207976b19b6b044c19de9",
+      "bytes": 32556
+    },
+    {
+      "path": "library/DockIcon-通透/Foxmail.png",
+      "original": "DockIcon-通透/Foxmail.png",
+      "sha256": "1483ab938c053288359820ff00773fd779f02690f37457493452cfab6cc33e2c",
+      "bytes": 37574
+    },
+    {
+      "path": "library/DockIcon-通透/hexinlauncher.png",
+      "original": "DockIcon-通透/hexinlauncher.png",
+      "sha256": "de6dba1e334b67d6b7a3aa8c556abefaa05e04a9b5314a2b4404366bd1a82f50",
+      "bytes": 32648
+    },
+    {
+      "path": "library/DockIcon-通透/Hihonornote.png",
+      "original": "DockIcon-通透/Hihonornote.png",
+      "sha256": "31c3c5c276a3bdc034621e9e926ea7aa0ceebce3558b6128fc7b2b6497785a00",
+      "bytes": 37086
+    },
+    {
+      "path": "library/DockIcon-通透/HipsMain.png",
+      "original": "DockIcon-通透/HipsMain.png",
+      "sha256": "76b0c0774a11db954576b70024b82361e2dd872e7fbb71d34f695c8a3d591bee",
+      "bytes": 40707
+    },
+    {
+      "path": "library/DockIcon-通透/HnAppStore.png",
+      "original": "DockIcon-通透/HnAppStore.png",
+      "sha256": "f10c8fcfb6e99ca2269f2b1b5156c75d0bc5eba3a988a86c4a8a0d935d71a1ab",
+      "bytes": 54052
+    },
+    {
+      "path": "library/DockIcon-通透/HONORDeviceClone.png",
+      "original": "DockIcon-通透/HONORDeviceClone.png",
+      "sha256": "5bbd8e13e1d0dca7ef1ec69b118a857d87f73a1fcdfd63ef9dafe7595cd16e80",
+      "bytes": 27392
+    },
+    {
+      "path": "library/DockIcon-通透/HUNTERCAMP.png",
+      "original": "DockIcon-通透/HUNTERCAMP.png",
+      "sha256": "03df35af15badc6c50be4f3c684f5ba9f8da7f087f56ae292f3b867094e4b49b",
+      "bytes": 47338
+    },
+    {
+      "path": "library/DockIcon-通透/imeconfig.png",
+      "original": "DockIcon-通透/imeconfig.png",
+      "sha256": "94b85495ec946f115578d9e78f197219e0482b5755af31c4d3da445b55f807a0",
+      "bytes": 31038
+    },
+    {
+      "path": "library/DockIcon-通透/JianyingPro.png",
+      "original": "DockIcon-通透/JianyingPro.png",
+      "sha256": "4792179e909765fd49fbe682b810b5fa1af9349d219d61f6dd4d1f4d0da774fb",
+      "bytes": 56067
+    },
+    {
+      "path": "library/DockIcon-通透/Kimi.png",
+      "original": "DockIcon-通透/Kimi.png",
+      "sha256": "9724e136f64f006d35adf6b79129bbeef25aaa683764d20c2e9968924ee49e97",
+      "bytes": 24416
+    },
+    {
+      "path": "library/DockIcon-通透/kismain.png",
+      "original": "DockIcon-通透/kismain.png",
+      "sha256": "2c09720f9ff04aed287576fc2d6905e00db303d82ef3a674a4de9fd2baf1b9a4",
+      "bytes": 30215
+    },
+    {
+      "path": "library/DockIcon-通透/ksolaunch.png",
+      "original": "DockIcon-通透/ksolaunch.png",
+      "sha256": "13c475740a943f342cb452ba192f9c77c42bfbc485c25248fd56842f3e507d11",
+      "bytes": 33156
+    },
+    {
+      "path": "library/DockIcon-通透/KuGou.png",
+      "original": "DockIcon-通透/KuGou.png",
+      "sha256": "a89a49c9a11835386e1e0d3708549fcf832c02a08d2e30c1c8d96dc8304cef76",
+      "bytes": 61767
+    },
+    {
+      "path": "library/DockIcon-通透/kwallpaper.png",
+      "original": "DockIcon-通透/kwallpaper.png",
+      "sha256": "4f57ef216dd7adf65b022a658d99f9960a6009cd03f20f433a9187ac96e5e808",
+      "bytes": 59060
+    },
+    {
+      "path": "library/DockIcon-通透/LeagueClientUxRender.png",
+      "original": "DockIcon-通透/LeagueClientUxRender.png",
+      "sha256": "bec3cf60c2f8d38725f7415d7270c9371cb9fd4f6e6833a34ab5d31a07c3fc69",
+      "bytes": 123839
+    },
+    {
+      "path": "library/DockIcon-通透/leigod_launcher.png",
+      "original": "DockIcon-通透/leigod_launcher.png",
+      "sha256": "fe508a88ee9edaa380f9012d7cdf07a507baad97a014da99f055682c4888a6c2",
+      "bytes": 53930
+    },
+    {
+      "path": "library/DockIcon-通透/mailmaster.png",
+      "original": "DockIcon-通透/mailmaster.png",
+      "sha256": "5ee7653ac5adeb7a3cdead1fd5621dd9b999e4cb19a523bad97bb03b4ffba80f",
+      "bytes": 26109
+    },
+    {
+      "path": "library/DockIcon-通透/msedge.png",
+      "original": "DockIcon-通透/msedge.png",
+      "sha256": "efef2b2472494a3eed7b9a9cb88cce5d832a453f2e6a8a58005f2451fb529555",
+      "bytes": 219230
+    },
+    {
+      "path": "library/DockIcon-通透/MSPCManager.png",
+      "original": "DockIcon-通透/MSPCManager.png",
+      "sha256": "d15ea7014eb8d757146a962d4eab5654da4e06f8a97d533d90f6fe2b2e2cb2f3",
+      "bytes": 62815
+    },
+    {
+      "path": "library/DockIcon-通透/MuMuNxMain.png",
+      "original": "DockIcon-通透/MuMuNxMain.png",
+      "sha256": "10f735268eab3d88e1b7edc28264b1e70e16e848dbb45a2fa2b23b0a220c71e2",
+      "bytes": 34841
+    },
+    {
+      "path": "library/DockIcon-通透/olk.png",
+      "original": "DockIcon-通透/olk.png",
+      "sha256": "5b95c1422d3f67ea21e0095f475034047217a510e625b6830fbc9363fa83b0e4",
+      "bytes": 74979
+    },
+    {
+      "path": "library/DockIcon-通透/ONENOTE.png",
+      "original": "DockIcon-通透/ONENOTE.png",
+      "sha256": "ca52969f6f9ce2a7c7f2136d975657d962fdc7c7aa94b2b0b3ef08844022304e",
+      "bytes": 53832
+    },
+    {
+      "path": "library/DockIcon-通透/opentray.png",
+      "original": "DockIcon-通透/opentray.png",
+      "sha256": "e1ec1432069b9922e20aae5aa46d4748b107553089ba5c9caceee4ac7dee2481",
+      "bytes": 30609
+    },
+    {
+      "path": "library/DockIcon-通透/PCManager.png",
+      "original": "DockIcon-通透/PCManager.png",
+      "sha256": "6d1533f76b1f4e93ab8adf55975c1c36a460398e4bc18c5367e23646e25e6ef9",
+      "bytes": 43452
+    },
+    {
+      "path": "library/DockIcon-通透/PotPlayerMini64.png",
+      "original": "DockIcon-通透/PotPlayerMini64.png",
+      "sha256": "a88ea5c50f8eecbf5bb35d2c38d284f449b2e7e97f872b7a4857c9d5a89456df",
+      "bytes": 31619
+    },
+    {
+      "path": "library/DockIcon-通透/POWERPNT.png",
+      "original": "DockIcon-通透/POWERPNT.png",
+      "sha256": "d3b7b47ee0589631b8cf628d2d2b9ed8529eea7a4ad88ac34b1e82ed28a4110c",
+      "bytes": 79276
+    },
+    {
+      "path": "library/DockIcon-通透/pycharm64.png",
+      "original": "DockIcon-通透/pycharm64.png",
+      "sha256": "ee75fea1f96b40fdca2c7fedb8f870845dd6217cdff69049a874cd75358b63e0",
+      "bytes": 29843
+    },
+    {
+      "path": "library/DockIcon-通透/QQ.png",
+      "original": "DockIcon-通透/QQ.png",
+      "sha256": "6f27421ce217c9f26a8e1aa23fb0601511562a2c5526000e0d872efa215244d2",
+      "bytes": 61661
+    },
+    {
+      "path": "library/DockIcon-通透/QQBrowser.png",
+      "original": "DockIcon-通透/QQBrowser.png",
+      "sha256": "0f991cde72d269e4fd9b7eb06174880a366449545430b623a0ea0ed8a16c4060",
+      "bytes": 44461
+    },
+    {
+      "path": "library/DockIcon-通透/QQGame.png",
+      "original": "DockIcon-通透/QQGame.png",
+      "sha256": "5ce3e786c16b469bd2b0e147347867acd9f04cabdde50f0e91b585e1f24c3b2a",
+      "bytes": 90184
+    },
+    {
+      "path": "library/DockIcon-通透/QQLive.png",
+      "original": "DockIcon-通透/QQLive.png",
+      "sha256": "743b6a41d301659a54bb3d613129a072d8b4fdd644f186af5a4ca9ec79bca0cb",
+      "bytes": 128197
+    },
+    {
+      "path": "library/DockIcon-通透/QQMusic.png",
+      "original": "DockIcon-通透/QQMusic.png",
+      "sha256": "9d560b054daf54899a4042500b7090f0fe543102c2778f3c793977b8c0de074d",
+      "bytes": 67282
+    },
+    {
+      "path": "library/DockIcon-通透/QQPCTray.png",
+      "original": "DockIcon-通透/QQPCTray.png",
+      "sha256": "8481379dc2f773076606038b17aa81a6c3bf9a35dd6f9ee0fd6138a8780068e4",
+      "bytes": 30496
+    },
+    {
+      "path": "library/DockIcon-通透/QQScLauncher.png",
+      "original": "DockIcon-通透/QQScLauncher.png",
+      "sha256": "11e4c5adda0386abbac7d33ced099dd7d369a4772b838961dd26043cd278f293",
+      "bytes": 31017
+    },
+    {
+      "path": "library/DockIcon-通透/quark.png",
+      "original": "DockIcon-通透/quark.png",
+      "sha256": "34c46b0277aa9b3eceae3330ecd5a65f67cde3112ef8e0c3dc27d31b632d4379",
+      "bytes": 57466
+    },
+    {
+      "path": "library/DockIcon-通透/QyClient.png",
+      "original": "DockIcon-通透/QyClient.png",
+      "sha256": "943595254fa6a28daf1b3cda1acb819bdc46e2815899e7892555eb99f6cf0654",
+      "bytes": 26607
+    },
+    {
+      "path": "library/DockIcon-通透/RecycleBin_ Empty.png",
+      "original": "DockIcon-通透/RecycleBin_ Empty.png",
+      "sha256": "aaa355cd405b430af5c86a31ff08b0ec49b2bd41b16bee806d1da78a14f4856b",
+      "bytes": 27434
+    },
+    {
+      "path": "library/DockIcon-通透/RecycleBin_NotEmpty.png",
+      "original": "DockIcon-通透/RecycleBin_NotEmpty.png",
+      "sha256": "18c24fe45ac60937a221bf29c70e74f5dd582d00445f1662e5c17bfcceb67e99",
+      "bytes": 37122
+    },
+    {
+      "path": "library/DockIcon-通透/s7z.png",
+      "original": "DockIcon-通透/s7z.png",
+      "sha256": "ca72dd82ecde186edd7993a62036c61dbdc381d61bf10b22288ac064a342f1df",
+      "bytes": 31061
+    },
+    {
+      "path": "library/DockIcon-通透/search.svg",
+      "original": "DockIcon-通透/search.svg",
+      "sha256": "77d24ea68550f5fc1496534bfe3bfef9d526c40cdc10580d8813300e4dc8790e",
+      "bytes": 769
+    },
+    {
+      "path": "library/DockIcon-通透/Snipaste.png",
+      "original": "DockIcon-通透/Snipaste.png",
+      "sha256": "4194de5edf83f2ac45826c8a8f52d162bd4b8508b4829a15aa0bcda9bc0da710",
+      "bytes": 21823
+    },
+    {
+      "path": "library/DockIcon-通透/SodaMusic.png",
+      "original": "DockIcon-通透/SodaMusic.png",
+      "sha256": "5b6524a1ac28e3ccae277a67f3b1cb10689d6ec026bb11507c244075932c6ff1",
+      "bytes": 124814
+    },
+    {
+      "path": "library/DockIcon-通透/SogouExplorer.png",
+      "original": "DockIcon-通透/SogouExplorer.png",
+      "sha256": "05809a0ad40300b16a7f005ef9d6a2a145c8c6749e490e65ca127dd754cddb5b",
+      "bytes": 32821
+    },
+    {
+      "path": "library/DockIcon-通透/Steam.png",
+      "original": "DockIcon-通透/Steam.png",
+      "sha256": "dd6ece19b507c53064123de660cb5c1e234f9cbcfd23612990e98416e4493806",
+      "bytes": 92440
+    },
+    {
+      "path": "library/DockIcon-通透/swenlauncher.png",
+      "original": "DockIcon-通透/swenlauncher.png",
+      "sha256": "ca0dc96c78b98421dc482b2a48aeee9e565d5b3451707e1ab50eafbd4f20fd16",
+      "bytes": 24414
+    },
+    {
+      "path": "library/DockIcon-通透/TencentDocs.png",
+      "original": "DockIcon-通透/TencentDocs.png",
+      "sha256": "09f059107763b94e75017aca0331088873dad9c15320185285b60971f4210c08",
+      "bytes": 26845
+    },
+    {
+      "path": "library/DockIcon-通透/ThunderStart.png",
+      "original": "DockIcon-通透/ThunderStart.png",
+      "sha256": "aabe78a65ec20974e86d2196406cbcdbc907d54640bc2d0fade984005eacf66f",
+      "bytes": 119957
+    },
+    {
+      "path": "library/DockIcon-通透/ToDesk.png",
+      "original": "DockIcon-通透/ToDesk.png",
+      "sha256": "42226170ca8718d7c51dcc7b564b533a04c2538957216caec3f0ea2e48058e63",
+      "bytes": 31333
+    },
+    {
+      "path": "library/DockIcon-通透/uu_launcher.png",
+      "original": "DockIcon-通透/uu_launcher.png",
+      "sha256": "176c9e4c1f322f1304551f4a06bcec168d8338fe994d43e39a92774d4a878ce9",
+      "bytes": 63562
+    },
+    {
+      "path": "library/DockIcon-通透/vscode.png",
+      "original": "DockIcon-通透/vscode.png",
+      "sha256": "fae23af8d213adff8edcd1362efdc63e3f2804da7e52d1d5b32ee4b0ef38e0e5",
+      "bytes": 28315
+    },
+    {
+      "path": "library/DockIcon-通透/wallpaper_engine.png",
+      "original": "DockIcon-通透/wallpaper_engine.png",
+      "sha256": "a108ab2923e2fc689db936dc31d70f0ca6eb03a82859bf3e8c800c478f2bdfb0",
+      "bytes": 31473
+    },
+    {
+      "path": "library/DockIcon-通透/wegame.png",
+      "original": "DockIcon-通透/wegame.png",
+      "sha256": "a8eaa63d2baa5fda540c931ba01c52b66ab934000f7f0392b17a3367ddb31db2",
+      "bytes": 36833
+    },
+    {
+      "path": "library/DockIcon-通透/Weixin.png",
+      "original": "DockIcon-通透/Weixin.png",
+      "sha256": "0474cc5737356e0d59be10940839ac79518ed1a8d798446d642dd2346c04e5d7",
+      "bytes": 69342
+    },
+    {
+      "path": "library/DockIcon-通透/WeMeetApp.png",
+      "original": "DockIcon-通透/WeMeetApp.png",
+      "sha256": "4f8f85d4995411dcdddb1fe7b0f01a13143e0fb5b0a68bdd28d5ba8e9708f04d",
+      "bytes": 76819
+    },
+    {
+      "path": "library/DockIcon-通透/wetype_update.png",
+      "original": "DockIcon-通透/wetype_update.png",
+      "sha256": "579a362d90ca7afebf7dfc2eb88bd71bd713272afbda5e0f28efcc2dcc0a639c",
+      "bytes": 31575
+    },
+    {
+      "path": "library/DockIcon-通透/WinRAR.png",
+      "original": "DockIcon-通透/WinRAR.png",
+      "sha256": "fd8f252eb908f5d80e1b608f1b6b5bc1ad7f2d00e93145a390c09e54652636c7",
+      "bytes": 149958
+    },
+    {
+      "path": "library/DockIcon-通透/WINWORD.png",
+      "original": "DockIcon-通透/WINWORD.png",
+      "sha256": "9df1cbcbca94ccca0fee30ddf6f6a275aaf8e530f54066c55d1765ab84126956",
+      "bytes": 60554
+    },
+    {
+      "path": "library/DockIcon-通透/wpspdf.png",
+      "original": "DockIcon-通透/wpspdf.png",
+      "sha256": "02ac928036649e2c0ca2b982f63889dd86f7cfc8edd8ce1f9d90733ad289fa33",
+      "bytes": 76234
+    },
+    {
+      "path": "library/DockIcon-通透/WXWork.png",
+      "original": "DockIcon-通透/WXWork.png",
+      "sha256": "6b6fc4c9e70bc2b376341374e602ce9be52e02bb28b8a428e48f7de923a1a341",
+      "bytes": 32334
+    },
+    {
+      "path": "library/DockIcon-通透/XiuXiu.png",
+      "original": "DockIcon-通透/XiuXiu.png",
+      "sha256": "dc0c3b33c0ea35c6d37f8772c90dcbf6ed4dbfdca1d75dd742a1f7f5a4a9197e",
+      "bytes": 41372
+    },
+    {
+      "path": "library/DockIcon-通透/Xmind.png",
+      "original": "DockIcon-通透/Xmind.png",
+      "sha256": "5fe6e91b33c48e04d4f073f6ef7ad3b78c0bbb55da9601637e5a9000d364f2e1",
+      "bytes": 31167
+    },
+    {
+      "path": "library/DockIcon-通透/xmp.png",
+      "original": "DockIcon-通透/xmp.png",
+      "sha256": "5d37fd4508c7c7629fd67067a04bc12b0ff6e8e6da60f871b897588f6f732711",
+      "bytes": 83000
+    },
+    {
+      "path": "library/DockIcon-通透/XZDesktop.png",
+      "original": "DockIcon-通透/XZDesktop.png",
+      "sha256": "5c603583280390e757825c8e1fe1defbdf69ec82f5f002bccd8c2290cc52f3cd",
+      "bytes": 22781
+    },
+    {
+      "path": "library/DockIcon-通透/YOUKU.png",
+      "original": "DockIcon-通透/YOUKU.png",
+      "sha256": "61442e5b23a2dff1fa9200bd3cc3ab00c6998ac7ac7fd47d4e914ef63a9a1f1e",
+      "bytes": 129262
+    },
+    {
+      "path": "library/DockIcon-通透/yuanbao.png",
+      "original": "DockIcon-通透/yuanbao.png",
+      "sha256": "06aa3dc1e738ce27d77b59df4297c2dd3038dd1e474dd906aba2416a46a1ced6",
+      "bytes": 71798
+    },
+    {
+      "path": "library/DockIcon-通透/zotero.png",
+      "original": "DockIcon-通透/zotero.png",
+      "sha256": "84a5d6703b19f066ac22c46993b3f2b9d4aecae128aa8943ddfadc6fcd4073d2",
+      "bytes": 43808
+    },
+    {
+      "path": "library/DockIcon-通透/哔哩哔哩.png",
+      "original": "DockIcon-通透/哔哩哔哩.png",
+      "sha256": "97bc6537301501bb9e7f3b80680c0678d26c45b401ab2cd2e26b0bdc92eee1c2",
+      "bytes": 31902
+    },
+    {
+      "path": "library/DockIcon-通透/小绿鲸英文文献阅读器.png",
+      "original": "DockIcon-通透/小绿鲸英文文献阅读器.png",
+      "sha256": "92234d823bd57ab229e3e56e9a8835103b5b4525719ca7ceb7ff7de52f199d0b",
+      "bytes": 38972
+    },
+    {
+      "path": "library/DockIcon-通透/有道翻译官.png",
+      "original": "DockIcon-通透/有道翻译官.png",
+      "sha256": "0238578ac8dfb8c930a179c6a0d79dc9746b260d09285a367ab8a01349cd474f",
+      "bytes": 43466
+    },
+    {
+      "path": "library/DockIcon-通透/深信服.png",
+      "original": "DockIcon-通透/深信服.png",
+      "sha256": "4bdd304f27e66847e20438a48f6b1c86b537dbf929d89338d43f6ef7175a9d81",
+      "bytes": 37946
+    },
+    {
+      "path": "library/DockIcon-通透/腾讯应用宝.png",
+      "original": "DockIcon-通透/腾讯应用宝.png",
+      "sha256": "75e0e9d30d3a8e213dd9d8570db008111cf3a305f4e03cd98551d3b56995a0f4",
+      "bytes": 29541
+    },
+    {
+      "path": "library/DockIcon-通透/芒果TV.png",
+      "original": "DockIcon-通透/芒果TV.png",
+      "sha256": "dacee37e59bded8c96fdb97da17bba9833c19c0c22e8b90b12388864ef093949",
+      "bytes": 59266
+    },
+    {
+      "path": "library/TopBar/About.svg",
+      "original": "TopBar/About.svg",
+      "sha256": "3c8491f834bcdfcbab0fb9f92935262277114ef6c298d182168f396830baa569",
+      "bytes": 19407
+    },
+    {
+      "path": "library/TopBar/Account.svg",
+      "original": "TopBar/Account.svg",
+      "sha256": "f166eb2a5a3714a2acf119b966bba6392e7801f2e0de1fd4a6aae4122d999f14",
+      "bytes": 2275
+    },
+    {
+      "path": "library/TopBar/Alert.svg",
+      "original": "TopBar/Alert.svg",
+      "sha256": "aa8f692bb9aeff2a8477bf4dafe5b12a8230fdf9ffe8a89b166aed6dd7028048",
+      "bytes": 1291
+    },
+    {
+      "path": "library/TopBar/back.svg",
+      "original": "TopBar/back.svg",
+      "sha256": "93b364acdadb08492e9f9f71f13bf4fb75cde027433ed116f3c40ca5a3e32ceb",
+      "bytes": 1382
+    },
+    {
+      "path": "library/TopBar/baidu.ico",
+      "original": "TopBar/baidu.ico",
+      "sha256": "65b2bc1cfb75e32a77c44bff21f99344107b3ab7a94338482d311aa58b887675",
+      "bytes": 22486
+    },
+    {
+      "path": "library/TopBar/baidu.svg",
+      "original": "TopBar/baidu.svg",
+      "sha256": "5d4756fa6bc9d875deb8cadceaf4e3178ea891a4ad88cf4554c7088cb665eb6d",
+      "bytes": 43075
+    },
+    {
+      "path": "library/TopBar/battery.svg",
+      "original": "TopBar/battery.svg",
+      "sha256": "70128f09ac2aca4416ed02ce41dbdf6fdce037af71e5351b8326d96a7c2404ce",
+      "bytes": 2321
+    },
+    {
+      "path": "library/TopBar/Battery1.svg",
+      "original": "TopBar/Battery1.svg",
+      "sha256": "3520eb0d4a7d3f95cf45e0704b881b2c94620e84d5a7d43e2f85571e87d06578",
+      "bytes": 2115
+    },
+    {
+      "path": "library/TopBar/Battery10.svg",
+      "original": "TopBar/Battery10.svg",
+      "sha256": "a511f5a78cf3166a623e6ef7cd41bd4c56c0e6f5e603bd50895fb1c30ead28e5",
+      "bytes": 2528
+    },
+    {
+      "path": "library/TopBar/Battery2.svg",
+      "original": "TopBar/Battery2.svg",
+      "sha256": "0b4ce46905156f50751d856aa0a599229b07561da04897483769307fba08cc69",
+      "bytes": 2624
+    },
+    {
+      "path": "library/TopBar/Battery3.svg",
+      "original": "TopBar/Battery3.svg",
+      "sha256": "8128e66a1e83f79eafe47c4621527e1120f674284819b7e1715754d8fc0985b2",
+      "bytes": 2523
+    },
+    {
+      "path": "library/TopBar/Battery4.svg",
+      "original": "TopBar/Battery4.svg",
+      "sha256": "9e7537008a032a1352c3b6a342cb367f9968fb6538a856e3c9d72417074f235c",
+      "bytes": 2523
+    },
+    {
+      "path": "library/TopBar/Battery5.svg",
+      "original": "TopBar/Battery5.svg",
+      "sha256": "f15cd7a41446e42f8739a4ebb2076620e72e8c16988af4f5ad8464c1988bc570",
+      "bytes": 2580
+    },
+    {
+      "path": "library/TopBar/Battery6.svg",
+      "original": "TopBar/Battery6.svg",
+      "sha256": "1ccc0f8375a84fdc4bd012f42b91e89849d6f1a003a392f9f8a89df04546e855",
+      "bytes": 2586
+    },
+    {
+      "path": "library/TopBar/Battery7.svg",
+      "original": "TopBar/Battery7.svg",
+      "sha256": "9152e056626e04c8f4315414dc7eb474f9c1ba840ae8d9c757a29cf2cde691cf",
+      "bytes": 2542
+    },
+    {
+      "path": "library/TopBar/Battery8.svg",
+      "original": "TopBar/Battery8.svg",
+      "sha256": "d505384779447a200cf33cc063d59919d56031cc92796fcea897feb0e3c40baf",
+      "bytes": 2542
+    },
+    {
+      "path": "library/TopBar/Battery9.svg",
+      "original": "TopBar/Battery9.svg",
+      "sha256": "926253a5a7cb1fad720ff27806526961188317bb2e6b03eb512732066ddd5c7c",
+      "bytes": 2528
+    },
+    {
+      "path": "library/TopBar/BatteryAC1.svg",
+      "original": "TopBar/BatteryAC1.svg",
+      "sha256": "ad2cc611a9adb92c396df7cdf0e09e83fb4b384185aa7976bf065f290a616354",
+      "bytes": 3482
+    },
+    {
+      "path": "library/TopBar/BatteryAC10.svg",
+      "original": "TopBar/BatteryAC10.svg",
+      "sha256": "309f845fddff7378ff7eac251a55e22d0a2fc1a38c0bb6c2f5408dbadbdbb524",
+      "bytes": 3887
+    },
+    {
+      "path": "library/TopBar/BatteryAC2.svg",
+      "original": "TopBar/BatteryAC2.svg",
+      "sha256": "35c917569ae5ba7dac19fba6cbb7cf28130b33dc88c9de5ffbd75c06fdd43815",
+      "bytes": 3881
+    },
+    {
+      "path": "library/TopBar/BatteryAC3.svg",
+      "original": "TopBar/BatteryAC3.svg",
+      "sha256": "87fe0339ae3deee71ab5be2c75a492c8095a8f972e8475dc9d5ef36791bf24f4",
+      "bytes": 3887
+    },
+    {
+      "path": "library/TopBar/BatteryAC4.svg",
+      "original": "TopBar/BatteryAC4.svg",
+      "sha256": "88df82751df39e132aa5e322331f02df426c3d762d7584a74dda8e0a1cbca976",
+      "bytes": 3884
+    },
+    {
+      "path": "library/TopBar/BatteryAC5.svg",
+      "original": "TopBar/BatteryAC5.svg",
+      "sha256": "748ff57bab19b9ad15fd54838306d896051e119ff278b7687df066bd6391b5c2",
+      "bytes": 3880
+    },
+    {
+      "path": "library/TopBar/BatteryAC6.svg",
+      "original": "TopBar/BatteryAC6.svg",
+      "sha256": "c137a33d2d08e8d012501b0f6da26dbe049d758f9b0de4d955894a8aefa09613",
+      "bytes": 3880
+    },
+    {
+      "path": "library/TopBar/BatteryAC7.svg",
+      "original": "TopBar/BatteryAC7.svg",
+      "sha256": "45afe0b56f58bcc1b34990e73c7ab26e47aa51797431c067d1fe4ef4c670024d",
+      "bytes": 3891
+    },
+    {
+      "path": "library/TopBar/BatteryAC8.svg",
+      "original": "TopBar/BatteryAC8.svg",
+      "sha256": "9fa730293da303e42ef1e10c01c3d7e870fed4fd66360162dfc0a1d0c57b7e23",
+      "bytes": 3891
+    },
+    {
+      "path": "library/TopBar/BatteryAC9.svg",
+      "original": "TopBar/BatteryAC9.svg",
+      "sha256": "6f45f256f13a879eca95bb3b5969b62095fea0741586d92eb42f8b9304d6fd06",
+      "bytes": 3888
+    },
+    {
+      "path": "library/TopBar/BatteryCharge.svg",
+      "original": "TopBar/BatteryCharge.svg",
+      "sha256": "194238a1268c46537cdd50c2b8967491aad17b2988207e0783517af2bddd8a1b",
+      "bytes": 4985
+    },
+    {
+      "path": "library/TopBar/Bluetooth.svg",
+      "original": "TopBar/Bluetooth.svg",
+      "sha256": "d9c3f0a74fdddd1c2b6c20950dc707538f12b2ba35f3e39f646fb692f818537f",
+      "bytes": 2768
+    },
+    {
+      "path": "library/TopBar/BluetoothOff.svg",
+      "original": "TopBar/BluetoothOff.svg",
+      "sha256": "2d7132a1c10c67569aeceb24599b4dcc671d06e79053410f237433fd0601d137",
+      "bytes": 2691
+    },
+    {
+      "path": "library/TopBar/ButtonCornerRadius.svg",
+      "original": "TopBar/ButtonCornerRadius.svg",
+      "sha256": "830d7b386c95e0f3724f27c9040ef68f4fd532a5741d80b70dda576a8672645e",
+      "bytes": 497
+    },
+    {
+      "path": "library/TopBar/calendar1.svg",
+      "original": "TopBar/calendar1.svg",
+      "sha256": "9692c3d29a3626e7ea6959d54bcaea4a88a709541e0757978d4cf83b14b45cf8",
+      "bytes": 11948
+    },
+    {
+      "path": "library/TopBar/calendar2.svg",
+      "original": "TopBar/calendar2.svg",
+      "sha256": "5e876b8be64b2defd1c62c39bf4764a086f220c9bb7d2f0dfe3dbd5da9cc0c39",
+      "bytes": 9871
+    },
+    {
+      "path": "library/TopBar/cancel.svg",
+      "original": "TopBar/cancel.svg",
+      "sha256": "da13a2cf36cd9960a5dfbade6706b6bc9a6258bff5ec8ef9ed6f2bf181287ff0",
+      "bytes": 1608
+    },
+    {
+      "path": "library/TopBar/checkbox.svg",
+      "original": "TopBar/checkbox.svg",
+      "sha256": "7cabbbc341a39962c4a8f2f347cd00629583b373aa10bdac5e3eeae0fedf2638",
+      "bytes": 1494
+    },
+    {
+      "path": "library/TopBar/checkmark2.svg",
+      "original": "TopBar/checkmark2.svg",
+      "sha256": "806d80879ba7988a22549aad3695862a011724b929d553a69448720010fb43dd",
+      "bytes": 1135
+    },
+    {
+      "path": "library/TopBar/clock1.svg",
+      "original": "TopBar/clock1.svg",
+      "sha256": "216e54648963799fd2fd7964920ede512f1e119e388880a10883fdba64687a2e",
+      "bytes": 67240
+    },
+    {
+      "path": "library/TopBar/clock2.svg",
+      "original": "TopBar/clock2.svg",
+      "sha256": "4cd0f00277f3678a1ee2c129090d194f42f763efad4e1090b43977eba96e44d7",
+      "bytes": 65810
+    },
+    {
+      "path": "library/TopBar/close.svg",
+      "original": "TopBar/close.svg",
+      "sha256": "1f237c4068f0c32b5158c528428988cc138f6fbf73f8f33871ac90ce29f609ff",
+      "bytes": 3456
+    },
+    {
+      "path": "library/TopBar/confirm.svg",
+      "original": "TopBar/confirm.svg",
+      "sha256": "20d85432f6d89206c6df9c9be4e4be1561ced0abe93f8cabb01772938d3b608a",
+      "bytes": 1194
+    },
+    {
+      "path": "library/TopBar/controlCenter.svg",
+      "original": "TopBar/controlCenter.svg",
+      "sha256": "9deef2074ba076f75cb399907a845696c6b0acbbbb89e38c17a679f6b1875755",
+      "bytes": 7562
+    },
+    {
+      "path": "library/TopBar/DefaultDevice.svg",
+      "original": "TopBar/DefaultDevice.svg",
+      "sha256": "8319d6677c05ba599cb1efbf6e7b7ba85864176d35bf7ec791ab56daf59d3f77",
+      "bytes": 5960
+    },
+    {
+      "path": "library/TopBar/double_watch.svg",
+      "original": "TopBar/double_watch.svg",
+      "sha256": "0392d2d93eb51154e954829ff62e44f6f7596d60414fb559342a3c7255583be3",
+      "bytes": 4420
+    },
+    {
+      "path": "library/TopBar/DownArrow.svg",
+      "original": "TopBar/DownArrow.svg",
+      "sha256": "e7fc783630d41ac01dc0cba19a5a438ae2d1a6ddccb78a9b741a8f60816d14a0",
+      "bytes": 663
+    },
+    {
+      "path": "library/TopBar/earphone.svg",
+      "original": "TopBar/earphone.svg",
+      "sha256": "f3de611829016fa77ad8536013c860717a8f53f33c0a18ab1d1024001c7461a6",
+      "bytes": 5970
+    },
+    {
+      "path": "library/TopBar/eyeconfortclosed.svg",
+      "original": "TopBar/eyeconfortclosed.svg",
+      "sha256": "c451269793cfdd3100de80bc6743d8d074324b05d5fe9f6206d951b2d032454a",
+      "bytes": 4361
+    },
+    {
+      "path": "library/TopBar/eyeopen.svg",
+      "original": "TopBar/eyeopen.svg",
+      "sha256": "0a8cfbadf0241cda8b8740fa1d4fdf8514412af00b70742f26494c6cc3eef218",
+      "bytes": 9375
+    },
+    {
+      "path": "library/TopBar/Feedback.svg",
+      "original": "TopBar/Feedback.svg",
+      "sha256": "eee53fce7c127b1bd335945145fa3ea93427cda14901f6acb7bee564ed6474a0",
+      "bytes": 4084
+    },
+    {
+      "path": "library/TopBar/file_bkg.png",
+      "original": "TopBar/file_bkg.png",
+      "sha256": "a049194b10315c3aff588a5fe3cd8f0e6352a9d6c808075f37fb7b80a3516d7b",
+      "bytes": 20810
+    },
+    {
+      "path": "library/TopBar/file_bkg_white.png",
+      "original": "TopBar/file_bkg_white.png",
+      "sha256": "b8f76027153098f8474d0568477fac4c308e8e5810b26bafb8e49f44ff963279",
+      "bytes": 4428
+    },
+    {
+      "path": "library/TopBar/havenotify.svg",
+      "original": "TopBar/havenotify.svg",
+      "sha256": "034cc400e40785bc081c98e99613541f32a6e270ccf3822ae28c097d8fc38e3c",
+      "bytes": 1985
+    },
+    {
+      "path": "library/TopBar/Headphones.svg",
+      "original": "TopBar/Headphones.svg",
+      "sha256": "904f8dd9bc650f8219b828954f9813df50443973b888d21d6ace019360c09e03",
+      "bytes": 3946
+    },
+    {
+      "path": "library/TopBar/high_volume.svg",
+      "original": "TopBar/high_volume.svg",
+      "sha256": "fe36f7fe3033f5d96444ab10cde8c6b67b22ebad1cea24e00a8c564f614fd5b3",
+      "bytes": 6029
+    },
+    {
+      "path": "library/TopBar/HONOR.svg",
+      "original": "TopBar/HONOR.svg",
+      "sha256": "6029417f7b042e493e49850272255a813a85012b7d1b43e507000a2eb8ce9523",
+      "bytes": 4767
+    },
+    {
+      "path": "library/TopBar/honor_pc_manager.png",
+      "original": "TopBar/honor_pc_manager.png",
+      "sha256": "aaaeb91593df44af44af83ddd897704cf0eb6b056f4708e63560e43db38acc19",
+      "bytes": 41874
+    },
+    {
+      "path": "library/TopBar/icon.ico",
+      "original": "TopBar/icon.ico",
+      "sha256": "7cf8b1057331ef114777361abec5c418b6ec162ceada90ed99676763d3c1cd7e",
+      "bytes": 54932
+    },
+    {
+      "path": "library/TopBar/IoClose.svg",
+      "original": "TopBar/IoClose.svg",
+      "sha256": "a63870bab166bc9c6aadb634a2dcc293537f1012c78891ed38e067c088b985ba",
+      "bytes": 299
+    },
+    {
+      "path": "library/TopBar/keyboard.svg",
+      "original": "TopBar/keyboard.svg",
+      "sha256": "c6b493b08edd97b6564ee385ed7b13b6925819cd7968fa24ec6a7a21c3781d24",
+      "bytes": 19011
+    },
+    {
+      "path": "library/TopBar/Light.svg",
+      "original": "TopBar/Light.svg",
+      "sha256": "3ba8ce340b4f7bb74f675b4c5e031c739103a6ae4fe098e2bf6f88e6923fab04",
+      "bytes": 483
+    },
+    {
+      "path": "library/TopBar/LoadingBold.svg",
+      "original": "TopBar/LoadingBold.svg",
+      "sha256": "a40f2dd484445c1e7a4fbc6e350165e39188638c46ae49937218dbd09e9de06e",
+      "bytes": 1487
+    },
+    {
+      "path": "library/TopBar/lock.svg",
+      "original": "TopBar/lock.svg",
+      "sha256": "e77d4a9e86f45be8de8a04edcfaa24cdf68b2d1dbf8707f85af844653e9bdfea",
+      "bytes": 1277
+    },
+    {
+      "path": "library/TopBar/low_volume.svg",
+      "original": "TopBar/low_volume.svg",
+      "sha256": "7c5e7f01c0bc2241f2eb4a9d3851e3eda533df4a2d71be9e1a20498b7dab3cb3",
+      "bytes": 2509
+    },
+    {
+      "path": "library/TopBar/magictaskui.svg",
+      "original": "TopBar/magictaskui.svg",
+      "sha256": "93c40585be9b49798df66f9d830c2e5a80bbf25eeb2a04771e23fe03218fdd48",
+      "bytes": 67831
+    },
+    {
+      "path": "library/TopBar/matebook.svg",
+      "original": "TopBar/matebook.svg",
+      "sha256": "d0fa77097d11644a4dce3aa934d37b91e39685c290eacd5b4cf5959f6b6bd93a",
+      "bytes": 6287
+    },
+    {
+      "path": "library/TopBar/maximize.svg",
+      "original": "TopBar/maximize.svg",
+      "sha256": "47bd157e1a93aa9c884877ddb082bba8b830bb0d5511a7900303c652c7ae724b",
+      "bytes": 9393
+    },
+    {
+      "path": "library/TopBar/Microphone.svg",
+      "original": "TopBar/Microphone.svg",
+      "sha256": "1cb10eb7c43110f9342513e74102f1f6843da5007754b0a42c417d3a4684b9fb",
+      "bytes": 1920
+    },
+    {
+      "path": "library/TopBar/minimize.svg",
+      "original": "TopBar/minimize.svg",
+      "sha256": "38807268071f33d20900ebd13e4f0522282f6ecc77f49c571786add758bfb970",
+      "bytes": 239
+    },
+    {
+      "path": "library/TopBar/missing.png",
+      "original": "TopBar/missing.png",
+      "sha256": "a049194b10315c3aff588a5fe3cd8f0e6352a9d6c808075f37fb7b80a3516d7b",
+      "bytes": 20810
+    },
+    {
+      "path": "library/TopBar/mouse.svg",
+      "original": "TopBar/mouse.svg",
+      "sha256": "e2cd799c71986830c02a33a9d7d423fbd4ed85c2b7ae33005a20854b4bed7789",
+      "bytes": 1427
+    },
+    {
+      "path": "library/TopBar/music1.svg",
+      "original": "TopBar/music1.svg",
+      "sha256": "ce93140e2e7f711bd1735f9be05f3fbaa4bf20cb95e70cf89849672827957121",
+      "bytes": 12929
+    },
+    {
+      "path": "library/TopBar/music2.svg",
+      "original": "TopBar/music2.svg",
+      "sha256": "d4ae0eb0b153efe7d457f6d4ff9fad6f89149bc33c5813c55181238bc7a3add0",
+      "bytes": 10497
+    },
+    {
+      "path": "library/TopBar/NetShare.svg",
+      "original": "TopBar/NetShare.svg",
+      "sha256": "1760d92a47c5a6bfee1cbb545a86684d3769f55fdf20a2f3c3161788fbc29cae",
+      "bytes": 6629
+    },
+    {
+      "path": "library/TopBar/NetShareSmall.svg",
+      "original": "TopBar/NetShareSmall.svg",
+      "sha256": "1760d92a47c5a6bfee1cbb545a86684d3769f55fdf20a2f3c3161788fbc29cae",
+      "bytes": 6629
+    },
+    {
+      "path": "library/TopBar/next.svg",
+      "original": "TopBar/next.svg",
+      "sha256": "e1510aba9ea574d20bae050919ecb844461c22fff392b5898315e467fc3c53f5",
+      "bytes": 1223
+    },
+    {
+      "path": "library/TopBar/nonotify.svg",
+      "original": "TopBar/nonotify.svg",
+      "sha256": "6361a43296ace815363fd24a73d7ede562ed277e933777bfb2ca10816ec942ff",
+      "bytes": 1770
+    },
+    {
+      "path": "library/TopBar/notification.svg",
+      "original": "TopBar/notification.svg",
+      "sha256": "5454c497d5bd94b6d231f4a1671e5ae116b93053f0d40795008438867669ab12",
+      "bytes": 1619
+    },
+    {
+      "path": "library/TopBar/pad.svg",
+      "original": "TopBar/pad.svg",
+      "sha256": "2ae4bff2b2317ef59d4f08723b877c9e2ba8af69457da12a93ddb3733597ad8e",
+      "bytes": 5966
+    },
+    {
+      "path": "library/TopBar/phone.svg",
+      "original": "TopBar/phone.svg",
+      "sha256": "219e3cae523b610c63a8e8e496662d874469360800652c857df0b35a714dcf0e",
+      "bytes": 5159
+    },
+    {
+      "path": "library/TopBar/pinyin.svg",
+      "original": "TopBar/pinyin.svg",
+      "sha256": "ee915f51f7478ca8cfb95e05adf29212fbde9aa5b48a099b6b5b7ddcc0213772",
+      "bytes": 11579
+    },
+    {
+      "path": "library/TopBar/printer.svg",
+      "original": "TopBar/printer.svg",
+      "sha256": "081ac974d6273db0401a60217f9d7eb4411aa8989b67ff6ade1df947fa831b02",
+      "bytes": 4310
+    },
+    {
+      "path": "library/TopBar/privacy.svg",
+      "original": "TopBar/privacy.svg",
+      "sha256": "e89dd1aff4e76cc112f20921b30302df92a6520a6be4e2121f93cea62ea8090d",
+      "bytes": 9904
+    },
+    {
+      "path": "library/TopBar/puremode.svg",
+      "original": "TopBar/puremode.svg",
+      "sha256": "98ce2a6971c4dfac843279528e08ec2d926f98d0889774ddb1e1aef341697f0f",
+      "bytes": 1680
+    },
+    {
+      "path": "library/TopBar/qq.ico",
+      "original": "TopBar/qq.ico",
+      "sha256": "d2a597770c7596bb70e2ce93e3c7b50346988f16fec0acaa849aa8aa21b791ee",
+      "bytes": 19030
+    },
+    {
+      "path": "library/TopBar/qq.svg",
+      "original": "TopBar/qq.svg",
+      "sha256": "c4c1d2159b6ca100d2020f05fc5ec4351327657161433345f58e97eb6d0250e6",
+      "bytes": 43556
+    },
+    {
+      "path": "library/TopBar/quit.svg",
+      "original": "TopBar/quit.svg",
+      "sha256": "81596a28d9a76003b14c4745d8a1fcdb698708c8683481ffc96ac8677777d745",
+      "bytes": 6999
+    },
+    {
+      "path": "library/TopBar/rectangle.svg",
+      "original": "TopBar/rectangle.svg",
+      "sha256": "dd64d01c3eccbdcecb43fe78d13a551de88a6cfa18572728e34d0feb19f4fd07",
+      "bytes": 242
+    },
+    {
+      "path": "library/TopBar/RecycleBin_NotEmpty.svg",
+      "original": "TopBar/RecycleBin_NotEmpty.svg",
+      "sha256": "1d6f90bc29b94927a2f2bf69fbb20e1a2b2cc84e751e8a47eb391d65c1531b68",
+      "bytes": 650264
+    },
+    {
+      "path": "library/TopBar/restart.svg",
+      "original": "TopBar/restart.svg",
+      "sha256": "73390583bdea96b8d24a2a23fc213bb6bec6afb97d3a68e1eff29c2540632df0",
+      "bytes": 1584
+    },
+    {
+      "path": "library/TopBar/rotate.svg",
+      "original": "TopBar/rotate.svg",
+      "sha256": "cc27f9b702065990af53a81d0ccc04775b82183d5771fe4a26d749df1e415a6d",
+      "bytes": 10756
+    },
+    {
+      "path": "library/TopBar/SC_AI_SUBTITILE.svg",
+      "original": "TopBar/SC_AI_SUBTITILE.svg",
+      "sha256": "934fd0319b28726efcef285d07047b6d1035faea05947fc78d8041b600977c4b",
+      "bytes": 3167
+    },
+    {
+      "path": "library/TopBar/SC_EYE_PROTECTION_MODE.svg",
+      "original": "TopBar/SC_EYE_PROTECTION_MODE.svg",
+      "sha256": "cf33faee5488de7ae1681c8276e8b2afefd38981ce7ad14413e34bdaaa65a30c",
+      "bytes": 2175
+    },
+    {
+      "path": "library/TopBar/SC_HONOR_SHARE.svg",
+      "original": "TopBar/SC_HONOR_SHARE.svg",
+      "sha256": "e9a5f4bcfd2bc6916249fb50d4314b9091863dce49939afc74c93d42891d771f",
+      "bytes": 9232
+    },
+    {
+      "path": "library/TopBar/SC_IDS_DARK_THEME.svg",
+      "original": "TopBar/SC_IDS_DARK_THEME.svg",
+      "sha256": "d74e0d8d7a6229ce8eabd7d863c4572f1c60ac6e5b505eaf43393e61a0f280b7",
+      "bytes": 17317
+    },
+    {
+      "path": "library/TopBar/SC_MAGIC_TEXT.svg",
+      "original": "TopBar/SC_MAGIC_TEXT.svg",
+      "sha256": "2413364a5379be97e591e8126256df62e10c4efde1551078313746f4de78794f",
+      "bytes": 4644
+    },
+    {
+      "path": "library/TopBar/SC_MAGICTEXT_AI_TOOLBAR.svg",
+      "original": "TopBar/SC_MAGICTEXT_AI_TOOLBAR.svg",
+      "sha256": "7a5421e8b10981ba578588d1395bb65d9ea939b1a5d754d5af70611cd427e2a7",
+      "bytes": 4647
+    },
+    {
+      "path": "library/TopBar/SC_SCREEN_CAST.svg",
+      "original": "TopBar/SC_SCREEN_CAST.svg",
+      "sha256": "8d9b6246494f3aa13f18654bc2b71600d2f7a92bb9c712b0d580ccc00d2e0795",
+      "bytes": 11016
+    },
+    {
+      "path": "library/TopBar/SC_SCREEN_RECORD.svg",
+      "original": "TopBar/SC_SCREEN_RECORD.svg",
+      "sha256": "0012d6a28c7f16b222806ad3866bae2d1ab76a9610b7ff136c91f79d643ea3c8",
+      "bytes": 4901
+    },
+    {
+      "path": "library/TopBar/SC_SCREEN_SHOT.svg",
+      "original": "TopBar/SC_SCREEN_SHOT.svg",
+      "sha256": "d8ff6a44729297d32382abf70ee767b855b4fba8ae0d0180e75cc472b3054235",
+      "bytes": 9341
+    },
+    {
+      "path": "library/TopBar/SC_SMART_AUDIO.svg",
+      "original": "TopBar/SC_SMART_AUDIO.svg",
+      "sha256": "da01f7504ca1fba8d18fe399ea5adaf35356cae08b6f5955d15ad8e13bc604d7",
+      "bytes": 4463
+    },
+    {
+      "path": "library/TopBar/SC_SMART_SEARCH.svg",
+      "original": "TopBar/SC_SMART_SEARCH.svg",
+      "sha256": "ba67b4e222acfb394566291db0ae7a8c1906a882dafd97a9de7994acd5556a8a",
+      "bytes": 4721
+    },
+    {
+      "path": "library/TopBar/SC_SYSTEM_OPTIMIZE.svg",
+      "original": "TopBar/SC_SYSTEM_OPTIMIZE.svg",
+      "sha256": "791807e7717dd668a1e8c8075c74453e450affc2c4a548b16ce8a2e4afe8a28e",
+      "bytes": 2959
+    },
+    {
+      "path": "library/TopBar/SC_VOICE_INPUT.svg",
+      "original": "TopBar/SC_VOICE_INPUT.svg",
+      "sha256": "006b9aa4169350f250f49ced320bf7c0fe8bc9b8fc4451b55f2dc04dcade94ef",
+      "bytes": 6680
+    },
+    {
+      "path": "library/TopBar/screenshot.svg",
+      "original": "TopBar/screenshot.svg",
+      "sha256": "bfb28453caa347b8d24ab86595618479f24de82b3a898c04a202dee5646c7b52",
+      "bytes": 8581
+    },
+    {
+      "path": "library/TopBar/Select.svg",
+      "original": "TopBar/Select.svg",
+      "sha256": "8d3225784ec679367fac893ff5fd666554439b07817977273f707e682a1e199a",
+      "bytes": 1312
+    },
+    {
+      "path": "library/TopBar/Selected.svg",
+      "original": "TopBar/Selected.svg",
+      "sha256": "73fa2a10fc571e556fbd269170da77c71878447d2727bd1a5ac894a29c26aad2",
+      "bytes": 1312
+    },
+    {
+      "path": "library/TopBar/setting.svg",
+      "original": "TopBar/setting.svg",
+      "sha256": "b310638871f6eba76f900a98f0707c89fa7d8ac0f6cd55784c9b7e923d5e9c1c",
+      "bytes": 16144
+    },
+    {
+      "path": "library/TopBar/shutdown.svg",
+      "original": "TopBar/shutdown.svg",
+      "sha256": "967f94d0ed64e88518ec208171d329e7fbec2eaef50e1a94273211b7b8ea2a6d",
+      "bytes": 2001
+    },
+    {
+      "path": "library/TopBar/sleep.svg",
+      "original": "TopBar/sleep.svg",
+      "sha256": "834946d5c4cf551873ce837f7bfe94fa5c2bbd831b0c1b78e6d0cb1e910700aa",
+      "bytes": 1369
+    },
+    {
+      "path": "library/TopBar/sougou.ico",
+      "original": "TopBar/sougou.ico",
+      "sha256": "48d18899b2d5584a4448a859eb083399c1501aab300fdc2c5139f71225ec516f",
+      "bytes": 104805
+    },
+    {
+      "path": "library/TopBar/sougou.svg",
+      "original": "TopBar/sougou.svg",
+      "sha256": "61169783cd3b68e2a3b4615c5d353eb2583286a24154e3a8d602d31ef5d2f735",
+      "bytes": 2190
+    },
+    {
+      "path": "library/TopBar/sound.svg",
+      "original": "TopBar/sound.svg",
+      "sha256": "9ddbe5fc82f1c02b0fbd764e2a2af18ea87bb93fee80682fb2b8c487e34f6f59",
+      "bytes": 3822
+    },
+    {
+      "path": "library/TopBar/Speaker.svg",
+      "original": "TopBar/Speaker.svg",
+      "sha256": "8987f42ae5896caf08ffe19d76a1bd6ae2430b0616756e0c3c8aa0af9f191875",
+      "bytes": 2381
+    },
+    {
+      "path": "library/TopBar/Speaker0.svg",
+      "original": "TopBar/Speaker0.svg",
+      "sha256": "6b5908a981ad8d14f46718341305823745e70cdcb9a97dd185f3577ff989d6aa",
+      "bytes": 1005
+    },
+    {
+      "path": "library/TopBar/Speaker1.svg",
+      "original": "TopBar/Speaker1.svg",
+      "sha256": "a5d0d16f9e56369067fe2469fa5a7297d566a4d5361df01ef6edced7d17a4a86",
+      "bytes": 4199
+    },
+    {
+      "path": "library/TopBar/Speaker2.svg",
+      "original": "TopBar/Speaker2.svg",
+      "sha256": "cdf6198bb5f885b8639e7c120d9393bd41efe994da715a959c45dea86f792b9e",
+      "bytes": 6548
+    },
+    {
+      "path": "library/TopBar/Speaker3.svg",
+      "original": "TopBar/Speaker3.svg",
+      "sha256": "4282ac0d8185ce038c114a4807bc6e6b47090967e314eaa583941f2d495876d5",
+      "bytes": 6833
+    },
+    {
+      "path": "library/TopBar/SpeakerMute.svg",
+      "original": "TopBar/SpeakerMute.svg",
+      "sha256": "756812364afc38cf1aa1e9a70531e77abccd5633d9a037ceea87ee06e1499e95",
+      "bytes": 1576
+    },
+    {
+      "path": "library/TopBar/start-menu-transparent.png",
+      "original": "TopBar/start-menu-transparent.png",
+      "sha256": "1064d61a99ca0a83c190f7d6f8322e844acc9fcf3fe73861d5917c9c4933191b",
+      "bytes": 14497
+    },
+    {
+      "path": "library/TopBar/start-menu.png",
+      "original": "TopBar/start-menu.png",
+      "sha256": "b8132bd0887b32c424e84d27cbf1cb2fdc183a6714f581325199c5b5bd766531",
+      "bytes": 103459
+    },
+    {
+      "path": "library/TopBar/start-menu.svg",
+      "original": "TopBar/start-menu.svg",
+      "sha256": "a17589764c891eda59f67feb34ac0721ee8ff9d4ca88092d870daac3484b5c94",
+      "bytes": 825
+    },
+    {
+      "path": "library/TopBar/statusbar.svg",
+      "original": "TopBar/statusbar.svg",
+      "sha256": "c635d1aac7a2e35eb0e0e997ec54dcd61422b4148715015a83cc3d13477d69db",
+      "bytes": 3706
+    },
+    {
+      "path": "library/TopBar/superterminal.svg",
+      "original": "TopBar/superterminal.svg",
+      "sha256": "1760d92a47c5a6bfee1cbb545a86684d3769f55fdf20a2f3c3161788fbc29cae",
+      "bytes": 6629
+    },
+    {
+      "path": "library/TopBar/Switch.svg",
+      "original": "TopBar/Switch.svg",
+      "sha256": "4b6e0f5d4bdc4caebc350d4b4b8cc4a706d1d5d1ec6ee94b41ec9dffca8347bf",
+      "bytes": 16134
+    },
+    {
+      "path": "library/TopBar/SwitchBase.svg",
+      "original": "TopBar/SwitchBase.svg",
+      "sha256": "cc231d528e18cf7660fbb01f11b63a72df447826fe9a8e955f538f0cbbecaf3e",
+      "bytes": 18703
+    },
+    {
+      "path": "library/TopBar/SwitchOff.svg",
+      "original": "TopBar/SwitchOff.svg",
+      "sha256": "98cf24c6068a181b74bb5bd137bedc1e4c69cdffa3e1beb7053445b6bb6229f8",
+      "bytes": 19819
+    },
+    {
+      "path": "library/TopBar/SwitchOn.svg",
+      "original": "TopBar/SwitchOn.svg",
+      "sha256": "767ba7e3c107fc749ffcfb24a5fc158663157c7ad9c7bfb27e2b2d4c57652f74",
+      "bytes": 16600
+    },
+    {
+      "path": "library/TopBar/taskbar.svg",
+      "original": "TopBar/taskbar.svg",
+      "sha256": "7a89b74df739d08b19d5865f827a933b1cb0144ba11ef9ba9b2d8f2196324f40",
+      "bytes": 6683
+    },
+    {
+      "path": "library/TopBar/tongtou_appmarket.svg",
+      "original": "TopBar/tongtou_appmarket.svg",
+      "sha256": "0cc6d62c8af3a364875ab02a70f3b6abec2cac9439ceffdefb1f6089f121a0c5",
+      "bytes": 44634
+    },
+    {
+      "path": "library/TopBar/tongtou_pcmanager.svg",
+      "original": "TopBar/tongtou_pcmanager.svg",
+      "sha256": "87e99e0602d09644d6fb0c83c1a7b712f4a8695f2f9101ab0a8d4f412912cc26",
+      "bytes": 12562
+    },
+    {
+      "path": "library/TopBar/tongtou_workstation.svg",
+      "original": "TopBar/tongtou_workstation.svg",
+      "sha256": "1022f68ba4da6082558fbc88f6f625940d9f1dc92c3493c33c78c9981c585f8d",
+      "bytes": 12315
+    },
+    {
+      "path": "library/TopBar/tongtou_yoyo.svg",
+      "original": "TopBar/tongtou_yoyo.svg",
+      "sha256": "dc50409d6b6cb37abd3708ddae22508ce35dcf7378c9a9b17cd931cc67190b19",
+      "bytes": 31998
+    },
+    {
+      "path": "library/TopBar/tray.svg",
+      "original": "TopBar/tray.svg",
+      "sha256": "f40848abf5aa42dff2ee93f1aeddd502ef38b6c133136ca8767521be5623ea36",
+      "bytes": 141
+    },
+    {
+      "path": "library/TopBar/tricks.svg",
+      "original": "TopBar/tricks.svg",
+      "sha256": "0147e5df72594a437504678d8a6b2eb91237b5701db71fc34fd8d69c695c509e",
+      "bytes": 3553
+    },
+    {
+      "path": "library/TopBar/unSelected.svg",
+      "original": "TopBar/unSelected.svg",
+      "sha256": "2f6f8828a0c7c53bc688dc919f5d9844b8a22594b1d38c35cb8cc46c5967fac6",
+      "bytes": 312
+    },
+    {
+      "path": "library/TopBar/updown.svg",
+      "original": "TopBar/updown.svg",
+      "sha256": "e4d73c25f3c8408a3cec05ce1a2d0d032d24a5c327fd99c3d246d8f3820a0385",
+      "bytes": 197
+    },
+    {
+      "path": "library/TopBar/voice.svg",
+      "original": "TopBar/voice.svg",
+      "sha256": "ba774a39b265e6c1b287d45bc686ff5de96462fceb641ab88cbbdb314d0707a6",
+      "bytes": 2389
+    },
+    {
+      "path": "library/TopBar/volume.svg",
+      "original": "TopBar/volume.svg",
+      "sha256": "708894218e85271bc7298d3356941f81aaf0c3f7be14789d8d0b1b36d269fe25",
+      "bytes": 6814
+    },
+    {
+      "path": "library/TopBar/VolumeSliderLow.svg",
+      "original": "TopBar/VolumeSliderLow.svg",
+      "sha256": "cd759e4cc7ed767d96f4a97536708e85c7455f58b1c199794ef8258f92a6f4ce",
+      "bytes": 1291
+    },
+    {
+      "path": "library/TopBar/weilan_appmarket.svg",
+      "original": "TopBar/weilan_appmarket.svg",
+      "sha256": "77588a9315416aa5f93ceb3e16e6b6965109c92dddc213fe2de8fefe218a137a",
+      "bytes": 36697
+    },
+    {
+      "path": "library/TopBar/weilan_pcmanager.svg",
+      "original": "TopBar/weilan_pcmanager.svg",
+      "sha256": "7f1871f8bd6168beedb6f841fe20047e03ab78596965386367ade732881909b1",
+      "bytes": 10063
+    },
+    {
+      "path": "library/TopBar/weilan_workstation.svg",
+      "original": "TopBar/weilan_workstation.svg",
+      "sha256": "2a1e58fa9a4f68cf292cb030b9d1b2cde911fd74f424b2060e0408f23b4a6a01",
+      "bytes": 9834
+    },
+    {
+      "path": "library/TopBar/weilan_yoyo.png",
+      "original": "TopBar/weilan_yoyo.png",
+      "sha256": "8c4f037025ff38e28c0664828af6725c697158424e785ac6e5316b11b2a5a701",
+      "bytes": 96672
+    },
+    {
+      "path": "library/TopBar/weilan_yoyo.svg",
+      "original": "TopBar/weilan_yoyo.svg",
+      "sha256": "902a5c3a0b7e2d1d7ea9ce027656a9d9cb98da2d8bb23d01872c3a134246dc6f",
+      "bytes": 34786
+    },
+    {
+      "path": "library/TopBar/weixin.ico",
+      "original": "TopBar/weixin.ico",
+      "sha256": "a2702013f40e6a838b1c3dbe43b720510286d9156387de2f2b0b13e609017c40",
+      "bytes": 24430
+    },
+    {
+      "path": "library/TopBar/weixin.svg",
+      "original": "TopBar/weixin.svg",
+      "sha256": "d9e8c2a90a359209bceb89d02e2888c6981914050317774da4409f8b144e646b",
+      "bytes": 10143
+    },
+    {
+      "path": "library/TopBar/wifi.svg",
+      "original": "TopBar/wifi.svg",
+      "sha256": "36ed98b9e36c26e847b98d70377a73eaf680879b6e655cd4f4da0a892a46e9d7",
+      "bytes": 3067
+    },
+    {
+      "path": "library/TopBar/WiFi1.svg",
+      "original": "TopBar/WiFi1.svg",
+      "sha256": "36ed98b9e36c26e847b98d70377a73eaf680879b6e655cd4f4da0a892a46e9d7",
+      "bytes": 3067
+    },
+    {
+      "path": "library/TopBar/WiFi2.svg",
+      "original": "TopBar/WiFi2.svg",
+      "sha256": "589d724e50fa21e79fbb0b419ceab37baa6b7026e863b72496ceef12ad3d6229",
+      "bytes": 3201
+    },
+    {
+      "path": "library/TopBar/WiFi3.svg",
+      "original": "TopBar/WiFi3.svg",
+      "sha256": "1663d8cd1ca0d87858c04650a370c9aaaf43aadb94fefebb0a2c40c909e67487",
+      "bytes": 3355
+    },
+    {
+      "path": "library/TopBar/WiFi4.svg",
+      "original": "TopBar/WiFi4.svg",
+      "sha256": "cb90b90fefcbcd28b622daaf70a815a252413abf83ac874c27663d3f6593d4d8",
+      "bytes": 4300
+    },
+    {
+      "path": "library/TopBar/WiFiOff.svg",
+      "original": "TopBar/WiFiOff.svg",
+      "sha256": "1f852072c3c4f8688b5e2cc1c180ea5192e1ca2ebe177174dadec13050dd0b56",
+      "bytes": 4080
+    },
+    {
+      "path": "library/TopBar/WiFiWarning.svg",
+      "original": "TopBar/WiFiWarning.svg",
+      "sha256": "b07aa36e439f9def000101f37e459feaefbb073832217681b1fc8e6438a8fb73",
+      "bytes": 4581
+    },
+    {
+      "path": "library/TopBar/windmill1.svg",
+      "original": "TopBar/windmill1.svg",
+      "sha256": "90b7abc8744b0ac0e4646ec0ab7452c73f7cd67ffc2822644c1d5bea6f709b8e",
+      "bytes": 14799
+    },
+    {
+      "path": "library/TopBar/windmill2.svg",
+      "original": "TopBar/windmill2.svg",
+      "sha256": "e9a0fcbc5df0101370fe25d64df9d5cf9ccd62eb631302f4c44931491020dfb1",
+      "bytes": 12698
+    },
+    {
+      "path": "library/TopBar/WLANLock1.svg",
+      "original": "TopBar/WLANLock1.svg",
+      "sha256": "811fafa7db43c545b46435675a52f20dcf783850362a95c5e5f73667f5ae7e72",
+      "bytes": 5353
+    },
+    {
+      "path": "library/TopBar/WLANLock2.svg",
+      "original": "TopBar/WLANLock2.svg",
+      "sha256": "438728e8020e8e4eefa4b7a66af38e5db3826fba7f7ccfcff2fab34fee03954b",
+      "bytes": 5229
+    },
+    {
+      "path": "library/TopBar/WLANLock3.svg",
+      "original": "TopBar/WLANLock3.svg",
+      "sha256": "4e94511870782290f063a8d006935d5b09d952e5f4f1a8318cc8fdb00860e5dc",
+      "bytes": 5213
+    },
+    {
+      "path": "library/TopBar/WLANLock4.svg",
+      "original": "TopBar/WLANLock4.svg",
+      "sha256": "5bb936cf5f994901124d37e6fe73892603ada6bbb33e140ca6ab1daad211a6dd",
+      "bytes": 4481
+    },
+    {
+      "path": "library/TopBar/xunfei.ico",
+      "original": "TopBar/xunfei.ico",
+      "sha256": "9f1fe38febc72228513e6ed2b7e1f2efb087e19055fec1d00787531511a77e6a",
+      "bytes": 136398
+    },
+    {
+      "path": "library/TopBar/xunfei.svg",
+      "original": "TopBar/xunfei.svg",
+      "sha256": "c4497f5815d88484e672d0c982c591f83d820e5dde0cf4161b8125f96b9c6eb9",
+      "bytes": 48784
+    },
+    {
+      "path": "library/TopBar/yoyo.svg",
+      "original": "TopBar/yoyo.svg",
+      "sha256": "71961debdfb88b680ad89c2b090829c3a1125d2214ea8cb9eebc68ac05451d59",
+      "bytes": 4938
+    },
+    {
+      "path": "library/TopBar/yoyoclaw.svg",
+      "original": "TopBar/yoyoclaw.svg",
+      "sha256": "73d7a6e89ddd369772ab4d6d8672434aedd2a0429a28d812e7aa992030eabcd2",
+      "bytes": 3357
+    },
+    {
+      "path": "library/TopBar/yoyoclaw_white.svg",
+      "original": "TopBar/yoyoclaw_white.svg",
+      "sha256": "760f2e558e0c519d047ed3bde059ce92318dc9621c6737df9e90d4d410833247",
+      "bytes": 227306
+    },
+    {
+      "path": "library/底板/file_bkg_trans.png",
+      "original": "底板/file_bkg_trans.png",
+      "sha256": "f98b7e2d34d019f37345cbc50532ca0455de8dfb4e7bd01fbf0b30deb6f4ce03",
+      "bytes": 8866
+    },
+    {
+      "path": "library/底板/icon_plate.png",
+      "original": "底板/icon_plate.png",
+      "sha256": "548a0002e6792fe75a73d49a007c394f94c005e79bb289c5d9b0cf53603c3249",
+      "bytes": 5567
+    },
+    {
+      "path": "library/底板/icon_plate_white.png",
+      "original": "底板/icon_plate_white.png",
+      "sha256": "1291de4116629856eadcf2a7c78ab9944fb09173bfce077b17a6307d697a4201",
+      "bytes": 5955
+    },
+    {
+      "path": "library/系统图标/MyComputer/MyComputer_Transparent.png",
+      "original": "系统图标/MyComputer/MyComputer_Transparent.png",
+      "sha256": "58a50706cd68ab0c6c599b96380483740cb42cbbd120f6f85b1b4320728aef79",
+      "bytes": 124320
+    },
+    {
+      "path": "library/系统图标/MyComputer/MyComputer_White.png",
+      "original": "系统图标/MyComputer/MyComputer_White.png",
+      "sha256": "fcfeb61887946ca23f68ff8bbb63df0b6cfbfbcb69be02a9d90394e11897d016",
+      "bytes": 86689
+    },
+    {
+      "path": "library/系统图标/RecycleBin/RecycleBin_ Empty.png",
+      "original": "系统图标/RecycleBin/RecycleBin_ Empty.png",
+      "sha256": "aaa355cd405b430af5c86a31ff08b0ec49b2bd41b16bee806d1da78a14f4856b",
+      "bytes": 27434
+    },
+    {
+      "path": "library/系统图标/RecycleBin/RecycleBin_NotEmpty.png",
+      "original": "系统图标/RecycleBin/RecycleBin_NotEmpty.png",
+      "sha256": "18c24fe45ac60937a221bf29c70e74f5dd582d00445f1662e5c17bfcceb67e99",
+      "bytes": 37122
+    },
+    {
+      "path": "library/系统图标/Tray/closetray.png",
+      "original": "系统图标/Tray/closetray.png",
+      "sha256": "62b42c8724df437a8caa5e59efc0091930d8dcd374b5f16f8c2d9b171a95223e",
+      "bytes": 26797
+    },
+    {
+      "path": "library/系统图标/Tray/opentray.png",
+      "original": "系统图标/Tray/opentray.png",
+      "sha256": "eb51e970e34f2259d999feb36cd326af161ac615604acc82f6b7bc0bc3683eb2",
+      "bytes": 26841
+    },
+    {
+      "path": "library/通知图标/Apps/dingtalk.png",
+      "original": "通知图标/Apps/dingtalk.png",
+      "sha256": "8e1c237bed42dd552be68cfa0615b1b9af87e94c9a6c3e5d8221e644d5b4507c",
+      "bytes": 54028
+    },
+    {
+      "path": "library/通知图标/Apps/feishu.png",
+      "original": "通知图标/Apps/feishu.png",
+      "sha256": "d194190d7dfd69bdf12485bbee376e71f9924c65823e187906ba63651cbb1177",
+      "bytes": 7309
+    },
+    {
+      "path": "library/通知图标/Apps/qq.png",
+      "original": "通知图标/Apps/qq.png",
+      "sha256": "d39e95e380f1900f5d85bfe549f1ea56d513758d07d6814716022160dcc29528",
+      "bytes": 10052
+    },
+    {
+      "path": "library/通知图标/Apps/wechat.png",
+      "original": "通知图标/Apps/wechat.png",
+      "sha256": "f91840272a3e06bab02c523d44cfc4db9e7773f952f172c559de88abd096809b",
+      "bytes": 8650
+    },
+    {
+      "path": "library/通知图标/Apps/wemeet.png",
+      "original": "通知图标/Apps/wemeet.png",
+      "sha256": "9690f7fd992df96809e078c5f6439086af210088765e78e17407da4c1d16f783",
+      "bytes": 63418
+    },
+    {
+      "path": "library/通知图标/Bar/dingtalk.svg",
+      "original": "通知图标/Bar/dingtalk.svg",
+      "sha256": "3265d586f0836933af32fc68001135ed2eabcfb83dd8e5c873ede0adf30822d4",
+      "bytes": 1071
+    },
+    {
+      "path": "library/通知图标/Bar/feishu.svg",
+      "original": "通知图标/Bar/feishu.svg",
+      "sha256": "d5f6c3d915b8abce4feacef84e4d04f5506c11682609fa4bc88f206271b4bd5d",
+      "bytes": 3338
+    },
+    {
+      "path": "library/通知图标/Bar/qq.svg",
+      "original": "通知图标/Bar/qq.svg",
+      "sha256": "6c6802aec6e351449bd2be57326f4cf3ac7d640846b99806864c33ffb6a83026",
+      "bytes": 826
+    },
+    {
+      "path": "library/通知图标/Bar/wechat.svg",
+      "original": "通知图标/Bar/wechat.svg",
+      "sha256": "52838d1ca4d5a4dec6758ab0a24336f33ab923e0d1b32531a308a6b0b1424927",
+      "bytes": 1680
+    },
+    {
+      "path": "library/通知图标/Bar/wemeet.svg",
+      "original": "通知图标/Bar/wemeet.svg",
+      "sha256": "6d639488d64dc80ef5dad748b4968e04eb46fe3c8a01af1f110debb8db8cbbca",
+      "bytes": 1263
+    }
+  ],
+  "excluded": "Preview animations, two animation sprite sheets, HTML, design tokens and analysis text are not icon assets."
+}

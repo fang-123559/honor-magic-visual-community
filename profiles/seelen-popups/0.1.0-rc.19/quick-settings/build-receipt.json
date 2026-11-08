@@ -1,0 +1,63 @@
+{
+  "at": "2026-10-16T11:25:30.764Z",
+  "sdkSource": "2.8.9",
+  "compatTypesForCompileOnly": false,
+  "addsResidentWebview": false,
+  "sources": [
+    {
+      "file": "src/ui/svelte/quick-settings/app.svelte",
+      "sha256": "84fb079d48b0fdf9968bdda0e119c0b3da6aa514bb64cdc1f6243e014d25b7b3"
+    },
+    {
+      "file": "src/ui/svelte/quick-settings/power-state.svelte.ts",
+      "sha256": "e676285b02ed2a46e3d8a724033fb9fc2a7e2b5d9a45b49df103d9056c6c8675"
+    },
+    {
+      "file": "src/ui/svelte/quick-settings/power-snapshot.ts",
+      "sha256": "885677f2042629643c018073f8e134a0e7e26c71e06882f459928049074e11ac"
+    },
+    {
+      "file": "src/ui/svelte/quick-settings/components/PowerPanel.svelte",
+      "sha256": "dc1fe96b415c752d5e76426a79fe729db8bce8649909581911da66ce05c09750"
+    },
+    {
+      "file": "src/ui/svelte/quick-settings/index.ts",
+      "sha256": "8ffc70bb3f415f5053255eb5a71d9525e02cc6830e0b347b77ef0c96dfb36109"
+    },
+    {
+      "file": "libs/core/src/state/widget/mod.ts",
+      "sha256": "6cc70e9dce9d6d21b742609fd8ec572e5cf72233ccfd7b7e8c819bfe746681fb"
+    },
+    {
+      "file": "libs/core/src/state/widget/focus-loss.ts",
+      "sha256": "714fe0583064eacc8a844cf4cf50c7b222aed8964d80a2e3950787c143fb2af5"
+    },
+    {
+      "file": "src/static/themes/default/styles/quick-settings.scss",
+      "sha256": "2722cd5fc4d4bbd9762931699c9c531fd502dd2067e8f38261ab8e4f55fa2f75"
+    }
+  ],
+  "overlayScrollbars": {
+    "version": "0.1.0-rc.19",
+    "sourceProfile": "0.1.0-rc.16",
+    "baseProfile": "0.1.0-rc.15",
+    "baseJsSha256": "e251e241f32a48ee3e25ead9ac44d8697796d6094a1003449a6a342c7123e748",
+    "baseJsUnchangedAfterPrefix": true,
+    "controllerBytes": 6404,
+    "noPolling": true,
+    "sources": [
+      {
+        "file": "widgets/shared/overlay-scrollbars.js",
+        "sha256": "24667ba4104c5539606291a833e5684fad41a65bed4b2b58c0afc5b4b2f57ea6"
+      },
+      {
+        "file": "widgets/shared/overlay-scrollbars.css",
+        "sha256": "95a996b92f1572e5ae420abdaa5561bcd909d2a2f19dc7febc659fd6eb3a7dd2"
+      },
+      {
+        "file": "widgets/shared/scrollbar-math.mjs",
+        "sha256": "10881e2b21dd74d67126298028bc3b3c114bde8eeece2373ef46ee5cd2516f87"
+      }
+    ]
+  }
+}

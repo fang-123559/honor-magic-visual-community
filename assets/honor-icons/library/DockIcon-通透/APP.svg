@@ -1,0 +1,19 @@
+<svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="2" y="2" width="48" height="48" rx="12" fill="url(#appLauncherBg)"/>
+  <rect x="14" y="14" width="7" height="7" rx="2.2" fill="white" fill-opacity="0.96"/>
+  <rect x="22.5" y="14" width="7" height="7" rx="2.2" fill="white" fill-opacity="0.96"/>
+  <rect x="31" y="14" width="7" height="7" rx="2.2" fill="white" fill-opacity="0.96"/>
+  <rect x="14" y="22.5" width="7" height="7" rx="2.2" fill="white" fill-opacity="0.96"/>
+  <rect x="22.5" y="22.5" width="7" height="7" rx="2.2" fill="white" fill-opacity="0.96"/>
+  <rect x="31" y="22.5" width="7" height="7" rx="2.2" fill="white" fill-opacity="0.96"/>
+  <rect x="14" y="31" width="7" height="7" rx="2.2" fill="white" fill-opacity="0.96"/>
+  <rect x="22.5" y="31" width="7" height="7" rx="2.2" fill="white" fill-opacity="0.96"/>
+  <rect x="31" y="31" width="7" height="7" rx="2.2" fill="white" fill-opacity="0.96"/>
+  <defs>
+    <linearGradient id="appLauncherBg" x1="8" y1="7" x2="45" y2="47" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF7A45"/>
+      <stop offset="0.48" stop-color="#DA5AF8"/>
+      <stop offset="1" stop-color="#4C8DFF"/>
+    </linearGradient>
+  </defs>
+</svg>

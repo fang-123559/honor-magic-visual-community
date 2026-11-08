@@ -1,0 +1,71 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>第三方组件与数据来源</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+  body{max-width:880px;margin:40px auto;font:14px/1.75 "HONOR Sans CN",system-ui;padding:20px 22px 60px;color:#1c1c1e}
+  h1{font-size:22px;margin:0 0 18px}
+  h2{font-size:15px;margin:32px 0 10px;padding-bottom:6px;border-bottom:1px solid #e6e6ea}
+  p{margin:10px 0}
+  ul{margin:10px 0;padding-left:20px}
+  li{margin:4px 0}
+  table{border-collapse:collapse;width:100%;margin:12px 0;font-size:13px}
+  th,td{text-align:left;padding:6px 8px;border-bottom:1px solid #eee;vertical-align:top}
+  th{font-weight:600;color:#555}
+  pre{white-space:pre-wrap;background:#fafafa;border:1px solid #eee;border-radius:8px;padding:14px;font-size:12px;line-height:1.6}
+  .note{color:#666;font-size:13px}
+  code{background:#f4f4f6;padding:1px 5px;border-radius:4px;font-size:12.5px}
+</style>
+
+<h1>第三方组件与数据来源</h1>
+
+<p>Magic 视界社区版是社区独立实现的 Windows 桌面环境，与荣耀（HONOR）不存在隶属关系，不代表官方立场。</p>
+<p>项目原创软件代码采用 GNU Affero General Public License v3.0-only（AGPL-3.0-only），许可全文随源码发布。该许可不覆盖带有独立许可或权利声明的第三方组件、HONOR 素材、商标和其他品牌资产；详见源码中的 NOTICE 与 THIRD-PARTY-NOTICES。</p>
+
+<h2>一、第三方组件</h2>
+
+<p><strong>.NET 10 / Microsoft.WindowsDesktop.App</strong>（MIT，© .NET Foundation and Contributors）<br>
+本项目以自包含方式发布，随包分发 .NET 运行时，按其许可要求保留版权声明。</p>
+
+<p><strong>图标：</strong>顶栏、Dock 与系统弹窗的原生图标自 react-icons 5.7.0 导出，图标几何未改动，仅将填充与描边适配为跟随系统主题。</p>
+<table>
+  <tr><th>图标集</th><th>许可</th></tr>
+  <tr><td>Font Awesome 5 / 6</td><td>CC BY 4.0</td></tr>
+  <tr><td>Ionicons 4 / 5</td><td>MIT</td></tr>
+  <tr><td>Material Design Icons</td><td>Apache-2.0</td></tr>
+  <tr><td>GitHub Octicons</td><td>MIT</td></tr>
+  <tr><td>Lucide</td><td>ISC</td></tr>
+  <tr><td>Game Icons</td><td>CC BY 3.0</td></tr>
+  <tr><td>Ant Design Icons</td><td>MIT</td></tr>
+  <tr><td>Bootstrap Icons</td><td>MIT</td></tr>
+  <tr><td>Remix Icon</td><td>Apache-2.0</td></tr>
+  <tr><td>Heroicons / Heroicons 2</td><td>MIT</td></tr>
+  <tr><td>BoxIcons</td><td>MIT</td></tr>
+  <tr><td>css.gg</td><td>MIT</td></tr>
+  <tr><td>VS Code Icons</td><td>CC BY 4.0</td></tr>
+  <tr><td>Tabler Icons</td><td>MIT</td></tr>
+  <tr><td>Phosphor Icons</td><td>MIT</td></tr>
+  <tr><td>Icons8 Line Awesome</td><td>MIT</td></tr>
+</table>
+<p class="note">标注 CC BY 的图标集在再分发时需保留署名。</p>
+
+<p><strong>Moment.js</strong>（MIT，© JS Foundation and other contributors）<br>
+用于日历卡片的本地化数据。</p>
+
+<p><strong>Seelen UI 来源组件与 SDK</strong>（具体许可见各组件说明）<br>
+本项目早期版本以 Seelen UI 2.8.9 作为桌面宿主；截至 v0.4.9，Windows 宿主已迁移为独立 Win32/.NET 实现，不再启动 Seelen UI 宿主程序。当前桌面 Widget 构建仍导入并打包 `@seelen-ui/lib` 2.8.4（AGPL-3.0-only），并复用上游样式；仓库也保留上游图标、界面翻译及实验源码。这些部分继续适用各自上游许可，不因本项目的许可选择而改变。</p>
+
+<h2>二、素材来源</h2>
+<p>下列素材的著作权归荣耀（HONOR）所有，本项目不拥有其版权，也不通过本项目的软件许可重新授权。项目负责人确认已取得对外再分发许可；素材仅在该单独授权范围内再分发：</p>
+<ul>
+  <li>应用图标库（<code>honor-icons</code>），提取自荣耀系统应用资源</li>
+  <li>进场动画素材（<code>transitions</code>）</li>
+  <li>更新窗口应用图标等品牌标识</li>
+</ul>
+<p class="note">相关权利与使用范围以各目录下的 NOTICE 说明和单独授权为准。</p>
+
+<h2>三、商标</h2>
+<p>「HONOR」「荣耀」「magic 视界」及其图形标识是其权利人的商标。开源许可不包含商标授权，再分发修改版本时请勿使用上述标识作为来源标识。</p>
+
+<h2>四、数据来源</h2>
+<p>天气数据：<a href="https://open-meteo.com/">Open-Meteo</a>（CC BY 4.0）；城市检索：GeoNames via Open-Meteo。公共免费端点用于非商业用途，服务与许可条款见供应商官网。</p>

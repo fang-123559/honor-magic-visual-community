@@ -1,0 +1,976 @@
+{
+  "schemaVersion": 1,
+  "icons": [
+    {
+      "name": "AiOutlineCopy",
+      "path": "icons/AiOutlineCopy.svg",
+      "sha256": "50655c7753f3b12014584f7c15daa648f5a7ab849701a2f4bfa15cdce01afb39"
+    },
+    {
+      "name": "BiDockBottom",
+      "path": "icons/BiDockBottom.svg",
+      "sha256": "02ba6ffb5f53aac31938d12a725a93d87a3fa06ef60416e3f1ffd82d7554bc32"
+    },
+    {
+      "name": "BiSolidDockTop",
+      "path": "icons/BiSolidDockTop.svg",
+      "sha256": "f7a4fe3d02d9001a8b8b0fc3392e5f8fb459ed5324b03282254dd09774bb4318"
+    },
+    {
+      "name": "BiWindowClose",
+      "path": "icons/BiWindowClose.svg",
+      "sha256": "1baf0be63e132f2f08c9a399334b48ea0768cbde141898e7a62c739066bf9d85"
+    },
+    {
+      "name": "BsChatSquareText",
+      "path": "icons/BsChatSquareText.svg",
+      "sha256": "1fb07937fc7e447df7c1895b49d37166877d7208b19af30b723b0ac57adeb8e1"
+    },
+    {
+      "name": "BsClipboardPulse",
+      "path": "icons/BsClipboardPulse.svg",
+      "sha256": "e7faa2e52c5cef56cede09d021f21551eab6681fe61a23d0c5b0ceeb3f0f06fa"
+    },
+    {
+      "name": "BsDeviceHdd",
+      "path": "icons/BsDeviceHdd.svg",
+      "sha256": "eb8ebc1e46d2770698f0312d2513bad9e7c46560ec5397474a1737ed44b6b2c3"
+    },
+    {
+      "name": "BsDisplay",
+      "path": "icons/BsDisplay.svg",
+      "sha256": "c1bc059f0b0dac55f986cc91763303c8ddad16d544b666551968c8724173b132"
+    },
+    {
+      "name": "BsFan",
+      "path": "icons/BsFan.svg",
+      "sha256": "56c895f498a6b5347200dc65053704a05e013af8978b85037f27fda9d7cff729"
+    },
+    {
+      "name": "BsGpuCard",
+      "path": "icons/BsGpuCard.svg",
+      "sha256": "a0b036ad430ff34dae048fa20ca8443912d54f67dd4f8b61463f48de389aa88a"
+    },
+    {
+      "name": "BsGrid1X2Fill",
+      "path": "icons/BsGrid1X2Fill.svg",
+      "sha256": "9eea7c706efe803b28d24cd3ee2cd04db549fa3d55196ae58e3d9889be3fdb17"
+    },
+    {
+      "name": "BsHeartPulse",
+      "path": "icons/BsHeartPulse.svg",
+      "sha256": "7bab32264d04a6736fc28cda101862ff99e9b5ac3d4a7c4d3901986d22e82e39"
+    },
+    {
+      "name": "BsKeyboard",
+      "path": "icons/BsKeyboard.svg",
+      "sha256": "89a9cfff2c7355554e34329541d93d4d449d10b5667f99e47f1af31db180bc3a"
+    },
+    {
+      "name": "BsModem",
+      "path": "icons/BsModem.svg",
+      "sha256": "fdcddfd575803b62c8fb7f6c1fb4d867313e84b354142fef3f852a4f5521a89b"
+    },
+    {
+      "name": "BsMouse",
+      "path": "icons/BsMouse.svg",
+      "sha256": "c10209d3ba0526d3d4f913ab1071bbcbfec4ac58eff539abcdd10c370f78cb89"
+    },
+    {
+      "name": "BsPciCardSound",
+      "path": "icons/BsPciCardSound.svg",
+      "sha256": "e25510872dd5b434e3efa19df1f2767b090ff0ca4f22f4be676b931d09fed5eb"
+    },
+    {
+      "name": "BsWindows",
+      "path": "icons/BsWindows.svg",
+      "sha256": "e74057f61937c9c160124bde95b01d5b738411f44075aa703e30269fdb9eec8c"
+    },
+    {
+      "name": "CgExtensionAdd",
+      "path": "icons/CgExtensionAdd.svg",
+      "sha256": "2345b1cf2590261b6cfdcec6d73c514d4a2bb4119ad0ac2aa5663ceb9111c945"
+    },
+    {
+      "name": "CgExtensionRemove",
+      "path": "icons/CgExtensionRemove.svg",
+      "sha256": "5b2f6dba7b2c72c68441c0ce9d11b87941f48b904df796cedc4aec0e70a34bfe"
+    },
+    {
+      "name": "CgGames",
+      "path": "icons/CgGames.svg",
+      "sha256": "a62e65748ffa76a5a83c219e2f85b7b305ab180bf04559e5767e206b4e05649f"
+    },
+    {
+      "name": "CgLock",
+      "path": "icons/CgLock.svg",
+      "sha256": "177940e9b83ba9058f53e84f66ff28f8d6a7c96f9a80cef60bc06bcab695916a"
+    },
+    {
+      "name": "CgLockUnlock",
+      "path": "icons/CgLockUnlock.svg",
+      "sha256": "256ca27bd10fbf0fb72f155db5b36fcb450d5853110cccdc907a24f0d7b6be3e"
+    },
+    {
+      "name": "CgModem",
+      "path": "icons/CgModem.svg",
+      "sha256": "80c1b094d7a6b178c515b806288310fe49036f983ba7f68e96a8dce35b09516b"
+    },
+    {
+      "name": "FaCalendar",
+      "path": "icons/FaCalendar.svg",
+      "sha256": "65221c4ba4bd429218af434e8c3984667cb917b5cd8b1e0a2fc3e0d7870c541e"
+    },
+    {
+      "name": "FaCar",
+      "path": "icons/FaCar.svg",
+      "sha256": "903348b5f8d2833a04636b1c77ebd78aea8b00ca3a8466f959e6cef211e6828b"
+    },
+    {
+      "name": "FaComputer",
+      "path": "icons/FaComputer.svg",
+      "sha256": "cf333d20776ef55f2d65b5f96f350ccc57424b73138e14149fe822a9bb647bd8"
+    },
+    {
+      "name": "FaMemory",
+      "path": "icons/FaMemory.svg",
+      "sha256": "ad2e4301c4458a317d555f75d4098d244d24c0b3463c3d34fbb9ab230cd6b663"
+    },
+    {
+      "name": "FaPager",
+      "path": "icons/FaPager.svg",
+      "sha256": "34910cf268cb5fabd301bd01b52af724bdcc9496d59018e4e2f9ff5227678899"
+    },
+    {
+      "name": "FaPlane",
+      "path": "icons/FaPlane.svg",
+      "sha256": "a2991ffe858d98fd3dd340717a6d5f87be5396a63a49defc3874e3a06c9a18e3"
+    },
+    {
+      "name": "FaRegCircleUser",
+      "path": "icons/FaRegCircleUser.svg",
+      "sha256": "8ab3780925b3cd282aefec8c6b8595ee6d479db33f54b3cfc6a570a96f61cda8"
+    },
+    {
+      "name": "FaRegKeyboard",
+      "path": "icons/FaRegKeyboard.svg",
+      "sha256": "1f3dff26da156f4f6c49e71f0319900a6e7f6ae0a303606407446e666479f218"
+    },
+    {
+      "name": "FaRegTrashAlt",
+      "path": "icons/FaRegTrashAlt.svg",
+      "sha256": "16a2ed59d5790aff6accd44ca54c636db4d4ec1045a8339baee6fe314e875d9d"
+    },
+    {
+      "name": "FaRegWindowRestore",
+      "path": "icons/FaRegWindowRestore.svg",
+      "sha256": "1f5b068b67d7fe03e9d49cfe22fe2c11e0a976f4e7ba9b7401faa8dab2245a24"
+    },
+    {
+      "name": "FaWeightScale",
+      "path": "icons/FaWeightScale.svg",
+      "sha256": "97f2bfed3a316f5b9c0394139f2c51221ba40f32006d3ffee70f070b9bc19059"
+    },
+    {
+      "name": "FaWheelchair",
+      "path": "icons/FaWheelchair.svg",
+      "sha256": "0fd890296e63e2a47993398b5624592632dffc5825c988e38f504435e4f4a2ec"
+    },
+    {
+      "name": "FaWifi",
+      "path": "icons/FaWifi.svg",
+      "sha256": "193e18e2301dea2af52f03ad4b06f063d8a8e1fdf1f6c35f6d0375001cc26a20"
+    },
+    {
+      "name": "GiFullMotorcycleHelmet",
+      "path": "icons/GiFullMotorcycleHelmet.svg",
+      "sha256": "16c2a59ac9c231aa4a263114f07c4241545fa4d0576d2b8fe34e7bb1b4c4da34"
+    },
+    {
+      "name": "GiGameConsole",
+      "path": "icons/GiGameConsole.svg",
+      "sha256": "b768af635e0ada5d6e8a8553f26f061b763dfb73aec1c9bf502108b697914a4a"
+    },
+    {
+      "name": "GiMechanicalArm",
+      "path": "icons/GiMechanicalArm.svg",
+      "sha256": "98a39b5b33233a91b708cd6a044562f701643285e9de21ea3e657b61f85d04ee"
+    },
+    {
+      "name": "GiRobotLeg",
+      "path": "icons/GiRobotLeg.svg",
+      "sha256": "0c5ae65368513c9691c2316ae65d247f85a0f46a5210410ca4c550965b379945"
+    },
+    {
+      "name": "GiThermometerScale",
+      "path": "icons/GiThermometerScale.svg",
+      "sha256": "e8261b9a5dd5c147e1f3b929752a9e58a63ae245014336e62bc0de3588773873"
+    },
+    {
+      "name": "GoNumber",
+      "path": "icons/GoNumber.svg",
+      "sha256": "8c50e3aae4ac79208875e2a0338b0e8ea21ea8a367e771b8596e2cc5a256b69e"
+    },
+    {
+      "name": "HiDotsHorizontal",
+      "path": "icons/HiDotsHorizontal.svg",
+      "sha256": "20af58fc6e3ad055eb0363323ccfd5030e9a2ded1d8d787f0751e6f47c68afe1"
+    },
+    {
+      "name": "HiOutlineDotsVertical",
+      "path": "icons/HiOutlineDotsVertical.svg",
+      "sha256": "ea06bd0a62ef1800d862599091c9ea9358ec87757f2a9179b79397e58e90f586"
+    },
+    {
+      "name": "HiOutlineMicrophone",
+      "path": "icons/HiOutlineMicrophone.svg",
+      "sha256": "f45ce3ddff268b7b908062bfe12524df3b0bfd00ea8e7cb407663c206e3576c2"
+    },
+    {
+      "name": "HiOutlineVideoCamera",
+      "path": "icons/HiOutlineVideoCamera.svg",
+      "sha256": "978a5b887f0d39d0d99fbf9012520b30ff8c2c3271d47eb562529b5d158de4e1"
+    },
+    {
+      "name": "IoAlarm",
+      "path": "icons/IoAlarm.svg",
+      "sha256": "b240950e53bc8aa0804f0c8e00136b6a9408c4326f5d6f6712073288631686db"
+    },
+    {
+      "name": "IoAlert",
+      "path": "icons/IoAlert.svg",
+      "sha256": "649e0424369f83720813d9352758885ff08238ab6744dbdb345c363b0dc7b780"
+    },
+    {
+      "name": "IoBan",
+      "path": "icons/IoBan.svg",
+      "sha256": "099e5629116c43bc00b905c39d9c41e03ef27983cbdc5989b3a30ce58994d755"
+    },
+    {
+      "name": "IoBodyOutline",
+      "path": "icons/IoBodyOutline.svg",
+      "sha256": "ee20e1dfea7a091e68ccb3f057e497d58b4d3a56a07b7beb861598fcef613341"
+    },
+    {
+      "name": "IoCameraOutline",
+      "path": "icons/IoCameraOutline.svg",
+      "sha256": "68987d09ad6f45126411d1bf1aa448de7d237ab0370372a4bf37906c9746a10f"
+    },
+    {
+      "name": "IoChevronDownCircleOutline",
+      "path": "icons/IoChevronDownCircleOutline.svg",
+      "sha256": "7572aac8db469ff8c0af63cb1cd9f634b0d1a73e69f8b34a5b0cacc231cc796e"
+    },
+    {
+      "name": "IoClose",
+      "path": "icons/IoClose.svg",
+      "sha256": "97da8ab93bf5ce70e16b7e27bfd63a654f19eae17494ce5def71a456d9de47b1"
+    },
+    {
+      "name": "IoDesktopOutline",
+      "path": "icons/IoDesktopOutline.svg",
+      "sha256": "aaee54da591d064eb5d45722c7b8c5fc006dd541294653305c938d386bf8b4c6"
+    },
+    {
+      "name": "IoEarOutline",
+      "path": "icons/IoEarOutline.svg",
+      "sha256": "777f1a15b6b8cdb067d7b590ec77f159e0dda2adbd1f2f09b86be40f10c750a9"
+    },
+    {
+      "name": "IoFootstepsSharp",
+      "path": "icons/IoFootstepsSharp.svg",
+      "sha256": "8bd379c55de3ad426e031ac665870253509cef10ac3d750c6eccdfcda4c3d327"
+    },
+    {
+      "name": "IoGameControllerOutline",
+      "path": "icons/IoGameControllerOutline.svg",
+      "sha256": "5cce47cd10948d2549d49eaf1620a8e3d0f35e04f5588d553ef13bb31498dee5"
+    },
+    {
+      "name": "IoGlassesOutline",
+      "path": "icons/IoGlassesOutline.svg",
+      "sha256": "79f8a866c6b98bf0acdc837029743b73f31b41f5482cf8fca0ff48abd5c32e12"
+    },
+    {
+      "name": "IoHeadset",
+      "path": "icons/IoHeadset.svg",
+      "sha256": "ac6b8ee7782d283bc87634bc0b2d60cd28cc3764bd9c24fcc4f49ccd3fe6c013"
+    },
+    {
+      "name": "IoImagesOutline",
+      "path": "icons/IoImagesOutline.svg",
+      "sha256": "d4d28b501d4fbcc284d397aa9df0dc69aa68614eae1b4b5b9f1c7eba596affce"
+    },
+    {
+      "name": "IoIosArrowDropdown",
+      "path": "icons/IoIosArrowDropdown.svg",
+      "sha256": "6dbb74b87cda4744a15c92ab5a06e7bc1d0763d71d5ae9d3974e266bf84aea6a"
+    },
+    {
+      "name": "IoIosTabletPortrait",
+      "path": "icons/IoIosTabletPortrait.svg",
+      "sha256": "06fa794cd021852dea69ca4cb2e19a67c662085d72b7eb72fddb5a21ce8665d6"
+    },
+    {
+      "name": "IoIosThermometer",
+      "path": "icons/IoIosThermometer.svg",
+      "sha256": "42abc65cb31c98834476a61b987e0f51b69e44f1bb55528693e532c705c36c5f"
+    },
+    {
+      "name": "IoLaptopOutline",
+      "path": "icons/IoLaptopOutline.svg",
+      "sha256": "8cfaec2aa69fa5abde990c67ca077ed9a5df508a402fd36ce1751034423cab64"
+    },
+    {
+      "name": "IoMail",
+      "path": "icons/IoMail.svg",
+      "sha256": "ea45c93dc1bd6d71b7659fdadc7d4f324bc916a4085f96ed77aa9bc367858c71"
+    },
+    {
+      "name": "IoMdBulb",
+      "path": "icons/IoMdBulb.svg",
+      "sha256": "41ab2b6a880d13774fc255b7eba1e93f59eb1efa3fe2fb32062ccb5889b96fa3"
+    },
+    {
+      "name": "IoMdKey",
+      "path": "icons/IoMdKey.svg",
+      "sha256": "ca9be0e164751c0069c381542c71ede293dba516f1d9fef6ed184304f9d68651"
+    },
+    {
+      "name": "IoMdPhoneLandscape",
+      "path": "icons/IoMdPhoneLandscape.svg",
+      "sha256": "43a5ba4dcd9b64b94674e42939abdd0d7072bb8aeed0fb7b9f1a671534bcab31"
+    },
+    {
+      "name": "IoMdPricetag",
+      "path": "icons/IoMdPricetag.svg",
+      "sha256": "fa62334f853e72982d1399a0e5a4d431401154a434b50a79d3dd082a43049255"
+    },
+    {
+      "name": "IoMdWatch",
+      "path": "icons/IoMdWatch.svg",
+      "sha256": "56806afe433d2cbe7dd9c7a8af21be00044d9bd6718602a7d998756846bb9b5b"
+    },
+    {
+      "name": "IoNotificationsOutline",
+      "path": "icons/IoNotificationsOutline.svg",
+      "sha256": "757762636d4290fa17d5b208bba9445553b9837197ed25c3302d4e3f13cc3741"
+    },
+    {
+      "name": "IoOpenOutline",
+      "path": "icons/IoOpenOutline.svg",
+      "sha256": "adb682bf740b5ac3a5971bc913969551ac0c0249f593cde593685baa0f73361f"
+    },
+    {
+      "name": "IoPause",
+      "path": "icons/IoPause.svg",
+      "sha256": "15eb1ff5fef2493d6bc3fc602cf9db4d013f642d1dd92db80c2d63df6415aa8e"
+    },
+    {
+      "name": "IoPencil",
+      "path": "icons/IoPencil.svg",
+      "sha256": "54b19687aac3ab770a623eb2fcfea825cede7a1d00de664816306e3a727b5127"
+    },
+    {
+      "name": "IoPhonePortraitOutline",
+      "path": "icons/IoPhonePortraitOutline.svg",
+      "sha256": "c56765ed7b4a5400455b52112c893b74e92ab5ef72d686070c47f284164540a7"
+    },
+    {
+      "name": "IoPlay",
+      "path": "icons/IoPlay.svg",
+      "sha256": "2582e4d93a34a487b6ebc9dd97909afdb5797c811413ed480068f961b85912e0"
+    },
+    {
+      "name": "IoPlaySkipBack",
+      "path": "icons/IoPlaySkipBack.svg",
+      "sha256": "de86e30373e5865e1b0ae2a1f4abfd3a437f6ede2fbb7dec5d0487c1988a34bf"
+    },
+    {
+      "name": "IoPlaySkipForward",
+      "path": "icons/IoPlaySkipForward.svg",
+      "sha256": "1505c7cb64abb60ec71df143ae861c685a0463750faed0f9b3e7f48bdf8b4a85"
+    },
+    {
+      "name": "IoPower",
+      "path": "icons/IoPower.svg",
+      "sha256": "73a6e20bd419050b665892bcc42038ebba4f4dfeb043bb6e4b7c34f432407342"
+    },
+    {
+      "name": "IoPrintOutline",
+      "path": "icons/IoPrintOutline.svg",
+      "sha256": "b804f71d9a3e4860be5acc394673fc27f27aa8c50affa6b513172f8254c8686c"
+    },
+    {
+      "name": "IoRemove",
+      "path": "icons/IoRemove.svg",
+      "sha256": "f91d7e1bdbe1c160c5d840a0daa441e6240776efe7cee7a2cec7830cbd57d70f"
+    },
+    {
+      "name": "IoServerOutline",
+      "path": "icons/IoServerOutline.svg",
+      "sha256": "6f316dfa0d627c66dce33eda19cf3095e4c7fbf38007a3989abc1d4835fab81c"
+    },
+    {
+      "name": "IoTabletLandscapeOutline",
+      "path": "icons/IoTabletLandscapeOutline.svg",
+      "sha256": "cb79972b1e4b9c397adb2adadbb6f54fc69c1ef54b5c9046ebe8059ea79e3a74"
+    },
+    {
+      "name": "IoTimeOutline",
+      "path": "icons/IoTimeOutline.svg",
+      "sha256": "c82daae2961ec83bfe0539a9731a8584c4f51a290653dfa02b9c0668e3ec1c64"
+    },
+    {
+      "name": "IoVolumeHighOutline",
+      "path": "icons/IoVolumeHighOutline.svg",
+      "sha256": "9446f2aab2e19a60d08a89cc2b5fa6415760d9b0aea3d9a3aef196cb4321ab3b"
+    },
+    {
+      "name": "IoVolumeLowOutline",
+      "path": "icons/IoVolumeLowOutline.svg",
+      "sha256": "61813f1967a7aa3895449cbba1dba04d247dd99a3d4a665d837760726841bde1"
+    },
+    {
+      "name": "IoVolumeMediumOutline",
+      "path": "icons/IoVolumeMediumOutline.svg",
+      "sha256": "b4dce12c9022b701a82f4b3c920316cbe21072cd0fceac485b38a62982f76c88"
+    },
+    {
+      "name": "IoVolumeMuteOutline",
+      "path": "icons/IoVolumeMuteOutline.svg",
+      "sha256": "da317230e076209ee10953d858acaf1913dc1d83ae56b247fe72cba38bb3f465"
+    },
+    {
+      "name": "IoVolumeOffOutline",
+      "path": "icons/IoVolumeOffOutline.svg",
+      "sha256": "a26cea5c23fcfc8367b3b411d978e8586c4464ce209247a25cfd0acaa1e2d161"
+    },
+    {
+      "name": "IoWatchOutline",
+      "path": "icons/IoWatchOutline.svg",
+      "sha256": "837c56fe8cf463cb829611a087094827cc5b8769df8bc5a1235fa1ea03b3404e"
+    },
+    {
+      "name": "LiaBabySolid",
+      "path": "icons/LiaBabySolid.svg",
+      "sha256": "36994179b3d6df5c078b6f961196d13dcaca0024ab058e0ff306b7f15a6cc727"
+    },
+    {
+      "name": "LuCpu",
+      "path": "icons/LuCpu.svg",
+      "sha256": "5134ebd3d394673760da8f193b685acbf0793928f32b2e3a352ec2836a42c028"
+    },
+    {
+      "name": "LuJoystick",
+      "path": "icons/LuJoystick.svg",
+      "sha256": "e74ecf50c3771a74617ff6615f675d80367f25691e97e90474f7cd8758d10506"
+    },
+    {
+      "name": "LuPhone",
+      "path": "icons/LuPhone.svg",
+      "sha256": "0b3a028c0006596b13ea54113916148ebad1e383070c4f1fcbf6d67065321b92"
+    },
+    {
+      "name": "LuRectangleEllipsis",
+      "path": "icons/LuRectangleEllipsis.svg",
+      "sha256": "d6eef4b4da45748d17d72e6de094a13c693d890fbaa7a5cf156cb67f1a6cd451"
+    },
+    {
+      "name": "LuSeparatorHorizontal",
+      "path": "icons/LuSeparatorHorizontal.svg",
+      "sha256": "ac737283378656113659fc7558deae7f963cabc5f35999deacaebb89a3bb6eb6"
+    },
+    {
+      "name": "LuSeparatorVertical",
+      "path": "icons/LuSeparatorVertical.svg",
+      "sha256": "689c99830f8ec47cfbbd1750f3d84288a69f805cd12e0eddc5c4f882e93b290e"
+    },
+    {
+      "name": "LuSettings2",
+      "path": "icons/LuSettings2.svg",
+      "sha256": "cdedd2db3f6fb9f9ff1506f995efa61289a68de83d2c568e517055f2135da5f7"
+    },
+    {
+      "name": "LuSpeaker",
+      "path": "icons/LuSpeaker.svg",
+      "sha256": "f712abe7c33154d771cac043c7b89c6b11d1df9ffec0aac15979b5105ff79fd8"
+    },
+    {
+      "name": "LuTouchpad",
+      "path": "icons/LuTouchpad.svg",
+      "sha256": "b98d6a581b22440cb5a90b2a153cf7c67be7d0e4f1e9bed62bf01dc871c6fd81"
+    },
+    {
+      "name": "LuToyBrick",
+      "path": "icons/LuToyBrick.svg",
+      "sha256": "e6e6af6409f840046edc9fcd19b3fa60dce83f80dae0d3ba8cb8976d1ecd703d"
+    },
+    {
+      "name": "MdAcUnit",
+      "path": "icons/MdAcUnit.svg",
+      "sha256": "64f2dfa0d25ade91d7e7a21a0f27e0197172ba6afdd3306b87c00eed42a32f36"
+    },
+    {
+      "name": "MdBarcodeReader",
+      "path": "icons/MdBarcodeReader.svg",
+      "sha256": "878bb3e08c0f890e68ded5269dbf02d35450dc7bf510a127035fe8368c3ce00e"
+    },
+    {
+      "name": "MdBlinds",
+      "path": "icons/MdBlinds.svg",
+      "sha256": "0bd59d158ebd0eb67defa2ee1041813602dc99c1878f352f744317791047fac4"
+    },
+    {
+      "name": "MdBuild",
+      "path": "icons/MdBuild.svg",
+      "sha256": "8bd527e0c94bf0e62ad0ffd0f52c7c038085d53b3eb6e591ce292f1e731b131a"
+    },
+    {
+      "name": "MdCenterFocusStrong",
+      "path": "icons/MdCenterFocusStrong.svg",
+      "sha256": "f1a3e5e8ad0a60e3a1cabb45964df337d230288cd5a226543043af747f057784"
+    },
+    {
+      "name": "MdCenterFocusWeak",
+      "path": "icons/MdCenterFocusWeak.svg",
+      "sha256": "1059be466fcdbf01951517c31f8bf1e554dcc7d0b5c9f2b45fd971c628e0d11f"
+    },
+    {
+      "name": "MdDirectionsBike",
+      "path": "icons/MdDirectionsBike.svg",
+      "sha256": "2ec50c3d9f636db405dc9a611adbcaedab210f175ef0a5faba578ce1f6bfbe5a"
+    },
+    {
+      "name": "MdElectricBolt",
+      "path": "icons/MdElectricBolt.svg",
+      "sha256": "283385174f535ad34609dcb4de16e388968ba6bf70d2ad0a4209a47d6d29045a"
+    },
+    {
+      "name": "MdLock",
+      "path": "icons/MdLock.svg",
+      "sha256": "792bfd6152648e17cc40bda27f9e1caf988375ffe7527a5a28a1cd1771741617"
+    },
+    {
+      "name": "MdMicrowave",
+      "path": "icons/MdMicrowave.svg",
+      "sha256": "73e538fb0791b91f804ec3c6af1d7461517da945180d3b6964cbe49db3ad0fc8"
+    },
+    {
+      "name": "MdNotificationsActive",
+      "path": "icons/MdNotificationsActive.svg",
+      "sha256": "5cde035383b9c073e020fd1098cd4008efda4e0de13f42738cf55f86a759633e"
+    },
+    {
+      "name": "MdOutlineAdminPanelSettings",
+      "path": "icons/MdOutlineAdminPanelSettings.svg",
+      "sha256": "4b1865152895495c03db6a28198b95e5f60a35c7e90e57ed8659480e8f50f8a8"
+    },
+    {
+      "name": "MdOutlineBloodtype",
+      "path": "icons/MdOutlineBloodtype.svg",
+      "sha256": "897e25fd4a5a6d6c50b09ac0f65fe4bcfe31404e9deaefee7a685778108f8773"
+    },
+    {
+      "name": "MdOutlineChromeReaderMode",
+      "path": "icons/MdOutlineChromeReaderMode.svg",
+      "sha256": "e050b615439550533a648c4b36f093d3fac0a265b97d4a20b0387821772a86a1"
+    },
+    {
+      "name": "MdOutlineDangerous",
+      "path": "icons/MdOutlineDangerous.svg",
+      "sha256": "7189850686327e2a91a9b3bb6267d1401b3b95af5d0fe1e3ff2d487e15ef37ad"
+    },
+    {
+      "name": "MdOutlineGesture",
+      "path": "icons/MdOutlineGesture.svg",
+      "sha256": "f4114dffcda8b9b483941f7c9b14540e96f8ac75a3c955dfd1a7813b4f853017"
+    },
+    {
+      "name": "MdOutlineMedication",
+      "path": "icons/MdOutlineMedication.svg",
+      "sha256": "6f165697e67fb2db41d934f8407bff8b4614ee0a4beab294d56c825b7e896904"
+    },
+    {
+      "name": "MdOutlineMyLocation",
+      "path": "icons/MdOutlineMyLocation.svg",
+      "sha256": "46a43f88703d4315460ed089e6de90d9e2ccc23113573c20c551c3c52458cdef"
+    },
+    {
+      "name": "MdOutlineNotifications",
+      "path": "icons/MdOutlineNotifications.svg",
+      "sha256": "273289930d50c1635ac9dfafa72d8e21ef16cc4333b7d6250457310633f91919"
+    },
+    {
+      "name": "MdOutlinePrecisionManufacturing",
+      "path": "icons/MdOutlinePrecisionManufacturing.svg",
+      "sha256": "caca1e41ec67e7c0e80ccdc18dbfe38d9488c8e73a0bd31334d3ad03d088d9dd"
+    },
+    {
+      "name": "MdOutlinePreview",
+      "path": "icons/MdOutlinePreview.svg",
+      "sha256": "ef678230a95c705e55dbafb809eb9c447458fc0ccf66cdc741ebbe28f3f50c40"
+    },
+    {
+      "name": "MdOutlineScanner",
+      "path": "icons/MdOutlineScanner.svg",
+      "sha256": "f5cd4199018b57fe4979b3ee784ab89543a0ac1ce8c165b9a4a21ea622e491c8"
+    },
+    {
+      "name": "MdPower",
+      "path": "icons/MdPower.svg",
+      "sha256": "5c5998b61f1f209689b49fbdb6fe2bd3eff3a8ca85e49c44e197802e5ff17748"
+    },
+    {
+      "name": "MdSensorOccupied",
+      "path": "icons/MdSensorOccupied.svg",
+      "sha256": "69a3df41f5b301b8bac7f5d54f5b36178921b4dee60be9be71300badf6d159d8"
+    },
+    {
+      "name": "MdSignpost",
+      "path": "icons/MdSignpost.svg",
+      "sha256": "40139a6a2c0a773cbc833478c6bee9b279c9fa2668f857b51bb2b18e36f111b3"
+    },
+    {
+      "name": "MdSportsBaseball",
+      "path": "icons/MdSportsBaseball.svg",
+      "sha256": "84e360b936b0a6a8474306e12861c6c98d917bbb9f9110aa48eca0212d58cc83"
+    },
+    {
+      "name": "PiArrowsDownUpBold",
+      "path": "icons/PiArrowsDownUpBold.svg",
+      "sha256": "392d20832a0c70203e884459af89ecd8a96c7841da0791257465894a5fbb038e"
+    },
+    {
+      "name": "PiBatteryMediumFill",
+      "path": "icons/PiBatteryMediumFill.svg",
+      "sha256": "cbbff6c53e6a13d70919d6f4368fb7a1b164085c778f26c0091c7efa02dee95e"
+    },
+    {
+      "name": "PiChartLineFill",
+      "path": "icons/PiChartLineFill.svg",
+      "sha256": "71e721db254d45a4c1c43a8d1e58e698282ed478caca4c6f5eef8ec6e2efb329"
+    },
+    {
+      "name": "PiDesktopDuotone",
+      "path": "icons/PiDesktopDuotone.svg",
+      "sha256": "e1cada55ac37cb41c5e1ac8df5574a9e8b3ff9d78d2c8e12f172bb78998fec61"
+    },
+    {
+      "name": "PiFolderUser",
+      "path": "icons/PiFolderUser.svg",
+      "sha256": "8bf4ab27612748904d0bb5eae7ce19f325f737202ef3c8272cf5e116c5b0b40b"
+    },
+    {
+      "name": "PiMonitorPlay",
+      "path": "icons/PiMonitorPlay.svg",
+      "sha256": "507470cb18fde674b00b5cb6ddc76bfbe11bf5cf7d60766f8fb81bde3155a2e2"
+    },
+    {
+      "name": "PiMusicNotesPlusFill",
+      "path": "icons/PiMusicNotesPlusFill.svg",
+      "sha256": "c251fb3027867c2047a0c6cfac3f5b8ceb62b45aaef5564aca5c1b85a9942c38"
+    },
+    {
+      "name": "PiNetwork",
+      "path": "icons/PiNetwork.svg",
+      "sha256": "4caa559a93ee50c7a55aa72123ff8a862b7babc937edba408b8d7f3efc2c1ece"
+    },
+    {
+      "name": "PiNetworkX",
+      "path": "icons/PiNetworkX.svg",
+      "sha256": "6c2d452d72896b70eb7efcd5459225749cb8315bad63aa088cd735ff749fd605"
+    },
+    {
+      "name": "PiSelectionForegroundDuotone",
+      "path": "icons/PiSelectionForegroundDuotone.svg",
+      "sha256": "d46bf000ef5cf8090acc1ba7f95e1b3ce31f4e6ac7cb196ca09a5290a853acc6"
+    },
+    {
+      "name": "PiSpeedometerBold",
+      "path": "icons/PiSpeedometerBold.svg",
+      "sha256": "5a05ac08b6fb08ddf11f81c72543bdfce7e9b076a33781575d24dcdcee260ddc"
+    },
+    {
+      "name": "PiTrashDuotone",
+      "path": "icons/PiTrashDuotone.svg",
+      "sha256": "21bfe14d1fcc9c9071428ef515c87264ca962ce7a8913c0616aa94a543ecdd64"
+    },
+    {
+      "name": "PiVideoConference",
+      "path": "icons/PiVideoConference.svg",
+      "sha256": "d7b3bff6d038e425b49b7e6453dea141b0afa30144ce0c05707ea80c5eb005d5"
+    },
+    {
+      "name": "PiWallDuotone",
+      "path": "icons/PiWallDuotone.svg",
+      "sha256": "d5452069be9afd41edf8d306d244873d93cf5422b46556cc68d50508386ca51a"
+    },
+    {
+      "name": "RiEditBoxLine",
+      "path": "icons/RiEditBoxLine.svg",
+      "sha256": "995bde2e4e0a2205250363a549e8ca8d09232d97278603a71b7dd9a5b55c563c"
+    },
+    {
+      "name": "RiFileAddLine",
+      "path": "icons/RiFileAddLine.svg",
+      "sha256": "023b07ac0f71dbff28289b751676d9acb968c8184a9a5e3face0ab145402389b"
+    },
+    {
+      "name": "RiPushpinLine",
+      "path": "icons/RiPushpinLine.svg",
+      "sha256": "86888925d30aa74970c8df311682f75593047ae57121bfcf36819361de49ab8e"
+    },
+    {
+      "name": "RiRemoteControl2Line",
+      "path": "icons/RiRemoteControl2Line.svg",
+      "sha256": "85ac73aee934eb809580e2cf3e568609ddb0783f0f48d021a4627730dbe5feeb"
+    },
+    {
+      "name": "RiRobot3Line",
+      "path": "icons/RiRobot3Line.svg",
+      "sha256": "039cd7743a59cdd7b74c36ffb152019e3216cb30416816796e55e025117ace20"
+    },
+    {
+      "name": "RiSettings4Fill",
+      "path": "icons/RiSettings4Fill.svg",
+      "sha256": "4c2c70665b0be030ae5e042fc4f55750769fe449d06691f737e4e6940a017e39"
+    },
+    {
+      "name": "RiUnpinLine",
+      "path": "icons/RiUnpinLine.svg",
+      "sha256": "83d21742734dd0b73089fee9eb03561bc62909a58668ef1fafca3474aa68733f"
+    },
+    {
+      "name": "TbBluetooth",
+      "path": "icons/TbBluetooth.svg",
+      "sha256": "270f4e6f9925558f75e7d829da1a3b167a47b70dbcafba21aa05a4aa9c8a2ca1"
+    },
+    {
+      "name": "TbBluetoothConnected",
+      "path": "icons/TbBluetoothConnected.svg",
+      "sha256": "745a8c7fd3466b9be115cf8b60cbf2eccaf6e01c7d1be43343f2a8fe3cd24d38"
+    },
+    {
+      "name": "TbCapProjecting",
+      "path": "icons/TbCapProjecting.svg",
+      "sha256": "d41fadb76f5ccec6d67f0eede22e074424660e55bd9eccce7272de7e7f0249ee"
+    },
+    {
+      "name": "TbDeviceUnknown",
+      "path": "icons/TbDeviceUnknown.svg",
+      "sha256": "3974b264e98b37a3514a054a82ab051da3db9eb3e68646da4f34f1963b4d9de4"
+    },
+    {
+      "name": "TbDroplet",
+      "path": "icons/TbDroplet.svg",
+      "sha256": "f3a83b94856ba5346c63f626771759b7594bfce26363308b3b3061e7ac02c7a7"
+    },
+    {
+      "name": "TbHeartRateMonitor",
+      "path": "icons/TbHeartRateMonitor.svg",
+      "sha256": "f6a2b701e8ee08636205bcb0f47c12f506e12921787a434bdf8958116c5ba070"
+    },
+    {
+      "name": "TbJacket",
+      "path": "icons/TbJacket.svg",
+      "sha256": "33da03172a1a81686a4f6714e6d688f9fa26c821cc5e80c84cde70ba1fab13fe"
+    },
+    {
+      "name": "TbPlugConnected",
+      "path": "icons/TbPlugConnected.svg",
+      "sha256": "795c94dd8b874d2f81c658a1c9424a4430c07bf1063a5ed8d78cddff1c030c23"
+    },
+    {
+      "name": "TbRefresh",
+      "path": "icons/TbRefresh.svg",
+      "sha256": "5cfef5e9bff42fa8b850977851597902ae3955250503f49e124bcebf52d605a5"
+    },
+    {
+      "name": "TbRestore",
+      "path": "icons/TbRestore.svg",
+      "sha256": "09823663d5d7d6e592ecae92b57860b00ada827007aee05b18b0dfbb53ee0703"
+    },
+    {
+      "name": "TbWorldCancel",
+      "path": "icons/TbWorldCancel.svg",
+      "sha256": "131fc1388aa72c83093e8b5896fbb2f7f5339ce2b541ae5e1300e310c6925135"
+    },
+    {
+      "name": "TbZzz",
+      "path": "icons/TbZzz.svg",
+      "sha256": "02e10cd9e15088d64ca87b9c793b47afc180b9fb3c3cfdf41e8dc1dc21622840"
+    },
+    {
+      "name": "VscLock",
+      "path": "icons/VscLock.svg",
+      "sha256": "7494b9e5cfaea34ae45001a3e9f21fa7f6b14cbbdb1adc4f68d9ffd2dc697c50"
+    },
+    {
+      "name": "VscUnlock",
+      "path": "icons/VscUnlock.svg",
+      "sha256": "35ebe42d3443a86a70854a493e7110dd4225bef49e7a930a1839eb168c713521"
+    },
+    {
+      "name": "MagicBatteryCharge0",
+      "path": "icons/MagicBatteryCharge0.svg",
+      "sha256": "038512cee4114af25c61af253b9e780329f4644603d88b644ff2f6a3f6378398"
+    },
+    {
+      "name": "MagicBatteryCharge1",
+      "path": "icons/MagicBatteryCharge1.svg",
+      "sha256": "40e8c9340e4146e03a7547f4dab805deb08f9747698cc9418ddf4fd6cc7d96ac"
+    },
+    {
+      "name": "MagicBatteryCharge2",
+      "path": "icons/MagicBatteryCharge2.svg",
+      "sha256": "275f9acddda32512c5b05d69988eb3593700b54c5052876d87e647a2f4586ab7"
+    },
+    {
+      "name": "MagicBatteryCharge3",
+      "path": "icons/MagicBatteryCharge3.svg",
+      "sha256": "7f83330cbb07f9bfeec91ee4dfbbdd6baf692638822c683bbcbc7b8d3423d536"
+    },
+    {
+      "name": "MagicBatteryCharge4",
+      "path": "icons/MagicBatteryCharge4.svg",
+      "sha256": "1d36e8daaa74fe51c8acf6fbb072fb1f6dc73eb758d188ccd0faa5fd9c389c97"
+    },
+    {
+      "name": "MagicBatteryCharge5",
+      "path": "icons/MagicBatteryCharge5.svg",
+      "sha256": "c50ea955a61ff66cf8aeaeedef473a1894e1ddb8ad77b5084b2fc7f14f88ecad"
+    },
+    {
+      "name": "MagicBatteryCharge6",
+      "path": "icons/MagicBatteryCharge6.svg",
+      "sha256": "ea22e04f40211b749d80951a20a952f5a12044544f779975975e603d921f3fe7"
+    },
+    {
+      "name": "MagicBatteryCharge7",
+      "path": "icons/MagicBatteryCharge7.svg",
+      "sha256": "e89887910e0345819c679649d948807317509e2bbe796757b73470d183f52f59"
+    },
+    {
+      "name": "MagicBatteryCharge8",
+      "path": "icons/MagicBatteryCharge8.svg",
+      "sha256": "e7f0572264592108c2e1540416f89d86329163441527dc01a3f263952db4d345"
+    },
+    {
+      "name": "MagicBatteryCharge9",
+      "path": "icons/MagicBatteryCharge9.svg",
+      "sha256": "edbfa67cceefba9c36ae080f3cff0dea14f4cca5d6b1f0e724c2e40c5be77718"
+    },
+    {
+      "name": "MagicBatteryCharge10",
+      "path": "icons/MagicBatteryCharge10.svg",
+      "sha256": "57ff0fb0438bacac62b2e1a36ba97aeba700dce3ee99753bd4b5af21a8ae76b7"
+    },
+    {
+      "name": "MagicBatteryNormal0",
+      "path": "icons/MagicBatteryNormal0.svg",
+      "sha256": "774c404e1243a7f4dd7ce151afff7ddaeb2a68cc3f0c528aa98f66fd6e73083f"
+    },
+    {
+      "name": "MagicBatteryNormal1",
+      "path": "icons/MagicBatteryNormal1.svg",
+      "sha256": "22e70c5402d7fe6ee5d06333403fd82a2894699b8d9a6dbf7d27a3eff6a23ed4"
+    },
+    {
+      "name": "MagicBatteryNormal2",
+      "path": "icons/MagicBatteryNormal2.svg",
+      "sha256": "188e498e31600af77e19971560a170bdb80afc15aeb6f4be9bb107569f2d3c8c"
+    },
+    {
+      "name": "MagicBatteryNormal3",
+      "path": "icons/MagicBatteryNormal3.svg",
+      "sha256": "1b4a2347bf08ca3d250264d857f5f437e63f9216ca39d16bc6c419e92203847f"
+    },
+    {
+      "name": "MagicBatteryNormal4",
+      "path": "icons/MagicBatteryNormal4.svg",
+      "sha256": "05a87943e12ab7a3da9dd1a128ea781ce1a0690562f94a19bb49624adc40b522"
+    },
+    {
+      "name": "MagicBatteryNormal5",
+      "path": "icons/MagicBatteryNormal5.svg",
+      "sha256": "aa4d8fcb3a5b77ff74a201d19e114dd1c9287a6ac36bf8eff2700accd5462208"
+    },
+    {
+      "name": "MagicBatteryNormal6",
+      "path": "icons/MagicBatteryNormal6.svg",
+      "sha256": "b41aba6b38ffb0e40f00a9587c4aebd2a56e9e3e55a44f631363dd8b5b79225b"
+    },
+    {
+      "name": "MagicBatteryNormal7",
+      "path": "icons/MagicBatteryNormal7.svg",
+      "sha256": "6b3891d714b37ea7c071d3df965c5f31867696706bdd4e43369e374ebd1e394e"
+    },
+    {
+      "name": "MagicBatteryNormal8",
+      "path": "icons/MagicBatteryNormal8.svg",
+      "sha256": "6f9ece248b54d8b00b24b4da8f21876c55e8608a679d51666ae41be061136e67"
+    },
+    {
+      "name": "MagicBatteryNormal9",
+      "path": "icons/MagicBatteryNormal9.svg",
+      "sha256": "591c21d3b6b167928734ab278d65a8404b156e4f5ffd08c5e0aa75ea84f97ff8"
+    },
+    {
+      "name": "MagicBatteryNormal10",
+      "path": "icons/MagicBatteryNormal10.svg",
+      "sha256": "f8ff7f1d846dee0ba7e7e7557063e8a772b1b8fd1248760ac84f926eae4eafa8"
+    },
+    {
+      "name": "MagicDock_start_menu",
+      "path": "icons/MagicDock_start_menu.svg",
+      "sha256": "b153ab76d390c80126a4aca6448b53313a10182f6c5b56fe109ba1636643e1f4"
+    },
+    {
+      "name": "MagicDock_start_menu_dark",
+      "path": "icons/MagicDock_start_menu_dark.svg",
+      "sha256": "6de5a58c85530f572460bb86a8d19d9676d7438a5f68f3a23fb0884648d1de7f"
+    },
+    {
+      "name": "MagicDock_desktop_light",
+      "path": "icons/MagicDock_desktop_light.svg",
+      "sha256": "5a00ebaa5e3a91c856275ec461ca2d6c867b6a39df6e15ec8193545fcb1dcce6"
+    },
+    {
+      "name": "MagicDock_desktop_dark",
+      "path": "icons/MagicDock_desktop_dark.svg",
+      "sha256": "1c8eeacca2465afe38c1d7988d1b43dc5a63579bc41663717de9c998a060c8d2"
+    },
+    {
+      "name": "MagicDock_trash_bin_empty_light",
+      "path": "icons/MagicDock_trash_bin_empty_light.svg",
+      "sha256": "1496c7a60dc2490b73a469c114d731b5f1ef954f834ebb6d30d688757b2f8c22"
+    },
+    {
+      "name": "MagicDock_trash_bin_empty_dark",
+      "path": "icons/MagicDock_trash_bin_empty_dark.svg",
+      "sha256": "0c97ca123bc3dc35069ef6dda86f87758eb012a849bfaf0b0328a5328ea52d18"
+    },
+    {
+      "name": "MagicDock_trash_bin_full_light",
+      "path": "icons/MagicDock_trash_bin_full_light.svg",
+      "sha256": "86fade96d3a7dfba7fe90212e59af2d12f06e3f0a7a137d06a6bbf5d0b6dded2"
+    },
+    {
+      "name": "MagicDock_trash_bin_full_dark",
+      "path": "icons/MagicDock_trash_bin_full_dark.svg",
+      "sha256": "1a08db0b0e9a04f305344b2cabc9686b34b166f5c9d6ffaebcc93f03a2a35434"
+    },
+    {
+      "name": "MagicDock_missing",
+      "path": "icons/MagicDock_missing.svg",
+      "sha256": "899c77fe44791a516e6ca2853d2bbc3900b9d07853dd7a6ac5a4f946ca9d06a6"
+    },
+    {
+      "name": "MagicDock_music_thumbnail",
+      "path": "icons/MagicDock_music_thumbnail.svg",
+      "sha256": "f0edf81e5198e2d253e65b50f012ec49e1b22217cb40370e4e546d056e523fc1"
+    }
+  ],
+  "source": "Copied from the locked reference, without filesystem links"
+}

@@ -1,0 +1,85 @@
+.quick-settings {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+
+  .radio-buttons-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-xs);
+
+    .radio-button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: var(--spacing-xs);
+
+      padding: var(--spacing-s) var(--spacing-xs);
+      border-radius: var(--radius-m);
+
+      transition: all 0.2s ease;
+      min-height: 80px;
+
+      .svg-icon {
+        height: 2rem;
+      }
+
+      .radio-button-label {
+        font-weight: 500;
+        text-align: center;
+        line-height: 1.2;
+      }
+    }
+  }
+
+  .quick-settings-item {
+    display: grid;
+    grid-template-columns: 30px 1fr 30px;
+    align-items: center;
+    gap: var(--spacing-xs);
+  }
+
+  .quick-settings-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: var(--spacing-2xs);
+  }
+}
+
+.magic-power-panel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-s);
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
+  header, .magic-power-summary, dl > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-m);
+  }
+  .magic-power-summary > strong { font-size: 2rem; }
+  dl { display: flex; flex-direction: column; gap: var(--spacing-xs); margin: 0; }
+  dt { color: var(--slu-std-fg-secondary-color); }
+  dd { margin: 0; }
+  header > *, .magic-power-summary > *, dt, dd { min-width: 0; }
+  dl > div { align-items: start; }
+  dt { flex: 1 1 auto; overflow-wrap: anywhere; }
+  dd { flex: 0 1 auto; text-align: right; overflow-wrap: anywhere; }
+  .magic-power-battery { display: flex; flex-direction: column; gap: var(--spacing-xs); }
+  .magic-power-note { color: var(--slu-std-fg-muted-color); max-width: 320px; margin: 0; }
+}
+
+// Reuse the shared popup's 150ms opacity transition and CssHandled lifecycle.
+.magic-power-views { position: relative; min-width: 0; }
+.magic-power-view {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+  opacity: 1;
+  transition: opacity 150ms ease-out;
+  &[data-mounting] { @starting-style { opacity: 0; } }
+}

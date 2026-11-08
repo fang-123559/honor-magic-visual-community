@@ -1,0 +1,19 @@
+{
+  "protocol": "Magic.ToolbarExtension/1",
+  "referenceSourceCommit": "3a06e9fa666fcfa2ba7648fab57e104cade04583",
+  "source": "User-supplied AI Dynamic Island handoff, 2026-11-04",
+  "files": {
+    "Contracts.cs": "0cfc4ddb8e6e7b68b888b9a9e5e05b1cefa38d40399c5c9e43c58345150fafbf",
+    "HostClient.cs": "9b3eedeca1cfb4c7470bd9a9de3dfd06c14b59580d0a5ae6c2c0ca1a315e8230",
+    "ProviderServer.cs": "d3d6871d6807d9b0b7df411183532b3aa12b0d5d4ef3d8782e001334b6e08b48"
+  },
+  "hostChanges": [
+    "Identifier anchored with z, rejects final newline",
+    "Client verifies Windows SessionId in addition to pipe PID and creation time"
+  ],
+  "runtimeDependencies": [
+    ".NET BCL",
+    "Windows named pipes"
+  ],
+  "businessSpecificBranches": false
+}

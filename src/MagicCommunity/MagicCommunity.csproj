@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x64</PlatformTarget>
+    <AssemblyName>MagicCommunity</AssemblyName>
+    <Version>0.4.9</Version>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>../../assets/community/application.ico</ApplicationIcon>
+    <TransitionFramesDirectory Condition="'$(TransitionFramesDirectory)' == ''">$(MSBuildThisFileDirectory)..\..\artifacts\transition-frames-hd</TransitionFramesDirectory>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="../../assets/community/update-app-icon-transparent.png" Link="UpdateIcon.png" />
+    <EmbeddedResource Include="../../assets/windows-shell-menu/*.png" LogicalName="NativeShellMenu.%(Filename).png" />
+    <Compile Include="../../tools/system-runtime/RuntimeIdentity.cs" Link="SystemRuntimeIdentity.cs" />
+    <Content Include="../../widgets/desktop/dist/*" Link="desktop-widget/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../../resources/transitions/*.mp4;../../resources/transitions/*.png" Link="transitions/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="$(TransitionFramesDirectory)/entrance-alpha.frames;$(TransitionFramesDirectory)/entrance-alpha.manifest.json" Link="transitions/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../../assets/native-shell/licenses/*" Link="third-party-licenses/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../../widgets/desktop/LICENSE-Seelen-SDK.txt;../../widgets/desktop/THIRD-PARTY-NOTICES.md" Link="third-party-licenses/widget-%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../../THIRD-PARTY-NOTICES.md" Link="THIRD-PARTY-NOTICES.md" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../../resources/community/*" Link="%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+  <Import Project="../../assets/honor-icons/RuntimeAssets.props" />
+  <Import Project="../../assets/honor-fonts/RuntimeAssets.props" />
+  <Target Name="RequireHdTransitionFrames" BeforeTargets="PrepareForBuild">
+    <Error Condition="!Exists('$(TransitionFramesDirectory)/entrance-alpha.frames') Or !Exists('$(TransitionFramesDirectory)/entrance-alpha.manifest.json')" Text="Build full-resolution alpha resources first with tools/dev/build-transition-frames.ps1, or use tools/dev/check-worktree.ps1." />
+  </Target>
+  <ItemGroup>
+    <Compile Include="../../integrations/toolbar-extension-v1/Contracts.cs" Link="Extensions/Contracts.cs" />
+    <Compile Include="../../integrations/toolbar-extension-v1/HostClient.cs" Link="Extensions/HostClient.cs" />
+  </ItemGroup>
+</Project>

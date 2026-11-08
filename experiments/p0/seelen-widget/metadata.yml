@@ -1,0 +1,11 @@
+id: "@littletaro/p0-memory-probe"
+metadata:
+  displayName: "P0 Memory Probe"
+  description: "Synthetic diagnostic widget; no desktop takeover or file operations."
+preset: Desktop
+instances: ReplicaByMonitor
+lazy: false
+html: !include index.html
+js: !include index.js
+css: !include index.css
+settings: []

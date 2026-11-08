@@ -1,0 +1,16 @@
+/* HTML design D: overlay, 3px ink, 12px hit area, hover/drag-only 6px ink. */
+[data-magic-scrollbar] { scrollbar-width:none !important; }
+[data-magic-scrollbar]::-webkit-scrollbar { width:0 !important;height:0 !important; }
+.magic-scrollbar-layer { position:fixed;inset:0;pointer-events:none;z-index:2147483000; }
+.magic-scrollbar-track { position:absolute;background:transparent;opacity:0;pointer-events:none;touch-action:none;transition:opacity .24s ease; }
+.magic-scrollbar-track[hidden] { display:none !important; }
+.magic-scrollbar-track.is-visible { opacity:1;pointer-events:auto; }
+.magic-scrollbar-track.is-vertical { width:12px; }
+.magic-scrollbar-track.is-horizontal { height:12px; }
+.magic-scrollbar-thumb { position:absolute;border-radius:999px;background:currentColor;opacity:.25;transition:width .16s ease,height .16s ease,opacity .16s ease;pointer-events:auto; }
+.is-vertical > .magic-scrollbar-thumb { width:3px;left:50%;margin-left:-1.5px; }
+.is-horizontal > .magic-scrollbar-thumb { height:3px;top:50%;margin-top:-1.5px; }
+.is-vertical:hover > .magic-scrollbar-thumb,.is-vertical.is-dragging > .magic-scrollbar-thumb { width:6px;margin-left:-3px;opacity:.43; }
+.is-horizontal:hover > .magic-scrollbar-thumb,.is-horizontal.is-dragging > .magic-scrollbar-thumb { height:6px;margin-top:-3px;opacity:.43; }
+@media(prefers-reduced-motion:reduce) { .magic-scrollbar-track,.magic-scrollbar-thumb {transition:none;} }
+:root[data-performance-mode="Extreme"] .magic-scrollbar-track,:root[data-performance-mode="Extreme"] .magic-scrollbar-thumb {transition:none;}

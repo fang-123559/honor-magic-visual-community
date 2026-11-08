@@ -1,0 +1,33 @@
+app_settings: 应用设置
+brightness: 亮度
+dark_mode: 深色模式
+default_multimedia_volume: 默认多媒体音量
+disabled: 已禁用
+enabled: 已启用
+eye_care: 护眼模式
+fm_radio: 调频广播
+hdr: HDR
+hotspot: 移动热点
+light_mode: 浅色模式
+mobile_broadband: 移动宽带
+night_light: 夜间模式
+power: 电源
+unknown: 未知
+power_panel:
+  title: 电量与性能
+  refresh: 刷新
+  refreshing: 更新中…
+  gauge_label: 电量
+  unavailable: 暂不可用
+  modes: 电源模式
+  windows_mode: Windows 电源状态
+  saver: Windows 节能模式
+  honor_mode: 荣耀性能模式
+  battery_info: 电池信息
+  battery_info_numbered: 电池信息 {{number}}
+  battery_model: 电池型号
+  battery_health: 电池健康度
+  cycles: 循环次数
+  note: 荣耀模式接口尚未就绪。节能开关请在 Windows 设置中调整。
+  settings: 打开 Windows 电源设置
+  settings_failed: 无法打开 Windows 电源设置，请从开始菜单进入“设置 → 系统 → 电源和电池”后重试。

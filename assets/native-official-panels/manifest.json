@@ -1,0 +1,142 @@
+[
+  {
+    "file": "Bluetooth.svg",
+    "sha256": "d9c3f0a74fdddd1c2b6c20950dc707538f12b2ba35f3e39f646fb692f818537f",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\Bluetooth.svg"
+  },
+  {
+    "file": "WiFi4.svg",
+    "sha256": "cb90b90fefcbcd28b622daaf70a815a252413abf83ac874c27663d3f6593d4d8",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\WiFi4.svg"
+  },
+  {
+    "file": "Speaker.svg",
+    "sha256": "8987f42ae5896caf08ffe19d76a1bd6ae2430b0616756e0c3c8aa0af9f191875",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\Speaker.svg"
+  },
+  {
+    "file": "SpeakerMute.svg",
+    "sha256": "756812364afc38cf1aa1e9a70531e77abccd5633d9a037ceea87ee06e1499e95",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\SpeakerMute.svg"
+  },
+  {
+    "file": "Microphone.svg",
+    "sha256": "1cb10eb7c43110f9342513e74102f1f6843da5007754b0a42c417d3a4684b9fb",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\Microphone.svg"
+  },
+  {
+    "file": "havenotify.svg",
+    "sha256": "034cc400e40785bc081c98e99613541f32a6e270ccf3822ae28c097d8fc38e3c",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\havenotify.svg"
+  },
+  {
+    "file": "Battery10.svg",
+    "sha256": "a511f5a78cf3166a623e6ef7cd41bd4c56c0e6f5e603bd50895fb1c30ead28e5",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\Battery10.svg"
+  },
+  {
+    "file": "BatteryAC10.svg",
+    "sha256": "309f845fddff7378ff7eac251a55e22d0a2fc1a38c0bb6c2f5408dbadbdbb524",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\BatteryAC10.svg"
+  },
+  {
+    "file": "checkmark2.svg",
+    "sha256": "806d80879ba7988a22549aad3695862a011724b929d553a69448720010fb43dd",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\checkmark2.svg"
+  },
+  {
+    "file": "Battery1.svg",
+    "sha256": "3520eb0d4a7d3f95cf45e0704b881b2c94620e84d5a7d43e2f85571e87d06578",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\Battery1.svg"
+  },
+  {
+    "file": "Battery2.svg",
+    "sha256": "0b4ce46905156f50751d856aa0a599229b07561da04897483769307fba08cc69",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\Battery2.svg"
+  },
+  {
+    "file": "Battery3.svg",
+    "sha256": "8128e66a1e83f79eafe47c4621527e1120f674284819b7e1715754d8fc0985b2",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\Battery3.svg"
+  },
+  {
+    "file": "Battery4.svg",
+    "sha256": "9e7537008a032a1352c3b6a342cb367f9968fb6538a856e3c9d72417074f235c",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\Battery4.svg"
+  },
+  {
+    "file": "Battery5.svg",
+    "sha256": "f15cd7a41446e42f8739a4ebb2076620e72e8c16988af4f5ad8464c1988bc570",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\Battery5.svg"
+  },
+  {
+    "file": "Battery6.svg",
+    "sha256": "1ccc0f8375a84fdc4bd012f42b91e89849d6f1a003a392f9f8a89df04546e855",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\Battery6.svg"
+  },
+  {
+    "file": "Battery7.svg",
+    "sha256": "9152e056626e04c8f4315414dc7eb474f9c1ba840ae8d9c757a29cf2cde691cf",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\Battery7.svg"
+  },
+  {
+    "file": "Battery8.svg",
+    "sha256": "d505384779447a200cf33cc063d59919d56031cc92796fcea897feb0e3c40baf",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\Battery8.svg"
+  },
+  {
+    "file": "Battery9.svg",
+    "sha256": "926253a5a7cb1fad720ff27806526961188317bb2e6b03eb512732066ddd5c7c",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\Battery9.svg"
+  },
+  {
+    "file": "BatteryAC1.svg",
+    "sha256": "ad2cc611a9adb92c396df7cdf0e09e83fb4b384185aa7976bf065f290a616354",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\BatteryAC1.svg"
+  },
+  {
+    "file": "BatteryAC2.svg",
+    "sha256": "35c917569ae5ba7dac19fba6cbb7cf28130b33dc88c9de5ffbd75c06fdd43815",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\BatteryAC2.svg"
+  },
+  {
+    "file": "BatteryAC3.svg",
+    "sha256": "87fe0339ae3deee71ab5be2c75a492c8095a8f972e8475dc9d5ef36791bf24f4",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\BatteryAC3.svg"
+  },
+  {
+    "file": "BatteryAC4.svg",
+    "sha256": "88df82751df39e132aa5e322331f02df426c3d762d7584a74dda8e0a1cbca976",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\BatteryAC4.svg"
+  },
+  {
+    "file": "BatteryAC5.svg",
+    "sha256": "748ff57bab19b9ad15fd54838306d896051e119ff278b7687df066bd6391b5c2",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\BatteryAC5.svg"
+  },
+  {
+    "file": "BatteryAC6.svg",
+    "sha256": "c137a33d2d08e8d012501b0f6da26dbe049d758f9b0de4d955894a8aefa09613",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\BatteryAC6.svg"
+  },
+  {
+    "file": "BatteryAC7.svg",
+    "sha256": "45afe0b56f58bcc1b34990e73c7ab26e47aa51797431c067d1fe4ef4c670024d",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\BatteryAC7.svg"
+  },
+  {
+    "file": "BatteryAC8.svg",
+    "sha256": "9fa730293da303e42ef1e10c01c3d7e870fed4fd66360162dfc0a1d0c57b7e23",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\BatteryAC8.svg"
+  },
+  {
+    "file": "BatteryAC9.svg",
+    "sha256": "6f45f256f13a879eca95bb3b5969b62095fea0741586d92eb42f8b9304d6fd06",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\BatteryAC9.svg"
+  },
+  {
+    "file": "volume.svg",
+    "sha256": "708894218e85271bc7298d3356941f81aaf0c3f7be14789d8d0b1b36d269fe25",
+    "source": "HONOR MagicAnimation / MagicTaskbarApp Resources (project-owner-provided copy)\\TopBar\\volume.svg"
+  }
+]

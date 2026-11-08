@@ -1,0 +1,10 @@
+id: "@seelen/tb-system-tray"
+metadata:
+  displayName: !extend i18n/display_name.yml
+  description: !extend i18n/description.yml
+icon: IoIosArrowDropdown
+target: "@seelen/fancy-toolbar"
+plugin:
+  scopes:
+    - Tray
+  template: !include toolbar-plugin.js

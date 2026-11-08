@@ -1,0 +1,60 @@
+.keyboard-selector {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+
+  .keyboard-selector-header {
+    font-weight: 600;
+  }
+
+  .keyboard-selector-body {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+
+    .layout {
+      display: grid;
+      grid-template-columns: 20px 1fr;
+      align-items: center;
+      gap: var(--spacing-xs);
+      padding: var(--spacing-xs) var(--spacing-s);
+      border-radius: var(--radius-s);
+
+      &:hover {
+        background-color: var(--slu-std-ui-hover-overlay);
+      }
+
+      &.layout-active {
+        background-color: var(--slu-std-ui-selected-overlay);
+      }
+
+      .layout-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .layout-lang {
+          font-weight: 600;
+        }
+
+        .layout-keyboard {
+          font-size: 0.8rem;
+          font-weight: 600;
+          color: var(--slu-std-fg-secondary-color);
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+  }
+
+  .keyboard-selector-footer {
+    button {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--slu-std-fg-secondary-color);
+    }
+  }
+}

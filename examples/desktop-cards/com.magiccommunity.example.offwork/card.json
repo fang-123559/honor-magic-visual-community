@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "com.magiccommunity.example.offwork",
+  "title": "示例·下班倒计时",
+  "kind": "countdown",
+  "sizes": [{"columns": 4, "rows": 2}],
+  "content": {"label": "距离18:00", "target": "18:00", "format": "hm", "doneText": "到时间了"},
+  "style": {"tone": "light", "align": "center"}
+}

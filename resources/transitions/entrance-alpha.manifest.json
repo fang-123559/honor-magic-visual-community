@@ -1,0 +1,14 @@
+{
+  "format": "MAGICAF1",
+  "frames": 150,
+  "width": 576,
+  "height": 361,
+  "fps": 30,
+  "sourceWidth": 1152,
+  "sourceHeight": 722,
+  "sourceSha256": "44873c9d3828ebd663cc6787eda20e8a5e2f98a227267c2964b9974b861c5669",
+  "sha256": "0cf9a337761d64757595d9979c704d5b5ccbd22dc530332297804361e4e40cab",
+  "bytes": 53271090,
+  "conversion": "FFmpeg libvpx-vp9 -> lanczos 576x361 RGBA PNG; alpha preserved; 30fps, 150 frames",
+  "runtime": "Read one PNG at a time; no video codec or full-clip RAM cache"
+}

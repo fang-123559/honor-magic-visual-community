@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "version": "0.1.0-rc.19",
+  "deploymentMode": "settings-disable-reload",
+  "package": "Seelen.SeelenUI_2.8.9.0_x64__p6yyn03m1894e",
+  "sourceCommit": "507378aa01190617c18ee2c70ecc66b316169437",
+  "owner": "E:\\课外项目\\荣耀magic视界社区版",
+  "createdAt": "2026-10-16T14:02:48.692Z",
+  "widgets": [
+    {
+      "sourceFolder": "quick-settings",
+      "widgetId": "@seelen/quick-settings",
+      "directory": "E:\\课外项目\\荣耀magic视界社区版\\profiles\\seelen-popups\\0.1.0-rc.19\\quick-settings",
+      "metadata": "E:\\课外项目\\荣耀magic视界社区版\\profiles\\seelen-popups\\0.1.0-rc.19\\quick-settings\\metadata.yml",
+      "sourceMetadataSha256": "7f2cde4ba186efef8520f693f05a9416b38998bf040e94f46ca902c84096b193",
+      "files": [
+        {
+          "path": "build-receipt.json",
+          "sha256": "4988e3c65caeffc48718457150fc6159b9a9c29822c3f6fae9e8d2f2942ad3f4"
+        },
+        {
+          "path": "index.css",
+          "sha256": "ad9480e7c0a666eff84a9c1ddfbadaceb5a209a9d07652a5c9461ac10f0f8258"
+        },
+        {
+          "path": "index.html",
+          "sha256": "c82193f71c5da4f2eefb4e52606e1a6b9ba0125d9f8a1b0608480a5c5a4e9468"
+        },
+        {
+          "path": "index.js",
+          "sha256": "e9f5cc2f07ae2dc02e7c8f67fe8501488d4fcc366b122aee26a9f1c3dc2a8919"
+        },
+        {
+          "path": "LICENSE-Seelen.txt",
+          "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+        },
+        {
+          "path": "metadata.yml",
+          "sha256": "a7a965261b4c906d335ed3d077384b4a751285b3a9949b2994fc6a42a58df8cf"
+        }
+      ]
+    },
+    {
+      "sourceFolder": "calendar-popup",
+      "widgetId": "@seelen/calendar-popup",
+      "directory": "E:\\课外项目\\荣耀magic视界社区版\\profiles\\seelen-popups\\0.1.0-rc.19\\calendar-popup",
+      "metadata": "E:\\课外项目\\荣耀magic视界社区版\\profiles\\seelen-popups\\0.1.0-rc.19\\calendar-popup\\metadata.yml",
+      "sourceMetadataSha256": "14ff9f7b535ca10f9f41d6bf36f8ebfd05142d8dd9f9d86f887b0c74f954fdcd",
+      "files": [
+        {
+          "path": "build-receipt.json",
+          "sha256": "7aa39a61eda514e287f440b8c1d43669d26924a912c672332c08a2c87460d318"
+        },
+        {
+          "path": "index.css",
+          "sha256": "433e46a6be45170b85a0822eb16a0cf6a2b07b56cc9e15bce2a00178bfe2ce86"
+        },
+        {
+          "path": "index.html",
+          "sha256": "c82193f71c5da4f2eefb4e52606e1a6b9ba0125d9f8a1b0608480a5c5a4e9468"
+        },
+        {
+          "path": "index.js",
+          "sha256": "bb24d9b6eb40a94fdd3e915afb83378fae433daecde8a080789c8fcd3ad0e77a"
+        },
+        {
+          "path": "LICENSE-Seelen.txt",
+          "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+        },
+        {
+          "path": "metadata.yml",
+          "sha256": "5bfea4cf50961e3acf3a48c3775825bae946da1059e9d65808eff576ef910a8c"
+        }
+      ]
+    },
+    {
+      "sourceFolder": "network-popup",
+      "widgetId": "@seelen/network-popup",
+      "directory": "E:\\课外项目\\荣耀magic视界社区版\\profiles\\seelen-popups\\0.1.0-rc.19\\network-popup",
+      "metadata": "E:\\课外项目\\荣耀magic视界社区版\\profiles\\seelen-popups\\0.1.0-rc.19\\network-popup\\metadata.yml",
+      "sourceMetadataSha256": "001a60927a735a5c76c6f5dbcd85e60ad9e78e1167fba332370355d4b52ec57a",
+      "files": [
+        {
+          "path": "build-receipt.json",
+          "sha256": "195d4fb44be8f6a1db39c3d5ac13ef26e0729539dfaa07fd6965c807d87b7437"
+        },
+        {
+          "path": "index.css",
+          "sha256": "433e46a6be45170b85a0822eb16a0cf6a2b07b56cc9e15bce2a00178bfe2ce86"
+        },
+        {
+          "path": "index.html",
+          "sha256": "c82193f71c5da4f2eefb4e52606e1a6b9ba0125d9f8a1b0608480a5c5a4e9468"
+        },
+        {
+          "path": "index.js",
+          "sha256": "5a8c186f4e18265b9931097fa0fcfa3eaea8c48438668b69e27236636436dba2"
+        },
+        {
+          "path": "LICENSE-Seelen.txt",
+          "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+        },
+        {
+          "path": "metadata.yml",
+          "sha256": "e20786b8535802296cffe8bb3ef134661a996093c95890d8beebcd49701e9f46"
+        }
+      ]
+    },
+    {
+      "sourceFolder": "bluetooth-popup",
+      "widgetId": "@seelen/bluetooth-popup",
+      "directory": "E:\\课外项目\\荣耀magic视界社区版\\profiles\\seelen-popups\\0.1.0-rc.19\\bluetooth-popup",
+      "metadata": "E:\\课外项目\\荣耀magic视界社区版\\profiles\\seelen-popups\\0.1.0-rc.19\\bluetooth-popup\\metadata.yml",
+      "sourceMetadataSha256": "7c7e4b96d4f3de278e6411ead1d2f7041caf0c81b45cdf99cbdc9e242dc17de2",
+      "files": [
+        {
+          "path": "build-receipt.json",
+          "sha256": "6628d6fd4b6578d154af50522941b38e8f0cd72580e612e4b94ccd213218d495"
+        },
+        {
+          "path": "index.css",
+          "sha256": "433e46a6be45170b85a0822eb16a0cf6a2b07b56cc9e15bce2a00178bfe2ce86"
+        },
+        {
+          "path": "index.html",
+          "sha256": "c82193f71c5da4f2eefb4e52606e1a6b9ba0125d9f8a1b0608480a5c5a4e9468"
+        },
+        {
+          "path": "index.js",
+          "sha256": "73a95c4b2632c17e083fba32fb759ef52c9fcb11bfaceb5a5f24d6fba279488f"
+        },
+        {
+          "path": "LICENSE-Seelen.txt",
+          "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+        },
+        {
+          "path": "metadata.yml",
+          "sha256": "4e76cf3532dd54ebd7466c2a55def96a3b3de5978315e5dcf9d77da011c787e5"
+        }
+      ]
+    },
+    {
+      "sourceFolder": "media-popup",
+      "widgetId": "@seelen/media-popup",
+      "directory": "E:\\课外项目\\荣耀magic视界社区版\\profiles\\seelen-popups\\0.1.0-rc.19\\media-popup",
+      "metadata": "E:\\课外项目\\荣耀magic视界社区版\\profiles\\seelen-popups\\0.1.0-rc.19\\media-popup\\metadata.yml",
+      "sourceMetadataSha256": "5070df2658ad52e5787df03532595ecf61dbc4900019cfea0d27d0fb25ce000b",
+      "files": [
+        {
+          "path": "build-receipt.json",
+          "sha256": "b07f02ab3445ee76732445c53aa3b46c670d98726f03d00262e27dbe43443ea8"
+        },
+        {
+          "path": "index.css",
+          "sha256": "5ceef1e6953c84d399bee0c01f965b897db2b80faa63f1f1a3447f9d6698997c"
+        },
+        {
+          "path": "index.html",
+          "sha256": "c82193f71c5da4f2eefb4e52606e1a6b9ba0125d9f8a1b0608480a5c5a4e9468"
+        },
+        {
+          "path": "index.js",
+          "sha256": "afc4669232e86a0b317a7c0d6097a04529fc431005beb5f38bede5efc42ddbfe"
+        },
+        {
+          "path": "LICENSE-Seelen.txt",
+          "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+        },
+        {
+          "path": "metadata.yml",
+          "sha256": "95607e02578b0754aced5c39edd4e863e14eaa84cf2a9a53525dfd74a723a4d5"
+        }
+      ]
+    },
+    {
+      "sourceFolder": "notifications",
+      "widgetId": "@seelen/notifications",
+      "directory": "E:\\课外项目\\荣耀magic视界社区版\\profiles\\seelen-popups\\0.1.0-rc.19\\notifications",
+      "metadata": "E:\\课外项目\\荣耀magic视界社区版\\profiles\\seelen-popups\\0.1.0-rc.19\\notifications\\metadata.yml",
+      "sourceMetadataSha256": "21a15a9b0a62d8d1312972bc65257d3ed2ac9b823bf96daea8d816f8b4764fb9",
+      "files": [
+        {
+          "path": "build-receipt.json",
+          "sha256": "9d4aa52857ec953861ca39d23b019701e4337c34ad3e8f68d947cdb32eaa33fd"
+        },
+        {
+          "path": "index.css",
+          "sha256": "5ceef1e6953c84d399bee0c01f965b897db2b80faa63f1f1a3447f9d6698997c"
+        },
+        {
+          "path": "index.html",
+          "sha256": "c82193f71c5da4f2eefb4e52606e1a6b9ba0125d9f8a1b0608480a5c5a4e9468"
+        },
+        {
+          "path": "index.js",
+          "sha256": "1810a54e63d7dbb7174182f60cc67fa1ebd62a5798482c4d898a8027fcf2bd28"
+        },
+        {
+          "path": "LICENSE-Seelen.txt",
+          "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+        },
+        {
+          "path": "metadata.yml",
+          "sha256": "25b7b054ade27485bb5c301f4f51beca28ad55e39e094fec7e65f3daaf0fd9e3"
+        }
+      ]
+    },
+    {
+      "sourceFolder": "keyboard-selector",
+      "widgetId": "@seelen/keyboard-selector",
+      "directory": "E:\\课外项目\\荣耀magic视界社区版\\profiles\\seelen-popups\\0.1.0-rc.19\\keyboard-selector",
+      "metadata": "E:\\课外项目\\荣耀magic视界社区版\\profiles\\seelen-popups\\0.1.0-rc.19\\keyboard-selector\\metadata.yml",
+      "sourceMetadataSha256": "8be2fb0664ddac950fecda22d504881c181f603c589d6e918a87499185d01d77",
+      "files": [
+        {
+          "path": "build-receipt.json",
+          "sha256": "8ac13c41e42a45c50f6230f3f0faa343337be5cd3b31d48356e76e0c8af2586a"
+        },
+        {
+          "path": "index.css",
+          "sha256": "433e46a6be45170b85a0822eb16a0cf6a2b07b56cc9e15bce2a00178bfe2ce86"
+        },
+        {
+          "path": "index.html",
+          "sha256": "c82193f71c5da4f2eefb4e52606e1a6b9ba0125d9f8a1b0608480a5c5a4e9468"
+        },
+        {
+          "path": "index.js",
+          "sha256": "06a0ddca84b4a99a661986ca9e186a4ee7e8d621a631250e14752df12498eed3"
+        },
+        {
+          "path": "LICENSE-Seelen.txt",
+          "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+        },
+        {
+          "path": "metadata.yml",
+          "sha256": "c7975d0d583e06f34403f91007d4a81cca4887e31b6966c0b319cf03ecfdde76"
+        }
+      ]
+    },
+    {
+      "sourceFolder": "system-tray",
+      "widgetId": "@seelen/system-tray",
+      "directory": "E:\\课外项目\\荣耀magic视界社区版\\profiles\\seelen-popups\\0.1.0-rc.19\\system-tray",
+      "metadata": "E:\\课外项目\\荣耀magic视界社区版\\profiles\\seelen-popups\\0.1.0-rc.19\\system-tray\\metadata.yml",
+      "sourceMetadataSha256": "725361a93785da00d1cbeec704275b8fdda3db8fd3e5dab8d8dd592c7c0f7acd",
+      "files": [
+        {
+          "path": "build-receipt.json",
+          "sha256": "f779e7bc4914bcaad2b2f7310a74e61a704aaa7aa05f21a54c41712c9b598e00"
+        },
+        {
+          "path": "index.css",
+          "sha256": "5ceef1e6953c84d399bee0c01f965b897db2b80faa63f1f1a3447f9d6698997c"
+        },
+        {
+          "path": "index.html",
+          "sha256": "c82193f71c5da4f2eefb4e52606e1a6b9ba0125d9f8a1b0608480a5c5a4e9468"
+        },
+        {
+          "path": "index.js",
+          "sha256": "24e3c3e2c9d90a8032bcf1d33880d55a20dd74cc3e72c3e960dcfec5ecdd1350"
+        },
+        {
+          "path": "LICENSE-Seelen.txt",
+          "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+        },
+        {
+          "path": "metadata.yml",
+          "sha256": "32ef94e267b0aeddd29acbb7620e7a8993c4876674d4d4545a6c90fcc4928816"
+        }
+      ]
+    },
+    {
+      "sourceFolder": "user",
+      "widgetId": "@seelen/user-menu",
+      "directory": "E:\\课外项目\\荣耀magic视界社区版\\profiles\\seelen-popups\\0.1.0-rc.19\\user-menu",
+      "metadata": "E:\\课外项目\\荣耀magic视界社区版\\profiles\\seelen-popups\\0.1.0-rc.19\\user-menu\\metadata.yml",
+      "sourceMetadataSha256": "745cf0724bdbc10c2abcc34ded559194e384b6893edbb41fb3101e7f5d6f2649",
+      "files": [
+        {
+          "path": "build-receipt.json",
+          "sha256": "ee75507a687a6b6e7dcc36a954e4c31e8472c7e3f9fac360e42afbaf46fc47ea"
+        },
+        {
+          "path": "index.css",
+          "sha256": "5ceef1e6953c84d399bee0c01f965b897db2b80faa63f1f1a3447f9d6698997c"
+        },
+        {
+          "path": "index.html",
+          "sha256": "c82193f71c5da4f2eefb4e52606e1a6b9ba0125d9f8a1b0608480a5c5a4e9468"
+        },
+        {
+          "path": "index.js",
+          "sha256": "e5d4a8bc16b9897047521d72c44fd111829c8ae2cf9c281100783fc586e2ce28"
+        },
+        {
+          "path": "LICENSE-Seelen.txt",
+          "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+        },
+        {
+          "path": "metadata.yml",
+          "sha256": "fedcf50baf12b27b17b8c5ce1e3481e872c06039d8a7d6c8042aa7156f9deb7e"
+        }
+      ]
+    }
+  ],
+  "acceptance": "Overlay scrollbar candidate; not loaded"
+}

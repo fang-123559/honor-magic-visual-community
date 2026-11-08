@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-16T18:32:46.136354+08:00",
+  "owner": "E:\\课外项目\\荣耀magic视界社区版",
+  "version": "0.1.2",
+  "active": false,
+  "addsResidentWebview": false,
+  "staticIconBuckets": 22,
+  "templateSource": "Archived user supplied SVG; CSS alpha mask uses current foreground; 0.1.1 trims empty viewport without changing archived originals",
+  "files": [
+    {
+      "path": "metadata.yml",
+      "sha256": "53e6b8f43ecf019f4cacaeea0c831e752d75f12b4b5f59787887c3b3e98b0d43"
+    },
+    {
+      "path": "template.js",
+      "sha256": "a41f362e33dd858b26038d4715690487ed2e308aad6091e20f8e810985005d55"
+    },
+    {
+      "path": "tooltip.js",
+      "sha256": "7be8bc411e1c7df14dc0fdafb3c381f9f42844c44612fb7c2dc4110ed64bb05b"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+/* Only folders and the small launcher participate in the desktop window's native region. */
+.live-shell header,.live-shell>.controls,.live-shell>.subline,.live-shell>footer { display:none!important; }
+.live-shell { padding:0; }
+.grid-viewport { position:fixed;inset:0;padding:0;border-radius:0;overflow:hidden; }
+.desktop-grid { position:absolute;min-height:0; }
+.desktop-accessory-actions { position:fixed;z-index:100;display:flex;gap:4px;left:12px;top:12px;padding:4px;background:#142540d9;border:1px solid #ffffff30;border-radius:12px; }
+.desktop-accessory-actions button { width:30px;height:30px;min-height:0;padding:0;color:#eef4ff;background:transparent;border:0;border-radius:7px;font-size:23px;line-height:1; }
+.desktop-accessory-actions button:hover { background:#ffffff24; }
+.accessory-toast { position:fixed;z-index:110;max-width:340px;padding:8px 12px;background:#142540f0;color:#c2d4e9;border:1px solid #ffffff30;border-radius:10px;font-size:11px;line-height:1.5;cursor:pointer; }
+.large-folder { padding:10px; }
+.folder-cover { gap:6px; }
+.folder-app .icon { width:min(100%,48px);height:min(100%,48px); }
+.mini-icon { width:18px;height:18px; }
+.folder-name { font-size:11px;flex-basis:18px;margin-top:4px; }
+.drag-ghost:has(.folder-ghost) { width:120px;height:auto; }
+.folder-ghost { width:100%;white-space:nowrap; }

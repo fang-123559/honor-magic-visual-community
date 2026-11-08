@@ -1,0 +1,12 @@
+id: "@seelen/fancy-toolbar"
+icon: BiSolidDockTop
+metadata:
+  displayName:
+    en: Magic Community Toolbar
+    zh-CN: Magic 社区版顶栏
+instances: ReplicaByMonitor
+loader: ThirdParty
+preset: Overlay
+html: !include index.html
+js: !include index.js
+css: !include index.css

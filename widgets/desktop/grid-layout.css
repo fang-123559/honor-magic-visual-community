@@ -1,0 +1,26 @@
+.grid-viewport { overflow: auto; max-height: 65vh; min-height: 360px; padding: 8px; border-radius: 16px; background: #c4d7ef44; }
+.desktop-grid { position: relative; display: block; padding: 0; min-height: 400px; background-image: radial-gradient(#7c9bbc70 1px, transparent 1px); background-size: calc(106px * var(--preview-scale)) calc(106px * var(--preview-scale)); }
+.desktop-grid > [data-tile] { position: absolute; margin: 0; }
+.desktop-grid > .shortcut { padding: calc(4px * var(--preview-scale)); gap: calc(3px * var(--preview-scale)); }
+.desktop-grid > .shortcut .icon { width: calc(48px * var(--preview-scale)); height: calc(48px * var(--preview-scale)); }
+.desktop-grid > .shortcut .app-name { font-size: calc(11px * var(--preview-scale)); line-height: 1.3; }
+.large-folder { display: flex; gap: 0; padding: calc(12px * var(--preview-scale)); border-radius: calc(25px * var(--preview-scale)); background: #ffffff82; box-shadow: 0 6px 14px #5275a017; touch-action: none; user-select: none; cursor: grab; }
+.large-folder:active { cursor: grabbing; }
+.folder-cover { flex: 1; min-height: 0; padding: 0; gap: calc(10px * var(--preview-scale)); border-radius: 0; background: transparent; box-shadow: none; }
+.folder-app { min-height: 0; padding: 0; justify-content: center; cursor: pointer; }
+.folder-app .icon { width: min(100%,calc(56px * var(--preview-scale))); height: calc(56px * var(--preview-scale)); }
+.empty-slot { background: #ffffff24; pointer-events: none; }
+.mini-open { min-height: 0; padding: calc(3px * var(--preview-scale)); gap: calc(3px * var(--preview-scale)); cursor: pointer; }
+.mini-icon { width: calc(22px * var(--preview-scale)); height: calc(22px * var(--preview-scale)); }
+.folder-name { flex: 0 0 calc(22px * var(--preview-scale)); min-height: 0; font-size: calc(12px * var(--preview-scale)); margin-top: calc(6px * var(--preview-scale)); cursor: grab; }
+.folder-cover:has(.empty-plus) .mini-open { grid-area: auto; background: #ffffff2b; }
+.folder-cover:has(.empty-plus) .empty-slot { display: block; }
+.folder-menu { position: fixed; z-index: 10001; display: flex; flex-direction: column; padding: 7px; gap: 3px; min-width: 180px; border-radius: 12px; background: #f4f8ff; box-shadow: 0 6px 30px #25466c44; }
+.folder-menu button { text-align: left; padding: 9px 12px; border: 0; background: transparent; border-radius: 7px; color: #203750; }
+.folder-menu button:hover { background: #dce9fa; }
+.folder-menu button[aria-checked=true] { background: #d6e5fb; font-weight: 600; }
+.folder-menu button[aria-checked=true]::after { content: ' ✓'; }
+.folder-menu .dissolve-folder { color: #9c3434; }
+.folder-ghost { display: block; width: 120px; padding: 12px; background: #edf5ffeb; color: #284d7e; border-radius: 12px; }
+.status { margin: 12px 0; }
+@media(max-width:600px) { .grid-viewport { max-height: 62vh; } }

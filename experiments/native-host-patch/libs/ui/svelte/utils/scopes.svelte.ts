@@ -1,0 +1,502 @@
+// In this files scopes declaration for toolbar and dock plugins are defined
+
+import { type AllSeelenCommandReturns, invoke, SeelenCommand, SeelenEvent, subscribe, Widget } from "@seelen-ui/lib";
+import { NotificationsMode } from "@seelen-ui/lib/types";
+import { dateState } from "../runes/date.svelte.ts";
+import { dedupeBluetoothDevices, getIconNameForBTDevice } from "./bluetoothIcons.ts";
+import { ResourceSubscription } from "./resource-subscription.ts";
+
+class LazyScope<C extends SeelenCommand> {
+  private _ready = $state.raw(false);
+  private _data = $state.raw<AllSeelenCommandReturns[C] | null>(null);
+  private _started = false;
+  private resource: ResourceSubscription<AllSeelenCommandReturns[C]> | null;
+
+  constructor(
+    private command: C,
+    private event: SeelenEvent,
+    managedResource = false,
+  ) {
+    this.resource = managedResource ? new ResourceSubscription({
+      subscribe: (receive) => subscribe(this.event, ({ payload }) => receive(payload as AllSeelenCommandReturns[C])),
+      snapshot: () => invoke(this.command as any) as Promise<AllSeelenCommandReturns[C]>,
+      receive: (value) => { this._data = value; this._ready = true; },
+      reset: () => { this._data = null; this._ready = false; },
+      error: (error) => console.error(`Resource scope ${this.command} failed:`, error),
+    }) : null;
+  }
+
+  retain(): () => void {
+    return this.resource?.retain() ?? (() => {});
+  }
+
+  get fetching(): boolean {
+    return !this._ready;
+  }
+
+  get ready(): boolean {
+    return this._ready;
+  }
+
+  get data(): AllSeelenCommandReturns[C] | null {
+    return this._data;
+  }
+
+  lazyInit(): void {
+    // Resource ownership comes from component effects; evaluating a removed
+    // item or a transient drag preview must never create a permanent listener.
+    if (this.resource) return;
+    if (this._started) return;
+    this._started = true;
+
+    subscribe(this.event, ({ payload }) => {
+      this._data = payload as AllSeelenCommandReturns[C];
+      this._ready = true;
+    });
+
+    invoke(this.command as any).then((data) => {
+      if (!this._ready) {
+        this._data = data as AllSeelenCommandReturns[C];
+        this._ready = true;
+      }
+    });
+  }
+}
+
+const _notifications = new LazyScope(SeelenCommand.GetNotifications, SeelenEvent.Notifications);
+const _notificationsMode = new LazyScope(
+  SeelenCommand.GetNotificationsMode,
+  SeelenEvent.NotificationsModeChanged,
+);
+const _mediaSessions = new LazyScope(SeelenCommand.GetMediaSessions, SeelenEvent.MediaSessions);
+const _mediaDevices = new LazyScope(SeelenCommand.GetMediaDevices, SeelenEvent.MediaDevices);
+const _networkOnline = new LazyScope(
+  SeelenCommand.GetNetworkInternetConnection,
+  SeelenEvent.NetworkInternetConnection,
+);
+const _networkAdapters = new LazyScope(
+  SeelenCommand.GetNetworkAdapters,
+  SeelenEvent.NetworkAdapters,
+);
+const _networkLocalIp = new LazyScope(
+  SeelenCommand.GetNetworkDefaultLocalIp,
+  SeelenEvent.NetworkDefaultLocalIp,
+);
+const _languages = new LazyScope(
+  SeelenCommand.SystemGetLanguages,
+  SeelenEvent.SystemLanguagesChanged,
+);
+const _imeState = new LazyScope(SeelenCommand.SystemGetImeState, SeelenEvent.SystemImeStateChanged);
+const _user = new LazyScope(SeelenCommand.GetUser, SeelenEvent.UserChanged);
+const _bluetoothDevices = new LazyScope(
+  SeelenCommand.GetBluetoothDevices,
+  SeelenEvent.BluetoothDevicesChanged,
+);
+const _power = new LazyScope(SeelenCommand.GetPowerStatus, SeelenEvent.PowerStatus);
+const _powerMode = new LazyScope(SeelenCommand.GetPowerMode, SeelenEvent.PowerMode);
+const _batteries = new LazyScope(SeelenCommand.GetBatteries, SeelenEvent.BatteriesStatus);
+const _disks = new LazyScope(SeelenCommand.GetSystemDisks, SeelenEvent.SystemDisksChanged, true);
+const _networkStatistics = new LazyScope(
+  SeelenCommand.GetSystemNetwork,
+  SeelenEvent.SystemNetworkChanged,
+  true,
+);
+const _memory = new LazyScope(SeelenCommand.GetSystemMemory, SeelenEvent.SystemMemoryChanged, true);
+const _cores = new LazyScope(SeelenCommand.GetSystemCores, SeelenEvent.SystemCoresChanged, true);
+const _gpus = new LazyScope(SeelenCommand.GetSystemGpus, SeelenEvent.SystemGpusChanged, true);
+const _focusedApp = new LazyScope(SeelenCommand.GetFocusedApp, SeelenEvent.GlobalFocusChanged);
+const _virtualDesktops = new LazyScope(
+  SeelenCommand.StateGetVirtualDesktops,
+  SeelenEvent.VirtualDesktopsChanged,
+);
+const _trayIcons = new LazyScope(SeelenCommand.GetSystemTrayIcons, SeelenEvent.SystemTrayChanged);
+const _trashBinInfo = new LazyScope(SeelenCommand.GetTrashBinInfo, SeelenEvent.TrashBinChanged);
+const _waveform = new LazyScope(SeelenCommand.GetMediaWaveform, SeelenEvent.MediaWaveform);
+
+/** Call from a component $effect and return its cleanup. Deduplication is per
+ * component; LazyScope refcounts multiple items, the backend refcounts screens.
+ */
+export function retainSystemScopes(scopes: string[]): () => void {
+  const requested = new Set(scopes.map((scope) => scope.toLowerCase()));
+  const resources = [
+    ["disk", _disks], ["networkstatistics", _networkStatistics],
+    ["memory", _memory], ["cpu", _cores], ["gpu", _gpus],
+  ] as const;
+  const release = resources.filter(([name]) => requested.has(name)).map(([, resource]) => resource.retain());
+  return () => release.forEach((dispose) => dispose());
+}
+
+/** Stable primitive dependency: new item objects or unrelated scope changes
+ * must not tear down an unchanged resource subscription during bar reordering.
+ */
+export function systemScopeKey(scopes: string[]): string {
+  const supported = new Set(["disk", "networkstatistics", "memory", "cpu", "gpu"]);
+  return [...new Set(scopes.map((scope) => scope.toLowerCase()))]
+    .filter((scope) => supported.has(scope)).sort().join(",");
+}
+
+type Data = Record<string, unknown>;
+export interface ScopesResult {
+  fetching: boolean;
+  data: Data;
+}
+
+export interface ScopeMofidiers {
+  userSourceName: string;
+}
+
+export function resolveScopes(scopes: string[], { userSourceName }: ScopeMofidiers): ScopesResult {
+  const scopesSet = new Set(scopes.map((s) => s.toLowerCase()));
+
+  let fetching = false;
+  const data: Data = {};
+
+  if (scopesSet.has("date")) {
+    dateStep(data);
+  }
+
+  if (scopesSet.has("notifications")) {
+    fetching ||= notificationsStep(data);
+  }
+
+  if (scopesSet.has("media")) {
+    fetching ||= mediaStep(data);
+  }
+
+  if (scopesSet.has("network")) {
+    fetching ||= networkStep(data);
+  }
+
+  if (scopesSet.has("keyboard")) {
+    fetching ||= keyboardStep(data);
+  }
+
+  if (scopesSet.has("user")) {
+    fetching ||= userStep(data, userSourceName);
+  }
+
+  if (scopesSet.has("bluetooth")) {
+    fetching ||= bluetoothStep(data);
+  }
+
+  if (scopesSet.has("power")) {
+    fetching ||= powerStep(data);
+  }
+
+  if (scopesSet.has("focusedapp")) {
+    fetching ||= focusedAppStep(data);
+  }
+
+  if (scopesSet.has("workspaces")) {
+    fetching ||= workspacesStep(data);
+  }
+
+  if (scopesSet.has("disk")) {
+    fetching ||= diskStep(data);
+  }
+
+  if (scopesSet.has("networkstatistics")) {
+    fetching ||= networkStatisticsStep(data);
+  }
+
+  if (scopesSet.has("memory")) {
+    fetching ||= memoryStep(data);
+  }
+
+  if (scopesSet.has("cpu")) {
+    fetching ||= cpuStep(data);
+  }
+
+  if (scopesSet.has("gpu")) {
+    fetching ||= gpuStep(data);
+  }
+
+  if (scopesSet.has("tray")) {
+    fetching ||= trayStep(data);
+  }
+
+  if (scopesSet.has("trashbin")) {
+    fetching ||= trashBinStep(data);
+  }
+
+  if (scopesSet.has("waveform")) {
+    fetching ||= waveformStep(data);
+  }
+
+  return {
+    fetching,
+    data,
+  };
+}
+
+function dateStep(data: Data): void {
+  data.date = dateState.formatedDate;
+}
+
+function notificationsStep(data: Data): boolean {
+  _notifications.lazyInit();
+  _notificationsMode.lazyInit();
+
+  if (_notifications.fetching || _notificationsMode.fetching) {
+    return true;
+  }
+
+  const notifs = _notifications.data;
+  data.count = notifs?.length || 0;
+  data.dndActive = _notificationsMode.data !== NotificationsMode.All;
+  return false;
+}
+
+function mediaStep(data: Data): boolean {
+  _mediaSessions.lazyInit();
+  _mediaDevices.lazyInit();
+
+  if (_mediaSessions.fetching || _mediaDevices.fetching) {
+    return true;
+  }
+
+  const [mediaInputs, mediaOutputs] = _mediaDevices.data || [[], []];
+  const defaultOutputDevice = mediaOutputs.find((d: any) => d.isDefaultMultimedia);
+  const defaultInputDevice = mediaInputs.find((d: any) => d.isDefaultMultimedia);
+  const defaultMediaSession = _mediaSessions.data?.find((d: any) => d.default);
+  // Defaulting `muted` to true when there is no default device makes "no output
+  // device" render with the very same muted icon as a device the user actually
+  // muted, so the toolbar reports a mute that does not exist. Falling back to
+  // false keeps volume at 0, which renders the distinct "no output" icon.
+  const { volume = 0, muted: isMuted = false } = defaultOutputDevice || {};
+  const { volume: inputVolume = 0, muted: inputIsMuted = false } = defaultInputDevice || {};
+
+  data.defaultOutputDevice = defaultOutputDevice;
+  data.defaultInputDevice = defaultInputDevice;
+  data.volume = volume;
+  data.isMuted = isMuted;
+  data.inputVolume = inputVolume;
+  data.inputIsMuted = inputIsMuted;
+  data.mediaSession = defaultMediaSession || null;
+
+  return false;
+}
+
+function networkStep(data: Data): boolean {
+  _networkOnline.lazyInit();
+  _networkAdapters.lazyInit();
+  _networkLocalIp.lazyInit();
+
+  if (_networkOnline.fetching || _networkAdapters.fetching || _networkLocalIp.fetching) {
+    return true;
+  }
+
+  const interfaces = _networkAdapters.data;
+  const defaultIp = _networkLocalIp.data;
+  const usingInterface = interfaces?.find((i: any) => i.ipv4 === defaultIp) || null;
+  data.online = _networkOnline.data;
+  data.interfaces = interfaces;
+  data.usingInterface = usingInterface;
+
+  return false;
+}
+
+function keyboardStep(data: Data): boolean {
+  _languages.lazyInit();
+  _imeState.lazyInit();
+
+  if (_languages.fetching || _imeState.fetching) {
+    return true;
+  }
+
+  const languages = _languages.data;
+  const imeState = _imeState.data;
+  const activeLang = languages?.find((l: any) => l.keyboardLayouts.some((k: any) => k.active)) || languages?.[0];
+  const activeKeyboard = activeLang?.keyboardLayouts.find((k: any) => k.active) || activeLang?.keyboardLayouts[0];
+
+  let activeLangPrefix = activeLang?.nativeName
+    ?.split("")
+    .slice(0, 3)
+    .filter((c: any) => !["(", ")", " "].includes(c))
+    .join("")
+    .toLocaleUpperCase() || "";
+  let words = activeKeyboard?.displayName?.split(/[\s\-\(\)]/) || [];
+  let activeKeyboardPrefix = words.length > 1
+    ? words
+      .map((word: any) => word[0])
+      .join("")
+      .toLocaleUpperCase()
+    : words[0]?.slice(0, 3).toLocaleUpperCase() || "";
+
+  data.activeLang = activeLang;
+  data.activeKeyboard = activeKeyboard;
+
+  data.activeLangPrefix = activeLangPrefix;
+  data.activeKeyboardPrefix = activeKeyboardPrefix;
+
+  data.languages = languages;
+  data.imeState = imeState;
+
+  return false;
+}
+
+function userStep(data: Data, userSourceName: string): boolean {
+  _user.lazyInit();
+
+  if (_user.fetching) {
+    return true;
+  }
+
+  const user = _user.data;
+  const displayName = userSourceName === "xboxGamertag" && user?.xboxGamertag ? user.xboxGamertag : user?.name;
+  data.user = { ...user, displayName };
+
+  return false;
+}
+
+function bluetoothStep(data: Data): boolean {
+  _bluetoothDevices.lazyInit();
+
+  if (_bluetoothDevices.fetching) {
+    return true;
+  }
+
+  data.devices = dedupeBluetoothDevices(_bluetoothDevices.data || []);
+  data.getIconNameForBTDevice = getIconNameForBTDevice;
+
+  return false;
+}
+
+function powerStep(data: Data): boolean {
+  _power.lazyInit();
+  _powerMode.lazyInit();
+  _batteries.lazyInit();
+
+  if (_power.fetching || _powerMode.fetching || _batteries.fetching) {
+    return true;
+  }
+
+  data.power = _power.data;
+  data.powerMode = _powerMode.data;
+  data.batteries = _batteries.data;
+
+  return false;
+}
+
+function focusedAppStep(data: Data): boolean {
+  _focusedApp.lazyInit();
+
+  if (_focusedApp.fetching) {
+    return true;
+  }
+
+  data.focusedApp = _focusedApp.data;
+
+  return false;
+}
+
+function workspacesStep(data: Data): boolean {
+  _virtualDesktops.lazyInit();
+
+  if (_virtualDesktops.fetching) {
+    return true;
+  }
+
+  const monitorId = Widget.getCurrent().decoded.monitorId!;
+  const vd = _virtualDesktops.data?.monitors?.[monitorId];
+  data.workspaces = vd?.workspaces || [];
+  data.activeWorkspace = vd?.active_workspace;
+
+  return false;
+}
+
+function diskStep(data: Data): boolean {
+  _disks.lazyInit();
+
+  if (_disks.fetching) {
+    return true;
+  }
+
+  data.disks = _disks.data;
+
+  return false;
+}
+
+function networkStatisticsStep(data: Data): boolean {
+  _networkStatistics.lazyInit();
+
+  if (_networkStatistics.fetching) {
+    return true;
+  }
+
+  data.networkStatistics = _networkStatistics.data;
+
+  return false;
+}
+
+function memoryStep(data: Data): boolean {
+  _memory.lazyInit();
+
+  if (_memory.fetching) {
+    return true;
+  }
+
+  data.memory = _memory.data;
+
+  return false;
+}
+
+function cpuStep(data: Data): boolean {
+  _cores.lazyInit();
+
+  if (_cores.fetching) {
+    return true;
+  }
+
+  data.cores = _cores.data;
+
+  return false;
+}
+
+function gpuStep(data: Data): boolean {
+  _gpus.lazyInit();
+
+  if (_gpus.fetching) {
+    return true;
+  }
+
+  data.gpus = _gpus.data || [];
+
+  return false;
+}
+
+function trayStep(data: Data): boolean {
+  _trayIcons.lazyInit();
+
+  if (_trayIcons.fetching) {
+    return true;
+  }
+
+  data.trayIcons = _trayIcons.data || [];
+
+  return false;
+}
+
+function trashBinStep(data: Data): boolean {
+  _trashBinInfo.lazyInit();
+
+  if (_trashBinInfo.fetching) {
+    return true;
+  }
+
+  data.trashBinInfo = _trashBinInfo.data;
+
+  return false;
+}
+
+function waveformStep(data: Data): boolean {
+  _waveform.lazyInit();
+
+  if (_waveform.fetching) {
+    return true;
+  }
+
+  data.waveform = _waveform.data;
+
+  return false;
+}

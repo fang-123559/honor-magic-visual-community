@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-15T06:46:22.226Z",
+  "sourceCommit": "507378aa01190617c18ee2c70ecc66b316169437",
+  "sdkSha256": "b5415fb88a8acd7af8cb6f1b27fe0debc02b890c547a75f8d5a676ab6d828c4d",
+  "sourceSha256": "e35e8898ba501a82b7450bc7fd8d15a6e3016d6d9c8807a88c73bd8d41c4cd1e",
+  "candidateSha256": "0d2c414e7fe5cfc16afe13d3721342874ed2276bc5ba0adab4e8c33cff6a928b",
+  "patch": "Expose top interactable window maximization to CSS only; preserve fullscreen, focus, popup and item actions",
+  "activeInSeelen": false,
+  "additionalWebviews": 0,
+  "warnings": [],
+  "nativeInputAcceptance": "pending"
+}

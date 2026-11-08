@@ -1,0 +1,10 @@
+<Project>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)*.ttf;$(MSBuildThisFileDirectory)fonts.css;$(MSBuildThisFileDirectory)NOTICE.md;$(MSBuildThisFileDirectory)manifest.json"
+             Link="fonts/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+  <Target Name="RequireHonorFonts" BeforeTargets="PrepareForBuild">
+    <Error Condition="!Exists('$(MSBuildThisFileDirectory)HONORSansCN-Regular.ttf') Or !Exists('$(MSBuildThisFileDirectory)HONORSansCN-Medium.ttf') Or !Exists('$(MSBuildThisFileDirectory)HONORSansCN-Light.ttf')"
+           Text="The three versioned HONOR Sans CN runtime font assets are required." />
+  </Target>
+</Project>

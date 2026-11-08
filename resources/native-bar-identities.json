@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "protocol": "Magic.NativeBarIdentifiers/1",
+  "scope": "Built-in drawing identifiers only; no plugin execution or external module rename",
+  "entries": [
+    {
+      "legacy": "@seelen/dock-system-tray",
+      "canonical": "@magic/dock-system-tray"
+    },
+    {
+      "legacy": "@seelen/dock-calendar-popup",
+      "canonical": "@magic/dock-calendar-popup"
+    },
+    {
+      "legacy": "@seelen/dock-media-popup",
+      "canonical": "@magic/dock-media-popup"
+    },
+    {
+      "legacy": "@seelen/dock-bluetooth-popup",
+      "canonical": "@magic/dock-bluetooth-popup"
+    },
+    {
+      "legacy": "@seelen/dock-keyboard-selector",
+      "canonical": "@magic/dock-keyboard-selector"
+    },
+    {
+      "legacy": "@seelen/dock-notifications",
+      "canonical": "@magic/dock-notifications"
+    },
+    {
+      "legacy": "@seelen/dock-network-popup",
+      "canonical": "@magic/dock-network-popup"
+    }
+  ],
+  "legacyToolbarComparisons": [
+    {
+      "legacy": "toolbar:@seelen/tb-system-tray",
+      "nativeModule": "magic.tray"
+    },
+    {
+      "legacy": "toolbar:@seelen/tb-media-popup",
+      "nativeModule": "magic.audio"
+    }
+  ]
+}

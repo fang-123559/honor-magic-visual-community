@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "family": "HONOR Sans CN",
+  "source": "Local Windows Fonts, byte-identical copies, 2026-11-07",
+  "files": [
+    {
+      "name": "HONORSansCN-Regular.ttf",
+      "bytes": 8026808,
+      "sha256": "8A6A0BF1582A8675D15079EBF8B04661E7473ABAD2928194F6BDA88D1612D8C5"
+    },
+    {
+      "name": "HONORSansCN-Medium.ttf",
+      "bytes": 8036488,
+      "sha256": "B96B3ED52E4636CBDD8608968578D769C4D872BAF8E16C9997F6C574095261E7"
+    },
+    {
+      "name": "HONORSansCN-Light.ttf",
+      "bytes": 8055108,
+      "sha256": "14AAB5429AAC3B42C70BB208C026F95E6E8CEC280E8DDA80057E04C2563D8212"
+    }
+  ]
+}

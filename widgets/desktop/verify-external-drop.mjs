@@ -1,0 +1,17 @@
+import assert from "node:assert/strict";
+import {installExternalDrop} from "./external-drop.mjs";
+const listeners=new Map(),saved=[],traces=[];let native,readonly=false,marked;
+const imports=[];
+const document={addEventListener:(name,fn)=>listeners.set(name,fn),removeEventListener:name=>listeners.delete(name)};
+const receiver=installExternalDrop({document,nativeListen:fn=>{native=fn;return()=>{};},readOnly:()=>readonly,pixelRatio:()=>2,folderAt:(x,y)=>x>=10&&x<100&&y>=20&&y<100?"folder":null,desktopAt:(x,y)=>x>=200&&y>=200,importFiles:async paths=>imports.push(paths),commit:async(kind,values)=>saved.push({kind,...values}),report:(channel,phase)=>traces.push(channel+":"+phase),message:()=>{},highlight:id=>marked=id});
+await receiver.ready;
+const event=(x=30,y=30)=>({clientX:x,clientY:y,dataTransfer:{files:[{name:"example.lnk"}]},preventDefault(){this.prevented=true;},stopPropagation(){}});
+const over=event();listeners.get("dragover")(over);assert.equal(over.prevented,true);assert.equal(over.dataTransfer.dropEffect,"copy");assert.equal(marked,"folder");
+const outside=event(0,0);listeners.get("dragover")(outside);assert.equal(outside.dataTransfer.dropEffect,"none");
+listeners.get("drop")(event());await Promise.resolve();assert.deepEqual(saved.shift(),{kind:"drop-desktop",folderId:"folder",names:["example.lnk"]});
+native({payload:{type:"drop",position:{x:60,y:60},paths:["E:\\fixture\\example.lnk"]}});await Promise.resolve();assert.deepEqual(saved.shift(),{kind:"drop-files",folderId:"folder",paths:["E:\\fixture\\example.lnk"]});
+readonly=true;listeners.get("drop")(event());await Promise.resolve();assert.equal(saved.length,0);
+native({payload:{type:"drop",position:{x:500,y:500},paths:["E:\\fixture\\from-explorer.txt"]}});await Promise.resolve();assert.equal(imports.length,0);
+readonly=false;native({payload:{type:"drop",position:{x:500,y:500},paths:["E:\\fixture\\from-explorer.txt"]}});await Promise.resolve();assert.deepEqual(imports,[["E:\\fixture\\from-explorer.txt"]]);assert.equal(saved.length,0);
+receiver.dispose();assert.equal(listeners.size,0);assert.ok(traces.includes("html:drop")&&traces.includes("native:drop"));
+console.log("7 external drop routing checks passed; event routing only, not Windows OLE acceptance.");

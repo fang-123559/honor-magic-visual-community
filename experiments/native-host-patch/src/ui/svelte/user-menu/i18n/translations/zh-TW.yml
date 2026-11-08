@@ -1,0 +1,48 @@
+empty_list: 沒有應用程式
+folders:
+  desktop: 桌面
+  documents: 文件
+  downloads: 下載
+  more_items: 顯示更多……
+  music: 音樂
+  pictures: 圖片
+  recent: 最近使用
+  reduce_items: 顯示較少……
+  title: 用戶目錄
+  videos: 影片
+profile:
+  accounts: 打開帳戶設定
+  log_out: 退出
+  open_onedrive: 打開 OneDrive 目錄
+  open_user_folder: 打開用戶目錄
+seelen_options:
+  open_installation_folder: 打開 Seelen 設定文件夾
+  open_log_folder: 打開 Seelen 日誌文件夾
+  title: Seelen 目錄
+magic_menu:
+  title: magic 視界社群版設定
+  account: 帳號
+  settings: 設定
+  sleep: 睡眠
+  restart: 重新啟動
+  shutdown: 關機
+  lock: 鎖定
+  update: 檢查更新
+  feedback: 建議和意見回饋
+  about: 關於
+  exit: 結束 magic 視界社群版
+  development: 開發中
+  signed_in: 榮耀帳號 · 已登入
+  signed_out: 榮耀帳號 · 未登入
+  account_unknown: 榮耀帳號 · 狀態未知
+  account_hint: 開啟榮耀電腦管家帳號頁
+  adapter_unavailable: 社群版桌面介面暫未連線，請在桌面就緒後重新開啟選單。
+  action_failed: 無法完成操作，請重試或使用系統入口。
+  update_unconfigured: "目前版本 {{version}}。此本機預覽版尚未設定線上更新來源。"
+  about_text: "magic 視界社群版\n版本 {{version}}\n本機桌面社群預覽版。"
+  confirm_restart: 再按一次確認重新啟動
+  confirm_shutdown: 再按一次確認關機
+  group_0: 帳號和設定
+  group_1: 電源和鎖定
+  group_2: 資訊和支援
+  group_3: 結束

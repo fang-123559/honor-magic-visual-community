@@ -1,0 +1,33 @@
+app_settings: App Settings
+brightness: Brightness
+dark_mode: Dark Mode
+default_multimedia_volume: Default Multimedia Volume
+disabled: Disabled
+enabled: Enabled
+eye_care: Eye Care
+fm_radio: FM Radio
+hdr: High Dynamic Range
+hotspot: Hotspot
+light_mode: Light Mode
+mobile_broadband: Mobile Broadband
+night_light: Night Light
+power: Power
+unknown: Unknown
+power_panel:
+  title: Battery and performance
+  refresh: Refresh
+  refreshing: Updating…
+  gauge_label: Battery level
+  unavailable: Unavailable
+  modes: Power mode
+  windows_mode: Windows power mode
+  saver: Windows energy saver
+  honor_mode: HONOR performance mode
+  battery_info: Battery information
+  battery_info_numbered: Battery information {{number}}
+  battery_model: Battery model
+  battery_health: Battery health
+  cycles: Cycle count
+  note: HONOR mode is not available yet. Adjust energy saver in Windows Settings.
+  settings: Open Windows power settings
+  settings_failed: Unable to open Windows power settings. Open Settings → System → Power & battery from the Start menu and try again.

@@ -1,0 +1,14 @@
+<main id="surface" class="live-shell" aria-label="Magic 视界网格桌面">
+  <header><div><span class="wordmark">MAGIC COMMUNITY</span><h1>我的桌面</h1><p id="screen">正在连接…</p></div><span id="version" class="prototype-tag">桌面体验</span></header>
+  <nav class="controls" aria-label="桌面操作">
+    <button id="refresh">刷新</button><button id="new-folder">新建大文件夹</button><button id="settings">设置与调试</button><button id="feedback">记录问题</button><button id="exit">退出桌面</button>
+    <select id="destination" aria-label="目标文件夹"></select><button id="add-selected" disabled>加入选中</button>
+    <select id="screen-target" aria-label="目标屏幕"></select><button id="move-screen" disabled>移到屏幕</button>
+    <select id="display-scale" aria-label="显示缩放"><option value="auto">自动适配</option><option value="1">100%</option><option value="0.8">80%</option><option value="1.25">125%</option><option value="1.5">150%</option></select>
+  </nav>
+  <div class="subline"><span id="status" role="status">正在读取桌面…</span><span id="item-count"></span></div>
+  <div id="grid-viewport" class="grid-viewport"><section id="desktop-grid" class="desktop-grid" aria-label="独立图标和大文件夹"></section></div>
+  <footer>双击图标打开 · 拖动文件夹空白处移动 · 右键调整布局或解散 · 原文件保留</footer>
+</main>
+<div id="folder-menu" class="folder-menu" role="menu" aria-label="文件夹布局" hidden></div>
+<dialog id="folder-dialog" class="folder-dialog" aria-labelledby="folder-title"><div class="dialog-heading"><div><h2 id="folder-title"></h2><span id="folder-count"></span></div><button id="close-folder" class="close-button" aria-label="关闭文件夹">×</button></div><p id="empty-folder" class="empty-hint" hidden>文件夹还是空的。把桌面文件或快捷方式拖到封面可加入虚拟分组，文件路径保持不变。</p><div id="folder-contents" class="folder-contents"></div><div class="folder-controls"><button id="move-out" disabled>移出文件夹</button></div></dialog>

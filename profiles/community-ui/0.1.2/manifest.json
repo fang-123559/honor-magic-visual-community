@@ -1,0 +1,142 @@
+{
+  "version": "0.1.2",
+  "enabled": true,
+  "owner": "E:\\课外项目\\荣耀magic视界社区版",
+  "package": "Seelen.SeelenUI_2.8.9.0_x64__p6yyn03m1894e",
+  "directory": "E:\\课外项目\\荣耀magic视界社区版\\profiles\\community-ui\\0.1.2",
+  "createdAt": "2026-10-17T17:42:23.643511+08:00",
+  "files": [
+    {
+      "path": "LICENSE-Seelen.txt",
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+    },
+    {
+      "path": "ime/metadata.yml",
+      "sha256": "d05e785c74f60e23bba66ba80fc3c54957d138af40d075810668922de9ddf028"
+    },
+    {
+      "path": "ime/template.js",
+      "sha256": "16b7388e93c30e31241fed5a41313201da3b58f72ab7c78886339316f78724d5"
+    },
+    {
+      "path": "theme/metadata.yml",
+      "sha256": "5d609f68e06acfb4a6c9259c4cff6458f04c608c9cb5c1bb40cc3e0d8795bb5e"
+    },
+    {
+      "path": "theme/i18n/description.yml",
+      "sha256": "7e5656f49d6103116deb034855eec04780536d47df084c0a81056cc09067373e"
+    },
+    {
+      "path": "theme/i18n/display_name.yml",
+      "sha256": "b7dfd79078acb129480cb780885bcb29a1c48839e3b9d5677e6ac533e22f778f"
+    },
+    {
+      "path": "theme/shared/buttons.scss",
+      "sha256": "bfb47106c2fd8970f2cf32f2d7115629da5cf25e7366f0de2dac81447846a56b"
+    },
+    {
+      "path": "theme/shared/index.scss",
+      "sha256": "9b4e3f3064df74eb218e4b6b5e39e8b3f3919fbae3042f09c09c865c7d63acc6"
+    },
+    {
+      "path": "theme/shared/inputs.scss",
+      "sha256": "a155532f672776e40e589898b6f405eef4074834da3ae632da4bc25b8e89f944"
+    },
+    {
+      "path": "theme/styles/apps-menu.scss",
+      "sha256": "845e925b69f6c70a19c7a708aa246360af85edc4be0d60b6af10db002a5d70ae"
+    },
+    {
+      "path": "theme/styles/bluetooth-popup.scss",
+      "sha256": "236ab466c74e6b9afbe59971922ebaf2d33f106f917132b5ff9a18b5415835c5"
+    },
+    {
+      "path": "theme/styles/calendar-popup.scss",
+      "sha256": "371278d4e7b467db6efb1b4e2c128781dfc9a127e4cf1613d0150c3265169732"
+    },
+    {
+      "path": "theme/styles/context-menu.scss",
+      "sha256": "9692784bfaee6cc2fd8933baf614890ac7db669d4e9836fd529959ef0545963d"
+    },
+    {
+      "path": "theme/styles/fancy-toolbar.scss",
+      "sha256": "2ad601d6c0cd82d27450e5f64158fe9a585e3ba1ceb576b4d27e30c76ce59148"
+    },
+    {
+      "path": "theme/styles/flyouts.css",
+      "sha256": "907a68d31570bfb013ec6449755de4d4908f53bb114e70155d5c36a888647a76"
+    },
+    {
+      "path": "theme/styles/keyboard-selector.scss",
+      "sha256": "d89fc51ebca69325c5beb3a505687933888e4027f73abab1e72bcd1c89f3c3d1"
+    },
+    {
+      "path": "theme/styles/media-popup.scss",
+      "sha256": "7c1631a707fadb0211734424c0796fbef549912e7147d28af2e1e3713ba7b315"
+    },
+    {
+      "path": "theme/styles/network-popup.scss",
+      "sha256": "c2fe8cd6178ed230fa17d6c1e8a466e22731f3b4fb5274d0ead8896ac3151f8f"
+    },
+    {
+      "path": "theme/styles/notifications.scss",
+      "sha256": "0e90f87b6bc098256e1ddf1529ebc0df5ed334a186bba2852c3759021d18fa7a"
+    },
+    {
+      "path": "theme/styles/power-menu.scss",
+      "sha256": "8c61160a372d744fb9df2ee4764e36085be568b7e541160e896431e8d589680f"
+    },
+    {
+      "path": "theme/styles/quick-settings.scss",
+      "sha256": "2722cd5fc4d4bbd9762931699c9c531fd502dd2067e8f38261ab8e4f55fa2f75"
+    },
+    {
+      "path": "theme/styles/task-switcher.scss",
+      "sha256": "65536da44fcf95856ad4f4cf7d3fdc9adf8c54e925b51077a5bd54041e3943d7"
+    },
+    {
+      "path": "theme/styles/tooltip.scss",
+      "sha256": "ab3f66f662c3690e56489a6f08f2c36001b5feb18297b7052d196311b20637d3"
+    },
+    {
+      "path": "theme/styles/tray-menu.scss",
+      "sha256": "372330e1101231bc763a706cfa7f72c5abd441f0ae7c8092c7777f9819d188f0"
+    },
+    {
+      "path": "theme/styles/user-menu.scss",
+      "sha256": "1b8d3769e1c3f79f3f75dc727acbaa89cc6b0ad8dc151cc42f6422dc83f8fb44"
+    },
+    {
+      "path": "theme/styles/wallpaper-manager.css",
+      "sha256": "dcf61dde5ba12d384170ab4997cc4cbf9458751ba1cade5c26b31554dfaae313"
+    },
+    {
+      "path": "theme/styles/weg-preview.scss",
+      "sha256": "2e44cad005db5e46b906bdb13f421bfe0c7b36c27b6ec5e82ed92bfdf8e4ee96"
+    },
+    {
+      "path": "theme/styles/weg.scss",
+      "sha256": "ba60e875cafa1298136ed4d5f9e314b1b2f11efaf2f487cecad58171da67eaff"
+    },
+    {
+      "path": "theme/styles/window-manager.css",
+      "sha256": "157e64dbb59eba8cc7f6a5b784fa8138fbfad51943bf2acbbc90fb10da48b497"
+    },
+    {
+      "path": "theme/styles/workspaces-viewer.scss",
+      "sha256": "1d1ac8325845296b1abac95b7396d0c790a26014facc8fbf4d31ff152543de29"
+    }
+  ],
+  "resources": [
+    {
+      "kind": "theme",
+      "path": "theme/metadata.yml",
+      "id": "@default/theme"
+    },
+    {
+      "kind": "plugin",
+      "path": "ime/metadata.yml",
+      "id": "@seelen/tb-keyboard-selector"
+    }
+  ]
+}

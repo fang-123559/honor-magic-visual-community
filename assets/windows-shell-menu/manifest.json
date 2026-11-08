@@ -1,0 +1,79 @@
+[
+  {
+    "key": "copyaspath",
+    "resourceIndex": -5302,
+    "module": "imageres.dll",
+    "command": "Windows.copyaspath",
+    "size": 64
+  },
+  {
+    "key": "cut",
+    "resourceIndex": -16762,
+    "module": "shell32.dll",
+    "command": "Windows.cut",
+    "size": 64
+  },
+  {
+    "key": "delete",
+    "resourceIndex": -240,
+    "module": "shell32.dll",
+    "command": "Windows.delete",
+    "size": 64
+  },
+  {
+    "key": "extract",
+    "resourceIndex": -5327,
+    "module": "imageres.dll",
+    "command": "Windows.CompressedFile.extract",
+    "size": 64
+  },
+  {
+    "key": "paste",
+    "resourceIndex": -16763,
+    "module": "shell32.dll",
+    "command": "Windows.paste",
+    "size": 64
+  },
+  {
+    "key": "properties",
+    "resourceIndex": -5367,
+    "module": "imageres.dll",
+    "command": "Windows.properties",
+    "size": 64
+  },
+  {
+    "key": "compress",
+    "resourceIndex": -101,
+    "module": "zipfldr.dll",
+    "command": "Windows.zip",
+    "size": 64
+  },
+  {
+    "key": "rename",
+    "resourceIndex": -242,
+    "module": "shell32.dll",
+    "command": "Windows.rename",
+    "size": 64
+  },
+  {
+    "key": "openas",
+    "resourceIndex": -5340,
+    "module": "imageres.dll",
+    "command": "Windows.OpenWith",
+    "size": 64
+  },
+  {
+    "key": "pintohome",
+    "resourceIndex": -5100,
+    "module": "imageres.dll",
+    "command": "Windows.PinToHome",
+    "size": 64
+  },
+  {
+    "key": "copy",
+    "resourceIndex": -243,
+    "module": "shell32.dll",
+    "command": "Windows.copy",
+    "size": 64
+  }
+]

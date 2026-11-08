@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "com.magiccommunity.example.note",
+  "title": "示例·便笺",
+  "kind": "text",
+  "sizes": [{"columns": 4, "rows": 2}, {"columns": 2, "rows": 2}],
+  "content": {"title": "今日备忘", "body": "这是一张声明式文字卡片。\n可按规范修改 card.json，再重新打开添加卡片面板。", "bodySize": "m"},
+  "style": {"tone": "dark", "align": "left"}
+}

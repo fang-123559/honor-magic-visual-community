@@ -1,0 +1,13 @@
+id: "@magic-community/toolbar-transition"
+icon: TbSettings
+metadata:
+  displayName:
+    en: "Magic Toolbar Transition"
+    zh-CN: "Magic 顶栏切换助手"
+instances: Single
+loader: ThirdParty
+preset: None
+hidden: true
+lazy: true
+html: !include index.html
+js: !include index.js

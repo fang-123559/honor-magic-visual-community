@@ -1,0 +1,11 @@
+id: "@magic-community/desktop"
+metadata:
+  displayName: "Magic 视界 · 桌面收纳"
+  description: "原生桌面上的多屏大文件夹；拖入移动收纳，支持移出恢复。"
+preset: None
+instances: ReplicaByMonitor
+lazy: false
+html: !include index.html
+js: !include index.js
+css: !include index.css
+settings: []

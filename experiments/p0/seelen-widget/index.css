@@ -1,0 +1,5 @@
+body { margin: 0; background: transparent; color: #202020; font: 14px "Segoe UI", sans-serif; }
+#probe { box-sizing: border-box; width: 320px; min-height: 120px; padding: 12px; border-radius: 12px; background: #f3f4f6; }
+p { margin: 0 0 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+#items { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+.item { height: 28px; display: grid; place-items: center; background: #dbeafe; border-radius: 4px; }

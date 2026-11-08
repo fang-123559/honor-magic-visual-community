@@ -1,0 +1,162 @@
+.quick-settings {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+
+  .radio-buttons-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-xs);
+
+    .radio-button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: var(--spacing-xs);
+
+      padding: var(--spacing-s) var(--spacing-xs);
+      border-radius: var(--radius-m);
+
+      transition: all 0.2s ease;
+      min-height: 80px;
+
+      .svg-icon {
+        height: 2rem;
+      }
+
+      .radio-button-label {
+        font-weight: 500;
+        text-align: center;
+        line-height: 1.2;
+      }
+    }
+  }
+
+  .quick-settings-item {
+    display: grid;
+    grid-template-columns: 30px 1fr 30px;
+    align-items: center;
+    gap: var(--spacing-xs);
+  }
+
+  .quick-settings-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: var(--spacing-2xs);
+  }
+}
+
+.magic-power-panel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
+  font-size: 0.8125rem;
+
+  .magic-power-header, .magic-power-summary, dl > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-xs);
+  }
+
+  .magic-power-header h2 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .magic-power-header button { flex-shrink: 0; }
+
+  .magic-power-hero, .magic-power-group {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+    min-width: 0;
+    padding: var(--spacing-xs);
+    border-radius: var(--radius-m);
+    background-color: var(--slu-std-bg-light-color);
+  }
+
+  .magic-power-summary > strong {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .magic-power-badge {
+    padding: var(--spacing-2xs) var(--spacing-xs);
+    border-radius: max(0px, calc(var(--radius-m) - var(--spacing-xs)));
+    background-color: var(--slu-std-bg-dark-color);
+    color: var(--slu-std-fg-secondary-color);
+    font-weight: 500;
+    text-align: right;
+    overflow-wrap: anywhere;
+  }
+
+  .magic-power-gauge {
+    height: 4px;
+    overflow: hidden;
+    border-radius: var(--radius-full);
+    background-color: var(--slu-std-bg-dark-color);
+  }
+
+  .magic-power-gauge-fill {
+    height: 100%;
+    border-radius: inherit;
+    background-color: var(--slu-std-ui-color);
+  }
+
+  .magic-power-group h3 {
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--slu-std-fg-secondary-color);
+  }
+
+  dl { display: flex; flex-direction: column; gap: var(--spacing-2xs); margin: 0; }
+  dl > div { min-height: 24px; align-items: start; }
+  dt { flex: 1 1 auto; color: var(--slu-std-fg-secondary-color); overflow-wrap: anywhere; }
+  dd { flex: 0 1 48%; margin: 0; font-weight: 500; text-align: right; overflow-wrap: anywhere; }
+  .magic-power-header > *, .magic-power-summary > *, dt, dd { min-width: 0; }
+  .magic-power-unavailable dt, .magic-power-unavailable dd { color: var(--slu-std-fg-disabled-color); }
+
+  .magic-power-note {
+    display: flex;
+    align-items: start;
+    gap: var(--spacing-xs);
+    min-width: 0;
+    margin: 0;
+    color: var(--slu-std-fg-muted-color);
+    overflow-wrap: anywhere;
+
+    > .svg-icon { flex-shrink: 0; margin-top: var(--spacing-2xs); }
+    > span { min-width: 0; }
+  }
+
+  .magic-power-action {
+    width: 100%;
+    justify-content: space-between;
+    text-align: left;
+    font-weight: 500;
+
+    > span { min-width: 0; overflow-wrap: anywhere; }
+    > .svg-icon { flex-shrink: 0; }
+  }
+}
+
+// Reuse the shared popup's 150ms opacity transition and CssHandled lifecycle.
+.magic-power-views { position: relative; min-width: 0; }
+.magic-power-view {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+  opacity: 1;
+  transition: opacity 150ms ease-out;
+  &[data-mounting] { @starting-style { opacity: 0; } }
+}

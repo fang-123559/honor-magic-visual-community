@@ -1,0 +1,33 @@
+app_settings: 應用程式設定
+brightness: 亮度
+dark_mode: 深色模式
+default_multimedia_volume: 預設多媒體音量
+disabled: 停用
+enabled: 啟用
+eye_care: 眼部護理
+fm_radio: 調頻收音機
+hdr: 高動態範圍
+hotspot: 熱點
+light_mode: 燈光模式
+mobile_broadband: 行動寬頻
+night_light: 夜燈
+power: 電源
+unknown: 未知
+power_panel:
+  title: 電量與效能
+  refresh: 重新整理
+  refreshing: 更新中…
+  gauge_label: 電量
+  unavailable: 暫不可用
+  modes: 電源模式
+  windows_mode: Windows 電源狀態
+  saver: Windows 節能模式
+  honor_mode: 榮耀效能模式
+  battery_info: 電池資訊
+  battery_info_numbered: 電池資訊 {{number}}
+  battery_model: 電池型號
+  battery_health: 電池健康度
+  cycles: 循環次數
+  note: 榮耀模式介面尚未就緒。節能開關請在 Windows 設定中調整。
+  settings: 開啟 Windows 電源設定
+  settings_failed: 無法開啟 Windows 電源設定，請從開始功能表進入「設定 → 系統 → 電源與電池」後重試。

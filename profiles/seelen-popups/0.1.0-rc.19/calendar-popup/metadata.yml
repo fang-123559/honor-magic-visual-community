@@ -1,0 +1,14 @@
+id: "@seelen/calendar-popup"
+icon: FaCalendar
+metadata:
+  displayName:
+    en: "Calendar"
+    zh-CN: "日历"
+instances: Single
+loader: ThirdParty
+preset: Popup
+hidden: true
+lazy: false
+html: !include index.html
+js: !include index.js
+css: !include index.css

@@ -1,0 +1,7 @@
+{
+  "sdkSource": "2.8.9",
+  "sdkSha256": "b5415fb88a8acd7af8cb6f1b27fe0debc02b890c547a75f8d5a676ab6d828c4d",
+  "sourceSha256": "ba5aa1feb5f8790245fffdc6df9d489e87131b4f7d32a7771b1b63e143f4f825",
+  "operation": "Disable only toolbar through native Settings.save, verify deployment removal, disable self to release helper view",
+  "permissionFilesWritten": false
+}

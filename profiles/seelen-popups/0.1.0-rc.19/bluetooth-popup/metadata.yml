@@ -1,0 +1,14 @@
+id: "@seelen/bluetooth-popup"
+icon: TbBluetooth
+metadata:
+  displayName:
+    en: "Bluetooth Popup"
+    zh-CN: "蓝牙弹窗"
+instances: Single
+loader: ThirdParty
+preset: Popup
+hidden: true
+lazy: false
+html: !include index.html
+js: !include index.js
+css: !include index.css

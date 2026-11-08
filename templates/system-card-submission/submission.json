@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "kind": "built-in-system-card-source",
+  "baseCommit": "REPLACE_WITH_REVIEWED_BASE_SHA",
+  "card": {
+    "type": "system.example",
+    "title": "示例卡片（模板，不注册）",
+    "sizes": [
+      {
+        "columns": 4,
+        "rows": 2
+      }
+    ],
+    "dataSources": []
+  },
+  "implementation": {
+    "catalog": "widgets/desktop/card-catalog.json",
+    "nativeRendererFiles": [],
+    "actionFiles": [],
+    "providerFiles": [],
+    "settingsContract": "settings-contract.md",
+    "webCompatibility": "not_claimed"
+  },
+  "resources": [],
+  "permissions": [],
+  "lifecycle": {
+    "startsWhen": "visible instance demands data",
+    "stopsWhen": "last demand removed or application exits",
+    "cacheBound": "describe bytes and eviction",
+    "polling": "none; justify any required sampling"
+  },
+  "verification": {
+    "sourceBuild": "not_run",
+    "automated": [],
+    "nativeVisuals": [],
+    "manualAcceptance": "pending",
+    "resourceRelease": "not_run"
+  },
+  "handoff": "handoff.md",
+  "knownLimitations": []
+}

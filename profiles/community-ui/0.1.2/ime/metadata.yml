@@ -1,0 +1,16 @@
+id: "@seelen/tb-keyboard-selector"
+metadata:
+  displayName:
+    zh-CN: 键盘选择器
+    en: Keyboard Selector
+icon: FaRegKeyboard
+target: "@seelen/fancy-toolbar"
+plugin:
+  scopes: [Keyboard]
+  tooltip: return [activeLang?.name || "!?", " - ", activeKeyboard?.displayName || "!?"]
+  template: !include template.js
+  style:
+    flexShrink: 0
+    width: min-content
+    fontWeight: 600
+  onClickV2: 'trigger("@seelen/keyboard-selector");'

@@ -1,0 +1,92 @@
+/* Approved four-card design; all dimensions are at the 96px grid scale.
+   Visible instances resize their inner surface when a compact grid is used. */
+.desktop-card[data-appearance="widget"]{border-radius:22px;background:none;box-shadow:none;overflow:visible;cursor:grab;user-select:none}
+.desktop-card[data-appearance="widget"]>.desktop-card-drag{display:none}
+.desktop-card[data-appearance="widget"]>.desktop-card-content{position:relative;flex:1;padding:0;overflow:visible;min-width:0;min-height:0}
+.system-card-surface{box-sizing:border-box;position:absolute;left:0;top:0;transform-origin:top left;display:flex;flex-direction:column;padding:14px;border-radius:22px;color:#fff;background:rgba(20,34,56,.5);border:1px solid rgba(255,255,255,.16);box-shadow:0 12px 30px rgba(4,14,30,.35),inset 0 1px 0 rgba(255,255,255,.09);backdrop-filter:blur(26px) saturate(1.4);font-family:"HONOR Sans CN","HONOR Sans Design",system-ui,sans-serif;font-weight:400;font-size:12px;line-height:1.2;text-align:left;white-space:normal}
+.system-card-surface *{box-sizing:border-box;margin:0}
+.system-card-surface[data-kind="clock"]{--clock-fg:#fff;--clock-dim:rgba(255,255,255,.8);--clock-shadow:0 1px 3px rgba(4,14,30,.55);align-items:center;justify-content:center;gap:13px;padding:0;border:0;background:none;box-shadow:none;backdrop-filter:none}
+.system-clock-date,.system-clock-time,.system-status-value,.system-storage-value,.system-storage-percent,.system-calendar-day{font-family:"HONOR Sans CN","HONOR Sans Design",system-ui,sans-serif;font-variant-numeric:tabular-nums;letter-spacing:.005em}
+.system-clock-date{color:var(--clock-dim);font-size:15px;line-height:1.2;font-weight:500;font-variation-settings:"wght" 500;letter-spacing:.06em;white-space:nowrap;text-shadow:var(--clock-shadow)}
+.system-clock-time{color:var(--clock-fg);font-size:var(--system-clock-size,82px);line-height:1;font-weight:900;font-variation-settings:"wght" 900;white-space:nowrap;text-shadow:var(--clock-shadow)}
+@media(prefers-color-scheme:light){.system-card-surface[data-kind="clock"]{--clock-fg:#0e1f33;--clock-dim:rgba(14,31,51,.7);--clock-shadow:0 1px 2px rgba(255,255,255,.6)}}
+.system-calendar-heading{font-size:12.5px;font-weight:500;line-height:1;margin-bottom:9px}
+.system-calendar-grid{flex:1;min-height:0;display:grid;grid-template-columns:repeat(7,1fr);align-items:center;justify-items:center;row-gap:1px}
+.system-calendar-weekday{color:rgba(255,255,255,.45);font-size:8.5px;line-height:1}
+.system-calendar-day{width:19px;height:19px;display:grid;place-items:center;font-size:10.5px;line-height:1;color:rgba(255,255,255,.9)}
+.system-calendar-day.is-today{background:rgba(255,255,255,.26);border-radius:50%;color:#fff;font-weight:700;font-variation-settings:"wght" 700}
+.system-status-title,.system-storage-title{font-size:12px;font-weight:500;line-height:1;color:rgba(255,255,255,.95)}
+.system-card-spacer{flex:1;min-height:0}
+.system-status-row{display:flex;align-items:center;gap:6px;height:24px;flex:none}
+.system-status-icon{width:11px;height:11px;flex:none;color:rgba(255,255,255,.55)}
+.system-status-label{font-size:10px;color:rgba(255,255,255,.62)}
+.system-status-value{margin-left:auto;font-size:13px;font-weight:600;font-variation-settings:"wght" 600}
+.system-card-divider{flex:none;height:1px;background:rgba(255,255,255,.12);margin:7px 0}
+.system-storage-block{flex:1;min-height:0;display:flex;align-items:center;gap:8px}
+.system-storage-body{flex:1;min-width:0}
+.system-storage-title{line-height:1.2}
+.system-storage-value{margin-top:5px;font-size:11.5px;line-height:1.2;font-weight:600;font-variation-settings:"wght" 600;white-space:nowrap}
+.system-storage-total{opacity:.62;font-weight:400;font-variation-settings:"wght" 400}
+.system-storage-ring{color:#fff;position:relative;width:34px;height:34px;flex:none}
+.system-ring-svg{position:absolute;inset:0;transform:rotate(-90deg)}
+.system-storage-percent{position:absolute;inset:0;display:grid;place-items:center;font-size:8.5px;font-weight:600;font-variation-settings:"wght" 600}
+.system-storage-block.is-warning .system-storage-value,.system-storage-block.is-warning .system-storage-ring{color:#ff8a4c}
+.card-detail-size-label[hidden]{display:none}
+.card-preview-art[data-appearance="widget"],.card-preview-stage .card-preview-art[data-appearance="widget"]{box-shadow:none}
+
+.system-storage-cleanup{display:block;margin-top:6px;padding:2px 0;border:0;border-radius:4px;background:none;color:inherit;font:inherit;font-size:9.5px;line-height:1.3;text-align:left;cursor:pointer}
+.system-storage-cleanup:enabled:hover{text-decoration:underline}
+.system-storage-cleanup:disabled{cursor:default}
+
+/* The todo card follows the supplied warm-glass reference. Its native host stays
+   transparent and keeps the shared card drag/context-menu hit target. */
+.desktop-card[data-todo-editing="true"]{z-index:1002}
+.desktop-card[data-appearance="widget"]>.todo-card-content{position:relative;flex:1;min-width:0;min-height:0;padding:0;overflow:visible}
+.todo-card-surface{position:absolute;left:0;top:0;box-sizing:border-box;width:444px;height:217px;overflow:hidden;isolation:isolate;transform-origin:top left;border:0;border-radius:28px;color:rgba(38,32,27,.92);background:linear-gradient(168deg,rgba(255,255,255,.46) 0%,rgba(255,255,255,.12) 44%,rgba(255,255,255,0) 74%),radial-gradient(120% 90% at 50% 118%,rgba(224,150,90,.16),transparent 64%),rgba(234,228,222,.74);box-shadow:0 12px 34px rgba(18,10,4,.26),0 2px 8px rgba(18,10,4,.14),inset 0 1px 0 rgba(255,255,255,.62),inset 0 0 0 1px rgba(255,255,255,.24);-webkit-backdrop-filter:blur(26px) saturate(1.55);backdrop-filter:blur(26px) saturate(1.55);font:400 15px/1.2 "HONOR Sans CN","HONOR Sans Design",system-ui,sans-serif;text-align:left;white-space:normal;user-select:none}
+.todo-card-surface *{box-sizing:border-box;margin:0}
+.todo-view{position:absolute;inset:0;display:flex;flex-direction:column;padding:18px 24px 16px}
+.todo-head{display:flex;flex:none;align-items:center;gap:10px;margin:0;padding:0 0 8px;border-bottom:1px solid rgba(120,100,85,.16)}
+.todo-title{flex:none;color:rgba(38,32,27,.92);font:600 20px/25px "HONOR Sans CN","HONOR Sans Design",system-ui,sans-serif;letter-spacing:.2px;white-space:nowrap}
+.todo-count{margin-left:auto;color:rgba(52,44,37,.38);font:500 13px/1.2 "HONOR Sans CN","HONOR Sans Design",system-ui,sans-serif;font-variant-numeric:tabular-nums;letter-spacing:.3px}
+.todo-finish,.todo-back{flex:none;margin:0;padding:3px 8px;border:0;border-radius:8px;background:transparent;color:#E0703C;font:600 13.5px/1.25 "HONOR Sans CN","HONOR Sans Design",system-ui,sans-serif}
+.todo-finish:hover{background:rgba(224,112,60,.12)}
+.todo-back{margin-left:-2px;padding:2px 6px 4px 0;color:rgba(52,44,37,.60);font-size:18px;line-height:1}
+.todo-back:hover{color:rgba(38,32,27,.92)}
+.todo-scroll{flex:1 1 auto;min-height:0;overflow-y:auto;overflow-x:hidden;margin:0 -8px;padding:2px 8px;overscroll-behavior:contain}
+.todo-list-view.has-overflow .todo-pending-list{mask-image:linear-gradient(to bottom,#000 0,#000 calc(100% - 22px),transparent 100%);-webkit-mask-image:linear-gradient(to bottom,#000 0,#000 calc(100% - 22px),transparent 100%)}
+.todo-row{display:flex;align-items:center;gap:11px;height:28px;margin:0 -8px;padding:0 8px;border-radius:9px;cursor:pointer}
+.todo-row:hover{background:rgba(255,255,255,.44)}
+.todo-text{flex:1 1 auto;min-width:0;overflow:hidden;color:rgba(38,32,27,.92);font-size:15px;line-height:28px;text-overflow:ellipsis;white-space:nowrap}
+.todo-ink{display:inline}
+.todo-row.is-done .todo-text{color:rgba(52,44,37,.38)}
+.todo-row.is-done .todo-ink{text-decoration:line-through;text-decoration-thickness:1.2px;text-decoration-color:rgba(52,44,37,.42)}
+.todo-check{display:grid;flex:none;width:18px;height:18px;place-items:center;margin:0;padding:0;border:0;border-radius:50%;background:transparent;color:#E0703C;cursor:pointer}
+.todo-check svg{display:block;width:18px;height:18px;overflow:visible}
+.todo-check-ring{fill:rgba(255,255,255,.30);stroke:rgba(88,72,58,.36);stroke-width:1.4}
+.todo-check:hover .todo-check-ring{fill:rgba(224,112,60,.10);stroke:#E0703C}
+.todo-check-tick{fill:none;stroke:#fff;stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:13;stroke-dashoffset:13}
+.todo-check.is-on .todo-check-ring,.todo-row.is-done .todo-check-ring{fill:#E0703C;stroke:#E0703C}
+.todo-check.is-on .todo-check-tick,.todo-row.is-done .todo-check-tick{stroke-dashoffset:0}
+.todo-done-bar{flex:none;height:31px;margin-top:4px;padding-top:4px;border-top:1px solid rgba(120,100,85,.16)}
+.todo-empty{display:flex;min-height:26px;align-items:center;padding:0 8px;color:rgba(52,44,37,.38);font-size:12.5px;line-height:1.4}
+.todo-done-bar .todo-empty{height:26px}
+.todo-done-bar-row{height:26px}
+.todo-done-bar-row .todo-text{font-size:14px;line-height:26px}
+.todo-more{flex:none;margin-left:auto;padding:3px 7px;border:0;border-radius:7px;background:rgba(255,255,255,.34);color:rgba(52,44,37,.38);font:600 12.5px/1.2 "HONOR Sans CN","HONOR Sans Design",system-ui,sans-serif;font-variant-numeric:tabular-nums;cursor:pointer}
+.todo-more:hover{background:rgba(255,255,255,.7);color:rgba(52,44,37,.60)}
+.todo-completed-list .todo-row{height:28px}
+.todo-edit-list{padding-top:2px}
+.todo-edit-row{position:relative;display:flex;align-items:center;gap:12px;height:36px;margin:0 -2px;padding:0 10px;border-radius:9px}
+.todo-edit-row:hover{background:rgba(255,255,255,.42)}
+.todo-edit-input,.todo-edit-add-input{flex:1 1 auto;min-width:0;padding:3px 0 4px;border:0;border-bottom:1px solid transparent;outline:0;background:transparent;color:rgba(38,32,27,.92);font:400 15px/1.3 "HONOR Sans CN","HONOR Sans Design",system-ui,sans-serif;user-select:text}
+.todo-edit-input:hover{border-bottom-color:rgba(120,100,85,.20)}
+.todo-edit-input:focus,.todo-edit-add-input:focus{border-bottom-color:#E0703C}
+.todo-edit-delete{display:grid;flex:none;width:24px;height:24px;place-items:center;padding:0;border:0;border-radius:7px;background:transparent;color:rgba(52,44,37,.38);font:400 16px/1 "HONOR Sans CN","HONOR Sans Design",system-ui,sans-serif;cursor:pointer;opacity:.3}
+.todo-edit-row:hover .todo-edit-delete,.todo-edit-delete:focus-visible{opacity:1}
+.todo-edit-delete:hover{background:rgba(224,90,60,.12);color:#C4543A}
+.todo-edit-add{display:flex;align-items:center;gap:12px;height:38px;margin:6px -2px 0;padding:0 10px;border:1px dashed rgba(120,100,85,.22);border-radius:9px;color:rgba(52,44,37,.38)}
+.todo-edit-plus{flex:none;width:18px;text-align:center;font-size:16px;line-height:1}
+.todo-edit-add-input{border:0}
+.todo-edit-add-input::placeholder{color:rgba(52,44,37,.38)}
+.todo-toast{position:absolute;z-index:20;top:-43px;left:50%;max-width:calc(100% - 24px);overflow:hidden;transform:translateX(-50%);padding:7px 14px;border-radius:10px;background:rgba(32,26,22,.78);color:rgba(255,255,255,.94);font:400 13px/1.35 "HONOR Sans CN","HONOR Sans Design",system-ui,sans-serif;text-overflow:ellipsis;white-space:nowrap;pointer-events:none;-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}
+.todo-toast[hidden]{display:none}
